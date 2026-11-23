@@ -1,0 +1,163 @@
+{
+  "header": {
+    "id": "ropes_sleepers",
+    "tags": {
+      "role": [
+        "crowd",
+        "sleeper",
+        "captive"
+      ],
+      "age": "mixed",
+      "mood": [
+        "sleeping"
+      ],
+      "story": "the-ropes"
+    },
+    "description": "Instanced sleepers hanging upside down by the ankle (hang_ankle clip, sleepy faces), swinging like lanterns out of phase. Path runs along +Z so they face the camera (crowd yaw = path direction), width spreads them in X; path y = the hang height (agent root = the tied ankle), or lift with the actor at."
+  },
+  "spec": {
+    "crowd": {
+      "count": 14,
+      "seed": 47,
+      "yawJitter": 25,
+      "outfits": [
+        {
+          "skin": "light",
+          "shirt": {
+            "sleeves": "full",
+            "pattern": "solid",
+            "color": "#7a4a2a"
+          },
+          "pants": {
+            "color": "#4a3a2c",
+            "shoes": {
+              "style": "boot",
+              "color": "#3a2a1e"
+            }
+          }
+        },
+        {
+          "skin": "nougat",
+          "shirt": {
+            "sleeves": "full",
+            "pattern": "cardigan",
+            "color": "#3f6f4a"
+          },
+          "pants": {
+            "pattern": "skirt",
+            "color": "#5a4030"
+          }
+        },
+        {
+          "skin": "tan",
+          "shirt": {
+            "sleeves": "full",
+            "pattern": "waistcoat",
+            "color": "#8a3a2a"
+          },
+          "pants": {
+            "color": "#3c3c44",
+            "shoes": {
+              "style": "boot",
+              "color": "#2a2018"
+            }
+          }
+        },
+        {
+          "skin": "pale",
+          "shirt": {
+            "sleeves": "full",
+            "pattern": "dress",
+            "color": "#4a5aa0"
+          },
+          "pants": {
+            "pattern": "skirt",
+            "color": "#4a5aa0"
+          }
+        },
+        {
+          "skin": "pastel-brown",
+          "shirt": {
+            "sleeves": "full",
+            "pattern": "plaid",
+            "color": "#3a5a8a"
+          },
+          "pants": {
+            "color": "#5a4a3a",
+            "shoes": {
+              "style": "boot",
+              "color": "#2a2018"
+            }
+          }
+        },
+        {
+          "skin": "brown",
+          "shirt": {
+            "sleeves": "full",
+            "pattern": "solid",
+            "color": "#a8452e"
+          },
+          "pants": {
+            "pattern": "skirt",
+            "color": "#3a3050"
+          }
+        },
+        {
+          "skin": "light",
+          "shirt": {
+            "sleeves": "full",
+            "pattern": "knit",
+            "color": "#6a7a3a"
+          },
+          "pants": {
+            "color": "#4a3a2c",
+            "shoes": {
+              "style": "boot",
+              "color": "#3a2a1e"
+            }
+          }
+        },
+        {
+          "skin": "reddish-brown",
+          "shirt": {
+            "sleeves": "full",
+            "pattern": "dress",
+            "color": "#7a3a6a"
+          },
+          "pants": {
+            "pattern": "skirt",
+            "color": "#7a3a6a"
+          }
+        }
+      ],
+      "hairs": [
+        "bob",
+        "messy",
+        "bun",
+        "balding",
+        "bald",
+        "ponytail",
+        "curly"
+      ],
+      "clip": [
+        "hang_ankle"
+      ],
+      "faces": [
+        "sleepy"
+      ],
+      "path": [
+        [
+          0,
+          8,
+          -3
+        ],
+        [
+          0,
+          8,
+          3
+        ]
+      ],
+      "width": 20
+    }
+  }
+}

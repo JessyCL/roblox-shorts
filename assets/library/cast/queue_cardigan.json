@@ -1,0 +1,34 @@
+{
+  "header": {
+    "id": "queue_cardigan",
+    "tags": {
+      "role": [
+        "bystander",
+        "queue",
+        "extra"
+      ],
+      "age": "adult",
+      "mood": [
+        "neutral",
+        "bored"
+      ],
+      "story": "proto_ticket"
+    },
+    "description": "Modern bystander: black bob, orange cardigan, jeans."
+  },
+  "spec": {
+    "skin": "#e0ac7e",
+    "face": "neutral",
+    "hair": {
+      "style": "bob",
+      "color": "#2b1d14"
+    },
+    "shirt": {
+      "pattern": "cardigan",
+      "color": "#c2603a"
+    },
+    "pants": {
+      "pattern": "jeans"
+    }
+  }
+}

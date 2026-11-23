@@ -1,0 +1,47 @@
+{
+  "header": {
+    "id": "tad",
+    "tags": {
+      "role": [
+        "hero",
+        "kid",
+        "soldier"
+      ],
+      "age": "kid",
+      "mood": [
+        "brave",
+        "determined"
+      ],
+      "story": "the-tiny-war"
+    },
+    "description": "Tad, the smallest soldier of the tiny kingdom: child build at 0.9, blue soldier jacket, red bottle-cap helmet (signature red), messy brown hair."
+  },
+  "spec": {
+    "build": "child",
+    "scale": 0.9,
+    "faceStyle": "e",
+    "face": "determined",
+    "hands": "both",
+    "hair": {
+      "style": "messy",
+      "color": "#5a3720"
+    },
+    "hat": {
+      "type": "hardhat",
+      "color": "#d8262c"
+    },
+    "shirt": {
+      "pattern": "jacket",
+      "color": "#2f5fae",
+      "sleeves": "full"
+    },
+    "pants": {
+      "pattern": "plain",
+      "color": "#2a2a3a",
+      "shoes": {
+        "style": "boot",
+        "color": "#3a2a1e"
+      }
+    }
+  }
+}

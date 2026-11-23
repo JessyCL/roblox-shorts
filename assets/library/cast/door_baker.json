@@ -1,0 +1,19 @@
+{
+  "header": {
+    "id": "door_baker",
+    "tags": { "role": ["baker", "villager", "comic"], "age": "adult", "mood": ["jolly", "kind"], "story": "the-door" },
+    "description": "The village baker: round (heavy build), white baker's toque (hat chef), cream waistcoat over a white shirt, flour-white trousers, brown mustache, rosy face, both hands. Pair with attach: ['cookie'] + the hold / eat clips."
+  },
+  "spec": {
+    "build": "heavy",
+    "faceStyle": "c",
+    "face": "smile",
+    "skin": "pastel-brown",
+    "hands": "both",
+    "hair": { "style": "balding", "color": "#5a3a24" },
+    "beard": { "style": "mustache", "color": "#5a3a24" },
+    "hat": { "type": "chef", "color": "#f6f4ee" },
+    "shirt": { "pattern": "waistcoat", "color": "#efe6d2", "inner": "#fbfaf6", "tie": "#c8a070", "sleeves": "full" },
+    "pants": { "pattern": "plain", "color": "#e6e0d2", "shoes": { "style": "shoe", "color": "#4a3424" } }
+  }
+}

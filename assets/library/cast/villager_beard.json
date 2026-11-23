@@ -1,0 +1,42 @@
+{
+  "header": {
+    "id": "villager_beard",
+    "tags": {
+      "role": [
+        "villager",
+        "worker",
+        "extra"
+      ],
+      "age": "adult",
+      "mood": [
+        "neutral",
+        "grumpy"
+      ],
+      "story": "everyone-has-one-hand"
+    },
+    "description": "Bearded medieval villager in a red plaid shirt and boots."
+  },
+  "spec": {
+    "hands": "right",
+    "faceStyle": "c",
+    "face": "smile",
+    "skin": "tan",
+    "beard": "full",
+    "hair": {
+      "style": "messy",
+      "color": "#3a2a1a"
+    },
+    "shirt": {
+      "sleeves": "full",
+      "pattern": "plaid",
+      "color": "#8a2a2a"
+    },
+    "pants": {
+      "color": "#4a3a2c",
+      "shoes": {
+        "style": "boot",
+        "color": "#2a2018"
+      }
+    }
+  }
+}

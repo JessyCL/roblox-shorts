@@ -1,0 +1,41 @@
+{
+  "header": {
+    "id": "bride",
+    "tags": {
+      "role": [
+        "bride",
+        "villager",
+        "wedding"
+      ],
+      "age": "adult",
+      "mood": [
+        "happy"
+      ],
+      "story": "everyone-has-one-hand"
+    },
+    "description": "Bride in a long white dress, blonde hair, flower crown."
+  },
+  "spec": {
+    "hands": "right",
+    "faceStyle": "b",
+    "face": "happy",
+    "skin": "light",
+    "hair": {
+      "style": "long",
+      "color": "#e2b24a"
+    },
+    "hat": {
+      "type": "flowercrown"
+    },
+    "shirt": {
+      "sleeves": "full",
+      "pattern": "dress",
+      "color": "#f6f2ea"
+    },
+    "pants": {
+      "pattern": "skirt",
+      "color": "#f6f2ea",
+      "length": 1.6
+    }
+  }
+}

@@ -1,0 +1,2110 @@
+{
+ "production": "everyone-has-one-hand",
+ "shots": 114,
+ "duration": 128.772,
+ "framing": {
+  "wide": 48,
+  "medium": 38,
+  "close": 28
+ },
+ "median_s": 1.1,
+ "list": [
+  {
+   "id": "001_hook_aerial",
+   "start": 0,
+   "end": 2.233,
+   "words": "In this village, everyone is born with one hand,",
+   "set": "village",
+   "look": "day",
+   "framing": "wide",
+   "actors": [
+    "walkers",
+    "v1",
+    "v2",
+    "v4"
+   ],
+   "anims": {
+    "walkers": "crowd",
+    "v1": "idle,wave",
+    "v2": "idle,wave",
+    "v4": "idle,wave"
+   },
+   "fx": [
+    "intro_zoom_blur"
+   ]
+  },
+  {
+   "id": "002_hook_hands",
+   "start": 2.233,
+   "end": 3.067,
+   "words": "and two hands means",
+   "set": "mill",
+   "look": "dusk",
+   "framing": "close",
+   "actors": [
+    "grabber"
+   ],
+   "anims": {
+    "grabber": "idle,lift"
+   },
+   "fx": [
+    "silhouette",
+    "particles:dust_wall"
+   ]
+  },
+  {
+   "id": "003_hook_grabber",
+   "start": 3.067,
+   "end": 4.3,
+   "words": "you're the Grabber.",
+   "set": "mill",
+   "look": "dusk",
+   "framing": "wide",
+   "actors": [
+    "grabber"
+   ],
+   "anims": {
+    "grabber": "lift,idle"
+   },
+   "fx": [
+    "silhouette",
+    "particles:dust_wall",
+    "zoom_punch",
+    "glow_pulse"
+   ]
+  },
+  {
+   "id": "004_gloves_ws",
+   "start": 4.3,
+   "end": 5.167,
+   "words": "You see, gloves are sold",
+   "set": "village",
+   "look": "day",
+   "framing": "wide",
+   "actors": [
+    "walkers",
+    "v1",
+    "v2"
+   ],
+   "anims": {
+    "walkers": "crowd",
+    "v1": "talk",
+    "v2": "walk->"
+   },
+   "fx": []
+  },
+  {
+   "id": "005_gloves_one",
+   "start": 5.167,
+   "end": 5.9,
+   "words": "one at a time,",
+   "set": "village",
+   "look": "day",
+   "framing": "medium",
+   "actors": [
+    "v1",
+    "v2"
+   ],
+   "anims": {
+    "v1": "point,nod",
+    "v2": "idle,hold"
+   },
+   "fx": []
+  },
+  {
+   "id": "006_never_clapped",
+   "start": 5.9,
+   "end": 7.233,
+   "words": "and nobody's ever clapped.",
+   "set": "village",
+   "look": "day",
+   "framing": "medium",
+   "actors": [
+    "walkers",
+    "v3",
+    "v4",
+    "v6"
+   ],
+   "anims": {
+    "walkers": "crowd",
+    "v3": "idle,hold_up,shrug",
+    "v4": "look_around,shrug",
+    "v6": "dance"
+   },
+   "fx": []
+  },
+  {
+   "id": "007_stomping",
+   "start": 7.233,
+   "end": 8.033,
+   "words": "Applause is stomping.",
+   "set": "village",
+   "look": "day",
+   "framing": "wide",
+   "actors": [
+    "stompers",
+    "v6"
+   ],
+   "anims": {
+    "stompers": "crowd",
+    "v6": "nod,wave"
+   },
+   "fx": [
+    "particles:footdust"
+   ]
+  },
+  {
+   "id": "008_wedding_stampede",
+   "start": 8.033,
+   "end": 9.467,
+   "words": "Weddings sound like a stampede.",
+   "set": "village",
+   "look": "day",
+   "framing": "wide",
+   "actors": [
+    "stompers",
+    "bride",
+    "groom"
+   ],
+   "anims": {
+    "stompers": "crowd",
+    "bride": "cheer",
+    "groom": "wave"
+   },
+   "fx": [
+    "particles:dust_wall"
+   ]
+  },
+  {
+   "id": "009_jar_factory",
+   "start": 9.467,
+   "end": 10.567,
+   "words": "The jar factory closed in",
+   "set": "village",
+   "look": "day",
+   "framing": "wide",
+   "actors": [
+    "walkers",
+    "v5"
+   ],
+   "anims": {
+    "walkers": "crowd",
+    "v5": "walk->,headshake"
+   },
+   "fx": []
+  },
+  {
+   "id": "010_closed_1931",
+   "start": 10.567,
+   "end": 11.667,
+   "words": "1931,",
+   "set": "village",
+   "look": "day",
+   "framing": "close",
+   "actors": [],
+   "anims": {},
+   "fx": []
+  },
+  {
+   "id": "011_jar_struggle",
+   "start": 11.667,
+   "end": 12.7,
+   "words": "because nobody in town",
+   "set": "village",
+   "look": "day",
+   "framing": "medium",
+   "actors": [
+    "walkers",
+    "v3",
+    "v4"
+   ],
+   "anims": {
+    "walkers": "crowd",
+    "v3": "shake_fist",
+    "v4": "hold_up"
+   },
+   "fx": []
+  },
+  {
+   "id": "012_jar_bite",
+   "start": 12.7,
+   "end": 13.633,
+   "words": "could open a jar.",
+   "set": "village",
+   "look": "day",
+   "framing": "close",
+   "actors": [
+    "v4"
+   ],
+   "anims": {
+    "v4": "eat"
+   },
+   "fx": []
+  },
+  {
+   "id": "013_goodbye_ws",
+   "start": 13.633,
+   "end": 14.667,
+   "words": "And when you wave goodbye,",
+   "set": "village",
+   "look": "day",
+   "framing": "wide",
+   "actors": [
+    "v5",
+    "v2"
+   ],
+   "anims": {
+    "v5": "hold",
+    "v2": "walk->,wave"
+   },
+   "fx": []
+  },
+  {
+   "id": "014_put_down_wave",
+   "start": 14.667,
+   "end": 16.4,
+   "words": "you have to put down whatever you're holding.",
+   "set": "village",
+   "look": "day",
+   "framing": "medium",
+   "actors": [
+    "v5",
+    "v2"
+   ],
+   "anims": {
+    "v5": "hold,crouch,wave",
+    "v2": "wave,walk->"
+   },
+   "fx": []
+  },
+  {
+   "id": "015_nobody_goes",
+   "start": 16.4,
+   "end": 17.333,
+   "words": "Nobody goes past the",
+   "set": "mill",
+   "look": "dusk",
+   "framing": "wide",
+   "actors": [
+    "v3"
+   ],
+   "anims": {
+    "v3": "walk->,scared"
+   },
+   "fx": [
+    "particles:dust_wall"
+   ]
+  },
+  {
+   "id": "016_mill_ews",
+   "start": 17.333,
+   "end": 18.5,
+   "words": "old mill after dark,",
+   "set": "mill",
+   "look": "dusk",
+   "framing": "wide",
+   "actors": [],
+   "anims": {},
+   "fx": [
+    "particles:dust_wall"
+   ]
+  },
+  {
+   "id": "017_grabber_lives",
+   "start": 18.5,
+   "end": 20.067,
+   "words": "because that's where the Grabber lives.",
+   "set": "mill",
+   "look": "dusk",
+   "framing": "wide",
+   "actors": [
+    "grabber"
+   ],
+   "anims": {
+    "grabber": "idle"
+   },
+   "fx": [
+    "silhouette",
+    "particles:dust_wall",
+    "glow_pulse"
+   ]
+  },
+  {
+   "id": "018_eleven_feet",
+   "start": 20.067,
+   "end": 20.867,
+   "words": "11 feet tall,",
+   "set": "mill",
+   "look": "dusk",
+   "framing": "wide",
+   "actors": [
+    "grabber"
+   ],
+   "anims": {
+    "grabber": "drag_walk->"
+   },
+   "fx": [
+    "silhouette",
+    "particles:dust_wall"
+   ]
+  },
+  {
+   "id": "019_enormous_hands",
+   "start": 20.867,
+   "end": 22.2,
+   "words": "two enormous hands.",
+   "set": "mill",
+   "look": "dusk",
+   "framing": "medium",
+   "actors": [
+    "grabber"
+   ],
+   "anims": {
+    "grabber": "reach"
+   },
+   "fx": [
+    "silhouette",
+    "glow_pulse",
+    "zoom_punch"
+   ]
+  },
+  {
+   "id": "020_winter_ews",
+   "start": 22.2,
+   "end": 22.767,
+   "words": "Every winter,",
+   "set": "village",
+   "look": "night",
+   "framing": "wide",
+   "actors": [],
+   "anims": {},
+   "fx": [
+    "particles:snow"
+   ]
+  },
+  {
+   "id": "021_takes_one_thing",
+   "start": 22.767,
+   "end": 24.433,
+   "words": "it takes one thing from the village.",
+   "set": "village",
+   "look": "night",
+   "framing": "wide",
+   "actors": [
+    "grabber"
+   ],
+   "anims": {
+    "grabber": "drag_walk->"
+   },
+   "fx": [
+    "particles:snow",
+    "silhouette"
+   ]
+  },
+  {
+   "id": "022_church_bell",
+   "start": 24.433,
+   "end": 24.967,
+   "words": "A church bell.",
+   "set": "village",
+   "look": "night",
+   "framing": "wide",
+   "actors": [
+    "grabber"
+   ],
+   "anims": {
+    "grabber": "drag_walk->"
+   },
+   "fx": [
+    "particles:snow",
+    "silhouette"
+   ]
+  },
+  {
+   "id": "023_hay_cart",
+   "start": 24.967,
+   "end": 25.7,
+   "words": "A hay cart.",
+   "set": "village",
+   "look": "night",
+   "framing": "wide",
+   "actors": [
+    "grabber"
+   ],
+   "anims": {
+    "grabber": "drag->"
+   },
+   "fx": [
+    "particles:snow",
+    "silhouette"
+   ]
+  },
+  {
+   "id": "024_abernathy_boot",
+   "start": 25.7,
+   "end": 27.267,
+   "words": "Mrs. Abernathy's left boot.",
+   "set": "village",
+   "look": "night",
+   "framing": "medium",
+   "actors": [
+    "abernathy"
+   ],
+   "anims": {
+    "abernathy": "hop,shake_fist"
+   },
+   "fx": [
+    "particles:snow"
+   ]
+  },
+  {
+   "id": "025_only_left",
+   "start": 27.267,
+   "end": 29.233,
+   "words": "Nobody knows why it only wants the left one.",
+   "set": "village",
+   "look": "night",
+   "framing": "medium",
+   "actors": [
+    "abernathy",
+    "v1",
+    "v4"
+   ],
+   "anims": {
+    "abernathy": "idle,shrug",
+    "v1": "look_around,shrug",
+    "v4": "idle,shrug"
+   },
+   "fx": [
+    "particles:snow"
+   ]
+  },
+  {
+   "id": "026_lenny_house",
+   "start": 29.233,
+   "end": 30.1,
+   "words": "My name is Lenny, and",
+   "set": "village",
+   "look": "day",
+   "framing": "wide",
+   "actors": [
+    "walkers",
+    "lenny"
+   ],
+   "anims": {
+    "walkers": "crowd",
+    "lenny": "walk->,wave"
+   },
+   "fx": []
+  },
+  {
+   "id": "027_lenny_intro",
+   "start": 30.1,
+   "end": 31.733,
+   "words": "there's one thing you should know about me.",
+   "set": "village",
+   "look": "day",
+   "framing": "medium",
+   "actors": [
+    "walkers",
+    "lenny"
+   ],
+   "anims": {
+    "walkers": "crowd",
+    "lenny": "walk->"
+   },
+   "fx": []
+  },
+  {
+   "id": "028_born_with",
+   "start": 31.733,
+   "end": 32.3,
+   "words": "I was born with",
+   "set": "village",
+   "look": "day",
+   "framing": "close",
+   "actors": [
+    "lenny"
+   ],
+   "anims": {
+    "lenny": "look_around"
+   },
+   "fx": []
+  },
+  {
+   "id": "029_baby_two_hands",
+   "start": 32.3,
+   "end": 33.133,
+   "words": "two hands.",
+   "set": "house",
+   "look": "sepia+sepia",
+   "framing": "medium",
+   "actors": [
+    "mom",
+    "baby"
+   ],
+   "anims": {
+    "mom": "carry",
+    "baby": "cheer"
+   },
+   "fx": [
+    "sepia",
+    "zoom_punch",
+    "sparkles"
+   ]
+  },
+  {
+   "id": "030_mom_sews",
+   "start": 33.133,
+   "end": 34.933,
+   "words": "My mom sews my second sleeve shut",
+   "set": "house",
+   "look": "interior",
+   "framing": "wide",
+   "actors": [
+    "lenny",
+    "mom",
+    "grandma",
+    "pip"
+   ],
+   "anims": {
+    "lenny": "idle",
+    "mom": "sew",
+    "grandma": "sit",
+    "pip": "eat"
+   },
+   "fx": []
+  },
+  {
+   "id": "031_every_morning",
+   "start": 34.933,
+   "end": 35.7,
+   "words": "every morning,",
+   "set": "house",
+   "look": "interior",
+   "framing": "close",
+   "actors": [
+    "lenny",
+    "mom"
+   ],
+   "anims": {
+    "lenny": "idle",
+    "mom": "sew"
+   },
+   "fx": []
+  },
+  {
+   "id": "032_pocket_walk",
+   "start": 35.7,
+   "end": 37.067,
+   "words": "and I keep that hand in my pocket",
+   "set": "village",
+   "look": "day",
+   "framing": "medium",
+   "actors": [
+    "walkers",
+    "lenny",
+    "v2"
+   ],
+   "anims": {
+    "walkers": "crowd",
+    "lenny": "walk->",
+    "v2": "walk->"
+   },
+   "fx": []
+  },
+  {
+   "id": "033_nobody_screams",
+   "start": 37.067,
+   "end": 38.267,
+   "words": "so nobody screams.",
+   "set": "village",
+   "look": "day",
+   "framing": "medium",
+   "actors": [
+    "lenny",
+    "v4"
+   ],
+   "anims": {
+    "lenny": "idle,shrug",
+    "v4": "idle,scared"
+   },
+   "fx": [
+    "particles:sound_rings",
+    "zoom_punch"
+   ]
+  },
+  {
+   "id": "034_kids_spare",
+   "start": 38.267,
+   "end": 39.3,
+   "words": "Kids call me Spare.",
+   "set": "village",
+   "look": "day",
+   "framing": "wide",
+   "actors": [
+    "lenny",
+    "gordy",
+    "kid1",
+    "kid2"
+   ],
+   "anims": {
+    "lenny": "walk->",
+    "gordy": "point",
+    "kid1": "laugh",
+    "kid2": "point"
+   },
+   "fx": []
+  },
+  {
+   "id": "035_gordy_walks",
+   "start": 39.3,
+   "end": 40.7,
+   "words": "Every day, Gordy Platt yells,",
+   "set": "village",
+   "look": "day",
+   "framing": "medium",
+   "actors": [
+    "gordy",
+    "kid1"
+   ],
+   "anims": {
+    "gordy": "walk->,point",
+    "kid1": "laugh"
+   },
+   "fx": []
+  },
+  {
+   "id": "036_give_us_a_hand",
+   "start": 40.7,
+   "end": 42,
+   "words": "\"Hey, Spare, give us a hand!\"",
+   "set": "village",
+   "look": "day",
+   "framing": "close",
+   "actors": [
+    "gordy"
+   ],
+   "anims": {
+    "gordy": "talk,hold"
+   },
+   "fx": [
+    "zoom_punch"
+   ]
+  },
+  {
+   "id": "037_hilarious",
+   "start": 42,
+   "end": 43.233,
+   "words": "He thinks that's hilarious.",
+   "set": "village",
+   "look": "day",
+   "framing": "medium",
+   "actors": [
+    "gordy",
+    "kid1",
+    "kid2"
+   ],
+   "anims": {
+    "gordy": "laugh",
+    "kid1": "laugh",
+    "kid2": "laugh"
+   },
+   "fx": []
+  },
+  {
+   "id": "038_pretty_good",
+   "start": 43.233,
+   "end": 44.267,
+   "words": "Honestly, it's pretty good.",
+   "set": "village",
+   "look": "day",
+   "framing": "close",
+   "actors": [
+    "lenny"
+   ],
+   "anims": {
+    "lenny": "idle,shrug"
+   },
+   "fx": []
+  },
+  {
+   "id": "039_never_clapped_public",
+   "start": 44.267,
+   "end": 46.133,
+   "words": "I'm 12. I've never clapped in public.",
+   "set": "village",
+   "look": "day",
+   "framing": "wide",
+   "actors": [
+    "stompers",
+    "v6",
+    "lenny"
+   ],
+   "anims": {
+    "stompers": "crowd",
+    "v6": "dance",
+    "lenny": "stomp,idle"
+   },
+   "fx": []
+  },
+  {
+   "id": "040_grandma_ws",
+   "start": 46.133,
+   "end": 46.9,
+   "words": "My grandma says,",
+   "set": "house",
+   "look": "interior",
+   "framing": "wide",
+   "actors": [
+    "grandma",
+    "lenny",
+    "pip"
+   ],
+   "anims": {
+    "grandma": "sit",
+    "lenny": "walk->",
+    "pip": "eat"
+   },
+   "fx": []
+  },
+  {
+   "id": "041_hand_you_hide",
+   "start": 46.9,
+   "end": 48.567,
+   "words": "\"A hand you hide is a hand you'll need.\"",
+   "set": "house",
+   "look": "interior",
+   "framing": "close",
+   "actors": [
+    "grandma"
+   ],
+   "anims": {
+    "grandma": "sit"
+   },
+   "fx": []
+  },
+  {
+   "id": "042_cake_94",
+   "start": 48.567,
+   "end": 49.3,
+   "words": "She's 94.",
+   "set": "house",
+   "look": "interior",
+   "framing": "close",
+   "actors": [
+    "grandma"
+   ],
+   "anims": {
+    "grandma": "sit"
+   },
+   "fx": []
+  },
+  {
+   "id": "043_says_a_lot",
+   "start": 49.3,
+   "end": 51.033,
+   "words": "She says a lot of things.",
+   "set": "house",
+   "look": "interior",
+   "framing": "medium",
+   "actors": [
+    "lenny",
+    "grandma"
+   ],
+   "anims": {
+    "lenny": "idle,shrug",
+    "grandma": "sit"
+   },
+   "fx": []
+  },
+  {
+   "id": "044_january_night",
+   "start": 51.033,
+   "end": 52.067,
+   "words": "Then one night in January,",
+   "set": "village",
+   "look": "night",
+   "framing": "wide",
+   "actors": [],
+   "anims": {},
+   "fx": [
+    "particles:snow"
+   ]
+  },
+  {
+   "id": "045_new_bell",
+   "start": 52.067,
+   "end": 52.833,
+   "words": "the new church bell",
+   "set": "village",
+   "look": "night",
+   "framing": "wide",
+   "actors": [],
+   "anims": {},
+   "fx": [
+    "particles:snow"
+   ]
+  },
+  {
+   "id": "046_rang_13",
+   "start": 52.833,
+   "end": 54.067,
+   "words": "rang 13 times.",
+   "set": "village",
+   "look": "night",
+   "framing": "close",
+   "actors": [],
+   "anims": {},
+   "fx": [
+    "particles:snow",
+    "flash",
+    "camera_shake_impact",
+    "flash",
+    "camera_shake_impact",
+    "flash",
+    "camera_shake_impact",
+    "flash",
+    "camera_shake_impact",
+    "flash",
+    "camera_shake_impact"
+   ]
+  },
+  {
+   "id": "047_something_walking",
+   "start": 54.067,
+   "end": 55.033,
+   "words": "Something was walking down",
+   "set": "village",
+   "look": "night",
+   "framing": "wide",
+   "actors": [
+    "grabber"
+   ],
+   "anims": {
+    "grabber": "drag_walk->"
+   },
+   "fx": [
+    "particles:snow",
+    "silhouette"
+   ]
+  },
+  {
+   "id": "048_main_street_ews",
+   "start": 55.033,
+   "end": 55.733,
+   "words": "Main Street,",
+   "set": "village",
+   "look": "night",
+   "framing": "wide",
+   "actors": [
+    "grabber"
+   ],
+   "anims": {
+    "grabber": "drag_walk->"
+   },
+   "fx": [
+    "particles:snow"
+   ]
+  },
+  {
+   "id": "049_taller_than_lamps",
+   "start": 55.733,
+   "end": 56.567,
+   "words": "taller than the lamps,",
+   "set": "village",
+   "look": "night",
+   "framing": "medium",
+   "actors": [
+    "grabber"
+   ],
+   "anims": {
+    "grabber": "drag_walk->"
+   },
+   "fx": [
+    "particles:snow"
+   ]
+  },
+  {
+   "id": "050_knuckles",
+   "start": 56.567,
+   "end": 58.233,
+   "words": "dragging its knuckles on the cobbles.",
+   "set": "village",
+   "look": "night",
+   "framing": "close",
+   "actors": [
+    "grabber"
+   ],
+   "anims": {
+    "grabber": "drag_walk->"
+   },
+   "fx": [
+    "particles:snow",
+    "particles:footdust"
+   ]
+  },
+  {
+   "id": "051_rule_bedroom",
+   "start": 58.233,
+   "end": 59.333,
+   "words": "The rule is simple.",
+   "set": "house",
+   "look": "night",
+   "framing": "wide",
+   "actors": [
+    "lenny"
+   ],
+   "anims": {
+    "lenny": "sit"
+   },
+   "fx": []
+  },
+  {
+   "id": "052_grabber_comes",
+   "start": 59.333,
+   "end": 60.2,
+   "words": "When the Grabber comes,",
+   "set": "village",
+   "look": "night",
+   "framing": "wide",
+   "actors": [
+    "grabber"
+   ],
+   "anims": {
+    "grabber": "drag_walk->"
+   },
+   "fx": [
+    "particles:snow",
+    "silhouette"
+   ]
+  },
+  {
+   "id": "053_under_bed",
+   "start": 60.2,
+   "end": 60.967,
+   "words": "you get under your bed",
+   "set": "house",
+   "look": "night",
+   "framing": "medium",
+   "actors": [
+    "lenny"
+   ],
+   "anims": {
+    "lenny": "lie"
+   },
+   "fx": []
+  },
+  {
+   "id": "054_hand_over_mouth",
+   "start": 60.967,
+   "end": 62.8,
+   "words": "and hold your one hand over your mouth.",
+   "set": "house",
+   "look": "night",
+   "framing": "close",
+   "actors": [
+    "lenny"
+   ],
+   "anims": {
+    "lenny": "lie,lie"
+   },
+   "fx": []
+  },
+  {
+   "id": "055_so_i_did",
+   "start": 62.8,
+   "end": 63.233,
+   "words": "So I did.",
+   "set": "house",
+   "look": "night",
+   "framing": "wide",
+   "actors": [
+    "lenny"
+   ],
+   "anims": {
+    "lenny": "lie"
+   },
+   "fx": []
+  },
+  {
+   "id": "056_heard_sister",
+   "start": 63.233,
+   "end": 64.467,
+   "words": "And then I heard my little sister",
+   "set": "house",
+   "look": "night",
+   "framing": "close",
+   "actors": [
+    "lenny"
+   ],
+   "anims": {
+    "lenny": "lie"
+   },
+   "fx": [
+    "particles:sound_rings"
+   ]
+  },
+  {
+   "id": "057_pip_window",
+   "start": 64.467,
+   "end": 65.5,
+   "words": "Pip's window open.",
+   "set": "house",
+   "look": "night",
+   "framing": "wide",
+   "actors": [
+    "pip"
+   ],
+   "anims": {
+    "pip": "sit"
+   },
+   "fx": [
+    "particles:snow"
+   ]
+  },
+  {
+   "id": "058_gray_fingers",
+   "start": 65.5,
+   "end": 66.5,
+   "words": "Two huge gray fingers",
+   "set": "house",
+   "look": "night",
+   "framing": "medium",
+   "actors": [
+    "pip"
+   ],
+   "anims": {
+    "pip": "sit"
+   },
+   "fx": []
+  },
+  {
+   "id": "059_reached_in",
+   "start": 66.5,
+   "end": 67.067,
+   "words": "reached in,",
+   "set": "house",
+   "look": "night",
+   "framing": "close",
+   "actors": [
+    "pip"
+   ],
+   "anims": {
+    "pip": "sit"
+   },
+   "fx": []
+  },
+  {
+   "id": "060_like_a_sandwich",
+   "start": 67.067,
+   "end": 68.133,
+   "words": "picked her up like a sandwich,",
+   "set": "house",
+   "look": "night",
+   "framing": "medium",
+   "actors": [
+    "pip"
+   ],
+   "anims": {
+    "pip": "sit,held"
+   },
+   "fx": []
+  },
+  {
+   "id": "061_she_was_gone",
+   "start": 68.133,
+   "end": 69.067,
+   "words": "and she was gone.",
+   "set": "village",
+   "look": "night",
+   "framing": "wide",
+   "actors": [
+    "grabber",
+    "pip"
+   ],
+   "anims": {
+    "grabber": "drag_walk->",
+    "pip": "held"
+   },
+   "fx": [
+    "particles:snow"
+   ]
+  },
+  {
+   "id": "062_sat_on_bed",
+   "start": 69.067,
+   "end": 69.8,
+   "words": "I sat on my bed,",
+   "set": "house",
+   "look": "night",
+   "framing": "medium",
+   "actors": [
+    "lenny"
+   ],
+   "anims": {
+    "lenny": "sit"
+   },
+   "fx": []
+  },
+  {
+   "id": "063_rip_sleeve",
+   "start": 69.8,
+   "end": 71,
+   "words": "and I ripped my sleeve open.",
+   "set": "house",
+   "look": "night",
+   "framing": "close",
+   "actors": [
+    "lenny"
+   ],
+   "anims": {
+    "lenny": "keys"
+   },
+   "fx": [
+    "glow_pulse",
+    "flash_white"
+   ]
+  },
+  {
+   "id": "064_drainpipe",
+   "start": 71,
+   "end": 71.967,
+   "words": "I climbed down the drainpipe",
+   "set": "village",
+   "look": "night",
+   "framing": "wide",
+   "actors": [
+    "lenny"
+   ],
+   "anims": {
+    "lenny": "climb->"
+   },
+   "fx": [
+    "particles:snow"
+   ]
+  },
+  {
+   "id": "065_two_hands_pipe",
+   "start": 71.967,
+   "end": 72.7,
+   "words": "with two hands,",
+   "set": "village",
+   "look": "night",
+   "framing": "medium",
+   "actors": [
+    "lenny"
+   ],
+   "anims": {
+    "lenny": "climb->"
+   },
+   "fx": [
+    "particles:snow"
+   ]
+  },
+  {
+   "id": "066_really_easy",
+   "start": 72.7,
+   "end": 74.233,
+   "words": "which, by the way, is really easy.",
+   "set": "village",
+   "look": "night",
+   "framing": "medium",
+   "actors": [
+    "lenny"
+   ],
+   "anims": {
+    "lenny": "jump,shrug,run->"
+   },
+   "fx": [
+    "particles:snow"
+   ]
+  },
+  {
+   "id": "067_footprints",
+   "start": 74.233,
+   "end": 75.233,
+   "words": "The footprints went straight to",
+   "set": "mill",
+   "look": "night",
+   "framing": "wide",
+   "actors": [
+    "lenny"
+   ],
+   "anims": {
+    "lenny": "run->"
+   },
+   "fx": [
+    "particles:snow"
+   ]
+  },
+  {
+   "id": "068_to_the_mill",
+   "start": 75.233,
+   "end": 76.2,
+   "words": "the mill. Inside,",
+   "set": "mill",
+   "look": "night",
+   "framing": "wide",
+   "actors": [
+    "lenny"
+   ],
+   "anims": {
+    "lenny": "run->"
+   },
+   "fx": [
+    "particles:snow",
+    "flash",
+    "particles:dust_wall"
+   ]
+  },
+  {
+   "id": "069_piles_ws",
+   "start": 76.2,
+   "end": 77.4,
+   "words": "there were piles of stuff.",
+   "set": "millIn",
+   "look": "candle",
+   "framing": "wide",
+   "actors": [
+    "lenny"
+   ],
+   "anims": {
+    "lenny": "walk->,look_around"
+   },
+   "fx": []
+  },
+  {
+   "id": "070_bells",
+   "start": 77.4,
+   "end": 77.7,
+   "words": "Bells,",
+   "set": "millIn",
+   "look": "candle",
+   "framing": "close",
+   "actors": [],
+   "anims": {},
+   "fx": []
+  },
+  {
+   "id": "071_carts",
+   "start": 77.7,
+   "end": 78.067,
+   "words": "carts,",
+   "set": "millIn",
+   "look": "candle",
+   "framing": "medium",
+   "actors": [],
+   "anims": {},
+   "fx": []
+  },
+  {
+   "id": "072_tools",
+   "start": 78.067,
+   "end": 78.567,
+   "words": "tools, and",
+   "set": "millIn",
+   "look": "candle",
+   "framing": "close",
+   "actors": [],
+   "anims": {},
+   "fx": []
+  },
+  {
+   "id": "073_boots_61",
+   "start": 78.567,
+   "end": 79.867,
+   "words": "61 left boots.",
+   "set": "millIn",
+   "look": "candle",
+   "framing": "wide",
+   "actors": [
+    "lenny"
+   ],
+   "anims": {
+    "lenny": "idle,facepalm"
+   },
+   "fx": []
+  },
+  {
+   "id": "074_top_shelf",
+   "start": 79.867,
+   "end": 80.633,
+   "words": "And on the top shelf,",
+   "set": "millIn",
+   "look": "candle",
+   "framing": "medium",
+   "actors": [
+    "lenny"
+   ],
+   "anims": {
+    "lenny": "idle,point"
+   },
+   "fx": []
+  },
+  {
+   "id": "075_lantern",
+   "start": 80.633,
+   "end": 81.467,
+   "words": "next to a lantern,",
+   "set": "millIn",
+   "look": "candle",
+   "framing": "close",
+   "actors": [],
+   "anims": {},
+   "fx": []
+  },
+  {
+   "id": "076_pip_cookie",
+   "start": 81.467,
+   "end": 82.767,
+   "words": "sat Pip, eating a cookie.",
+   "set": "millIn",
+   "look": "candle",
+   "framing": "medium",
+   "actors": [
+    "pip"
+   ],
+   "anims": {
+    "pip": "sit"
+   },
+   "fx": []
+  },
+  {
+   "id": "077_dark_back",
+   "start": 82.767,
+   "end": 83.967,
+   "words": "Then the dark at the back of the mill",
+   "set": "millIn",
+   "look": "candle",
+   "framing": "wide",
+   "actors": [
+    "lenny",
+    "grabber"
+   ],
+   "anims": {
+    "lenny": "idle",
+    "grabber": "crouch_low"
+   },
+   "fx": [
+    "silhouette"
+   ]
+  },
+  {
+   "id": "078_stood_up",
+   "start": 83.967,
+   "end": 84.533,
+   "words": "stood up,",
+   "set": "millIn",
+   "look": "candle",
+   "framing": "wide",
+   "actors": [
+    "grabber"
+   ],
+   "anims": {
+    "grabber": "stand_up"
+   },
+   "fx": [
+    "silhouette"
+   ]
+  },
+  {
+   "id": "079_eleven_feet_in",
+   "start": 84.533,
+   "end": 85.433,
+   "words": "11 feet tall,",
+   "set": "millIn",
+   "look": "candle",
+   "framing": "wide",
+   "actors": [
+    "lenny",
+    "grabber"
+   ],
+   "anims": {
+    "lenny": "scared",
+    "grabber": "idle"
+   },
+   "fx": [
+    "silhouette"
+   ]
+  },
+  {
+   "id": "080_reached_for_me",
+   "start": 85.433,
+   "end": 87.733,
+   "words": "and reached for me with both hands.",
+   "set": "millIn",
+   "look": "candle",
+   "framing": "medium",
+   "actors": [
+    "lenny",
+    "grabber"
+   ],
+   "anims": {
+    "lenny": "scared",
+    "grabber": "walk->"
+   },
+   "fx": [
+    "silhouette"
+   ]
+  },
+  {
+   "id": "081_it_stopped",
+   "start": 87.733,
+   "end": 88.267,
+   "words": "And it stopped.",
+   "set": "millIn",
+   "look": "candle",
+   "framing": "close",
+   "actors": [
+    "grabber"
+   ],
+   "anims": {
+    "grabber": "reach"
+   },
+   "fx": []
+  },
+  {
+   "id": "082_stared_at_hands",
+   "start": 88.267,
+   "end": 89.5,
+   "words": "It stared at my hands.",
+   "set": "millIn",
+   "look": "candle",
+   "framing": "close",
+   "actors": [
+    "lenny",
+    "grabber"
+   ],
+   "anims": {
+    "lenny": "hold_both",
+    "grabber": "reach"
+   },
+   "fx": []
+  },
+  {
+   "id": "083_holds_out_two",
+   "start": 89.5,
+   "end": 91,
+   "words": "Then it slowly held out its own two,",
+   "set": "millIn",
+   "look": "candle",
+   "framing": "medium",
+   "actors": [
+    "lenny",
+    "grabberKind"
+   ],
+   "anims": {
+    "lenny": "hold_both,idle",
+    "grabberKind": "kneel"
+   },
+   "fx": []
+  },
+  {
+   "id": "084_asking_something",
+   "start": 91,
+   "end": 92.8,
+   "words": "palms up, like it was asking me something.",
+   "set": "millIn",
+   "look": "candle",
+   "framing": "close",
+   "actors": [
+    "grabberKind"
+   ],
+   "anims": {
+    "grabberKind": "kneel"
+   },
+   "fx": []
+  },
+  {
+   "id": "085_realized",
+   "start": 92.8,
+   "end": 93.633,
+   "words": "That's when I realized",
+   "set": "millIn",
+   "look": "candle",
+   "framing": "close",
+   "actors": [
+    "lenny"
+   ],
+   "anims": {
+    "lenny": "idle"
+   },
+   "fx": []
+  },
+  {
+   "id": "086_not_a_monster",
+   "start": 93.633,
+   "end": 95.167,
+   "words": "the Grabber wasn't a monster.",
+   "set": "millIn",
+   "look": "candle",
+   "framing": "wide",
+   "actors": [
+    "lenny",
+    "grabberKind",
+    "pip"
+   ],
+   "anims": {
+    "lenny": "walk->",
+    "grabberKind": "kneel",
+    "pip": "sit"
+   },
+   "fx": []
+  },
+  {
+   "id": "087_it_was_a_kid",
+   "start": 95.167,
+   "end": 95.8,
+   "words": "It was a kid,",
+   "set": "village",
+   "look": "sepia+sepia",
+   "framing": "close",
+   "actors": [
+    "boy"
+   ],
+   "anims": {
+    "boy": "hold_both"
+   },
+   "fx": [
+    "sepia"
+   ]
+  },
+  {
+   "id": "088_sixty_years_ago",
+   "start": 95.8,
+   "end": 97.133,
+   "words": "born here 60 years ago,",
+   "set": "village",
+   "look": "sepia+sepia",
+   "framing": "wide",
+   "actors": [
+    "boy",
+    "v2",
+    "v5",
+    "idlers"
+   ],
+   "anims": {
+    "boy": "walk->",
+    "v2": "walk->",
+    "v5": "scared",
+    "idlers": "crowd"
+   },
+   "fx": [
+    "sepia"
+   ]
+  },
+  {
+   "id": "089_with_two_hands",
+   "start": 97.133,
+   "end": 98.133,
+   "words": "with two hands.",
+   "set": "village",
+   "look": "sepia+sepia",
+   "framing": "close",
+   "actors": [
+    "boy"
+   ],
+   "anims": {
+    "boy": "idle,lift"
+   },
+   "fx": [
+    "sepia"
+   ]
+  },
+  {
+   "id": "090_locked_doors",
+   "start": 98.133,
+   "end": 99.333,
+   "words": "They locked the doors on him.",
+   "set": "village",
+   "look": "sepia+sepia",
+   "framing": "medium",
+   "actors": [
+    "boy"
+   ],
+   "anims": {
+    "boy": "knock,idle"
+   },
+   "fx": [
+    "sepia",
+    "camera_shake_impact",
+    "camera_shake_impact"
+   ]
+  },
+  {
+   "id": "091_took_one_thing",
+   "start": 99.333,
+   "end": 100.9,
+   "words": "So every winter, he took one thing,",
+   "set": "village",
+   "look": "overcast+sepia",
+   "framing": "wide",
+   "actors": [
+    "grabberKind"
+   ],
+   "anims": {
+    "grabberKind": "drag_walk->"
+   },
+   "fx": [
+    "sepia",
+    "particles:snow"
+   ]
+  },
+  {
+   "id": "092_hoping",
+   "start": 100.9,
+   "end": 102.567,
+   "words": "hoping someone would come to get it back.",
+   "set": "mill",
+   "look": "overcast+sepia",
+   "framing": "medium",
+   "actors": [
+    "grabberKind"
+   ],
+   "anims": {
+    "grabberKind": "sit"
+   },
+   "fx": [
+    "sepia",
+    "particles:snow"
+   ]
+  },
+  {
+   "id": "093_nobody_came",
+   "start": 102.567,
+   "end": 105.133,
+   "words": "Nobody ever came. Not once in 60 years.",
+   "set": "mill",
+   "look": "overcast+sepia",
+   "framing": "wide",
+   "actors": [
+    "grabberKind"
+   ],
+   "anims": {
+    "grabberKind": "sit"
+   },
+   "fx": [
+    "sepia",
+    "particles:snow",
+    "particles:snow_spheres"
+   ]
+  },
+  {
+   "id": "094_did_the_thing",
+   "start": 105.133,
+   "end": 105.8,
+   "words": "So I did the thing",
+   "set": "millIn",
+   "look": "candle",
+   "framing": "wide",
+   "actors": [
+    "lenny",
+    "grabberKind",
+    "pip"
+   ],
+   "anims": {
+    "lenny": "walk->",
+    "grabberKind": "kneel",
+    "pip": "sit"
+   },
+   "fx": []
+  },
+  {
+   "id": "095_nobody_has_done",
+   "start": 105.8,
+   "end": 107.633,
+   "words": "nobody in this village has ever done.",
+   "set": "millIn",
+   "look": "candle",
+   "framing": "medium",
+   "actors": [
+    "lenny",
+    "grabberKind"
+   ],
+   "anims": {
+    "lenny": "idle,hold_both",
+    "grabberKind": "kneel"
+   },
+   "fx": []
+  },
+  {
+   "id": "096_held_his_hands",
+   "start": 107.633,
+   "end": 108.933,
+   "words": "I held both his hands.",
+   "set": "millIn",
+   "look": "candle",
+   "framing": "close",
+   "actors": [
+    "lenny",
+    "grabberKind"
+   ],
+   "anims": {
+    "lenny": "pose",
+    "grabberKind": "kneel"
+   },
+   "fx": [
+    "sparkles",
+    "glow_pulse"
+   ]
+  },
+  {
+   "id": "097_let_go",
+   "start": 108.933,
+   "end": 109.567,
+   "words": "Then I let go, and",
+   "set": "millIn",
+   "look": "candle",
+   "framing": "medium",
+   "actors": [
+    "lenny",
+    "grabberKind"
+   ],
+   "anims": {
+    "lenny": "pose,idle",
+    "grabberKind": "kneel,stand_up"
+   },
+   "fx": []
+  },
+  {
+   "id": "098_i_clapped",
+   "start": 109.567,
+   "end": 110.133,
+   "words": "I clapped.",
+   "set": "millIn",
+   "look": "candle",
+   "framing": "close",
+   "actors": [
+    "lenny"
+   ],
+   "anims": {
+    "lenny": "clap"
+   },
+   "fx": [
+    "sparkles"
+   ]
+  },
+  {
+   "id": "099_clapped_back",
+   "start": 110.133,
+   "end": 110.867,
+   "words": "He clapped back.",
+   "set": "millIn",
+   "look": "candle",
+   "framing": "wide",
+   "actors": [
+    "lenny",
+    "grabberKind"
+   ],
+   "anims": {
+    "lenny": "clap,scared",
+    "grabberKind": "idle,clap"
+   },
+   "fx": [
+    "flash_white",
+    "camera_shake_impact",
+    "particles:puff_ring",
+    "particles:dust_wall"
+   ]
+  },
+  {
+   "id": "100_thunder",
+   "start": 110.867,
+   "end": 112,
+   "words": "It sounded like thunder.",
+   "set": "mill",
+   "look": "night",
+   "framing": "wide",
+   "actors": [],
+   "anims": {},
+   "fx": [
+    "flash",
+    "flash",
+    "camera_shake_impact",
+    "particles:dust_wall",
+    "particles:puff_ring",
+    "particles:snow"
+   ]
+  },
+  {
+   "id": "101_sunrise_ews",
+   "start": 112,
+   "end": 113.633,
+   "words": "We walked back into town at sunrise,",
+   "set": "mill",
+   "look": "golden",
+   "framing": "wide",
+   "actors": [
+    "lenny",
+    "grabberKind",
+    "pip"
+   ],
+   "anims": {
+    "lenny": "walk->",
+    "grabberKind": "walk->",
+    "pip": "sit"
+   },
+   "fx": []
+  },
+  {
+   "id": "102_carrying",
+   "start": 113.633,
+   "end": 114.767,
+   "words": "carrying the bell, the carts,",
+   "set": "mill",
+   "look": "golden",
+   "framing": "medium",
+   "actors": [
+    "lenny",
+    "grabberKind",
+    "pip"
+   ],
+   "anims": {
+    "lenny": "walk->",
+    "grabberKind": "walk->",
+    "pip": "sit"
+   },
+   "fx": []
+  },
+  {
+   "id": "103_still_eating",
+   "start": 114.767,
+   "end": 116.033,
+   "words": "and Pip, who was still eating.",
+   "set": "mill",
+   "look": "golden",
+   "framing": "close",
+   "actors": [
+    "lenny",
+    "grabberKind",
+    "pip"
+   ],
+   "anims": {
+    "lenny": "walk->",
+    "grabberKind": "walk->",
+    "pip": "sit"
+   },
+   "fx": []
+  },
+  {
+   "id": "104_boots_back",
+   "start": 116.033,
+   "end": 117.633,
+   "words": "Mrs. Abernathy got her boots back.",
+   "set": "village",
+   "look": "day",
+   "framing": "wide",
+   "actors": [
+    "idlers",
+    "abernathy",
+    "grabberKind",
+    "lenny"
+   ],
+   "anims": {
+    "idlers": "crowd",
+    "abernathy": "cheer",
+    "grabberKind": "wave",
+    "lenny": "cheer"
+   },
+   "fx": []
+  },
+  {
+   "id": "105_all_61",
+   "start": 117.633,
+   "end": 118.967,
+   "words": "All 61 left ones.",
+   "set": "village",
+   "look": "day",
+   "framing": "medium",
+   "actors": [
+    "abernathy"
+   ],
+   "anims": {
+    "abernathy": "hold_up,shrug"
+   },
+   "fx": []
+  },
+  {
+   "id": "106_gordy_fainted",
+   "start": 118.967,
+   "end": 120.133,
+   "words": "Gordy Platt fainted.",
+   "set": "village",
+   "look": "day",
+   "framing": "medium",
+   "actors": [
+    "gordy"
+   ],
+   "anims": {
+    "gordy": "scared,lie"
+   },
+   "fx": [
+    "particles:puff"
+   ]
+  },
+  {
+   "id": "107_grandma_nodded",
+   "start": 120.133,
+   "end": 121.033,
+   "words": "Grandma just nodded.",
+   "set": "village",
+   "look": "day",
+   "framing": "medium",
+   "actors": [
+    "grandma",
+    "idlers"
+   ],
+   "anims": {
+    "grandma": "knit,nod",
+    "idlers": "crowd"
+   },
+   "fx": []
+  },
+  {
+   "id": "108_told_you",
+   "start": 121.033,
+   "end": 122,
+   "words": "\"Told you,\" she said.",
+   "set": "village",
+   "look": "day",
+   "framing": "close",
+   "actors": [
+    "grandma"
+   ],
+   "anims": {
+    "grandma": "knit"
+   },
+   "fx": []
+  },
+  {
+   "id": "109_clapping_legal",
+   "start": 122,
+   "end": 123.133,
+   "words": "Now clapping is legal.",
+   "set": "village",
+   "look": "day",
+   "framing": "wide",
+   "actors": [
+    "v1",
+    "v2",
+    "v3"
+   ],
+   "anims": {
+    "v1": "cheer",
+    "v2": "wave",
+    "v3": "stomp"
+   },
+   "fx": []
+  },
+  {
+   "id": "110_two_people",
+   "start": 123.133,
+   "end": 123.867,
+   "words": "There are exactly 2",
+   "set": "village",
+   "look": "day",
+   "framing": "medium",
+   "actors": [
+    "lenny",
+    "grabberKind",
+    "stompers"
+   ],
+   "anims": {
+    "lenny": "cheer",
+    "grabberKind": "cheer",
+    "stompers": "crowd"
+   },
+   "fx": []
+  },
+  {
+   "id": "111_who_can_do_it",
+   "start": 123.867,
+   "end": 125.133,
+   "words": "people in town who can do it,",
+   "set": "village",
+   "look": "day",
+   "framing": "medium",
+   "actors": [
+    "lenny",
+    "grabberKind",
+    "stompers"
+   ],
+   "anims": {
+    "lenny": "clap",
+    "grabberKind": "clap",
+    "stompers": "crowd"
+   },
+   "fx": [
+    "sparkles",
+    "sparkles"
+   ]
+  },
+  {
+   "id": "112_every_wedding",
+   "start": 125.133,
+   "end": 126.533,
+   "words": "and we do it at every wedding.",
+   "set": "village",
+   "look": "day",
+   "framing": "wide",
+   "actors": [
+    "stompers",
+    "bride",
+    "groom",
+    "lenny",
+    "grabberKind"
+   ],
+   "anims": {
+    "stompers": "crowd",
+    "bride": "cheer",
+    "groom": "wave",
+    "lenny": "clap",
+    "grabberKind": "clap"
+   },
+   "fx": [
+    "particles:confetti"
+   ]
+  },
+  {
+   "id": "113_still_spare",
+   "start": 126.533,
+   "end": 127.633,
+   "words": "They still call me Spare.",
+   "set": "village",
+   "look": "day",
+   "framing": "medium",
+   "actors": [
+    "gordy",
+    "kid1",
+    "lenny"
+   ],
+   "anims": {
+    "gordy": "point",
+    "kid1": "laugh",
+    "lenny": "shrug,wave"
+   },
+   "fx": []
+  },
+  {
+   "id": "114_needs_one",
+   "start": 127.633,
+   "end": 128.772,
+   "words": "Every village needs one.",
+   "set": "village",
+   "look": "day",
+   "framing": "medium",
+   "actors": [
+    "lenny",
+    "grabberKind",
+    "walkers"
+   ],
+   "anims": {
+    "lenny": "cheer",
+    "grabberKind": "kneel",
+    "walkers": "crowd"
+   },
+   "fx": []
+  }
+ ]
+}

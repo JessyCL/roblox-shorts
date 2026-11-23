@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Shorts preview</title>
+<link rel="icon" href="data:,">
+<style>
+  :root { --bg: #111; --panel: #1c1c1f; --text: #eee; --muted: #999; --accent: #3b82f6; }
+  html, body { margin: 0; height: 100%; background: var(--bg); color: var(--text); font: 14px system-ui, sans-serif; }
+  #wrap { display: flex; height: 100%; gap: 16px; padding: 16px; box-sizing: border-box; }
+  #stage { position: relative; height: 100%; aspect-ratio: 9 / 16; background: #000; flex: none; container-type: size; }
+  #stage canvas { width: 100% !important; height: 100% !important; display: block; }
+  #cap { position: absolute; left: 0; right: 0; top: 62%; text-align: center; pointer-events: none;
+         font: 900 4cqh/1 'Montserrat', 'Arial Black', sans-serif; color: #fff;
+         -webkit-text-stroke: 0.6cqh #000; paint-order: stroke fill; text-shadow: 0 0.4cqh 0 #000; }
+  #side { flex: 1; min-width: 260px; display: flex; flex-direction: column; gap: 12px; overflow: hidden; }
+  .row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  button, select { background: var(--panel); color: var(--text); border: 1px solid #333; border-radius: 6px; padding: 6px 10px; cursor: pointer; }
+  button:focus-visible, select:focus-visible, input:focus-visible { outline: 2px solid var(--accent); }
+  input[type=range] { width: 100%; }
+  #shots { overflow: auto; flex: 1; background: var(--panel); border-radius: 8px; padding: 6px; }
+  #shots div { padding: 4px 6px; border-radius: 4px; cursor: pointer; color: var(--muted); }
+  #shots div.on { background: #2a2a30; color: var(--text); }
+  #status { color: var(--muted); font-variant-numeric: tabular-nums; }
+</style>
+<script type="importmap">
+{ "imports": {
+  "three": "/engine/node_modules/three/build/three.module.js",
+  "three/addons/": "/engine/node_modules/three/examples/jsm/",
+  "three/examples/jsm/": "/engine/node_modules/three/examples/jsm/",
+  "postprocessing": "/engine/node_modules/postprocessing/build/index.js",
+  "n8ao": "/engine/node_modules/n8ao/dist/N8AO.js"
+} }
+</script>
+</head>
+<body>
+<div id="wrap">
+  <div id="stage"><div id="cap"></div></div>
+  <div id="side">
+    <div class="row">
+      <button id="play" aria-label="Play or pause">Play</button>
+      <button id="prev" aria-label="Previous frame">&lt; frame</button>
+      <button id="next" aria-label="Next frame">frame &gt;</button>
+      <select id="quality" aria-label="Preview resolution">
+        <option value="0.5">540x960 (fast)</option><option value="1">1080x1920 (full)</option>
+      </select>
+    </div>
+    <input id="scrub" type="range" min="0" max="1" step="0.001" value="0" aria-label="Timeline">
+    <div id="status">loading…</div>
+    <div id="shots" role="list"></div>
+  </div>
+</div>
+<script type="module">
+  import '/engine/runtime/main.js';
+  const q = new URLSearchParams(location.search);
+  const prodUrl = q.get('p');
+  const scale = +(q.get('scale') ?? 0.5);
+  const $ = (id) => document.getElementById(id);
+  $('quality').value = String(scale);
+  $('quality').onchange = () => { q.set('scale', $('quality').value); location.search = q; };
+  $('stage').prepend(R.canvas);
+  const status = (s) => { $('status').textContent = s; };
+  if (!prodUrl) { status('Add ?p=/productions/<slug>/production.js to the URL'); throw new Error('no production'); }
+
+  const base = prodUrl.slice(0, prodUrl.lastIndexOf('/') + 1);
+  const info = await R.load(prodUrl, { quality: 'preview', scale, fps: 30 });
+  const fetchJson = (u) => fetch(u).then((r) => (r.ok ? r.json() : null)).catch(() => null);
+  const caps = (await fetchJson(base + 'captions.json'))?.words ?? []; // [{ start, end, text }]
+  const audio = new Audio(); // narration + music mix, if the audio stage has run
+  let hasAudio = false;
+  try { const r = await fetch(base + 'audio/mix.wav', { method: 'HEAD' }); if (r.ok) { audio.src = base + 'audio/mix.wav'; hasAudio = true; } } catch {}
+
+  let t = 0, playing = false, wallStart = 0, tStart = 0;
+  const shotsEl = $('shots');
+  info.shots.forEach((s) => {
+    const d = document.createElement('div');
+    d.setAttribute('role', 'listitem');
+    d.textContent = `${s.id}  ${s.start.toFixed(2)}–${s.end.toFixed(2)}s`;
+    d.onclick = () => seek(s.start + 1e-3);
+    shotsEl.appendChild(d);
+  });
+
+  function draw() {
+    const f = Math.min(info.frames - 1, Math.round(t * info.fps));
+    R.renderFrame(f);
+    const w = caps.find((c) => t >= c.start && t < c.end);
+    $('cap').textContent = w ? w.text : '';
+    $('scrub').value = t / info.duration;
+    const si = info.shots.findIndex((s) => t >= s.start && t < s.end);
+    [...shotsEl.children].forEach((el, i) => el.classList.toggle('on', i === si));
+    status(`${t.toFixed(2)} / ${info.duration.toFixed(2)} s · frame ${f} · ${info.width}x${info.height} · shot ${info.shots[si]?.id ?? '-'}${hasAudio ? ' · audio' : ''}`);
+  }
+  function seek(nt) { t = Math.max(0, Math.min(info.duration - 1e-3, nt)); if (hasAudio) audio.currentTime = t; tStart = t; wallStart = performance.now(); draw(); }
+  function loop() {
+    if (!playing) return;
+    t = hasAudio ? audio.currentTime : tStart + (performance.now() - wallStart) / 1000; // preview only: real clock
+    if (t >= info.duration) { playing = false; $('play').textContent = 'Play'; audio.pause(); seek(0); return; }
+    draw();
+    requestAnimationFrame(loop);
+  }
+  $('play').onclick = () => {
+    playing = !playing;
+    $('play').textContent = playing ? 'Pause' : 'Play';
+    if (playing) { tStart = t; wallStart = performance.now(); if (hasAudio) { audio.currentTime = t; audio.play(); } loop(); } else audio.pause();
+  };
+  $('prev').onclick = () => seek(t - 1 / info.fps);
+  $('next').onclick = () => seek(t + 1 / info.fps);
+  $('scrub').oninput = (e) => seek(+e.target.value * info.duration);
+  addEventListener('keydown', (e) => { if (e.code === 'Space') { e.preventDefault(); $('play').click(); } if (e.code === 'ArrowLeft') $('prev').click(); if (e.code === 'ArrowRight') $('next').click(); });
+  seek(0);
+</script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+{
+  "header": {
+    "id": "mrs_hale",
+    "tags": {
+      "role": [
+        "elder",
+        "villager",
+        "widow"
+      ],
+      "age": "elder",
+      "mood": [
+        "content",
+        "patient"
+      ],
+      "story": "the-ropes"
+    },
+    "description": "Old Mrs. Hale: grandma template, rose cardigan, white bun, glasses, both hands; her rope is tied in a neat bow (production draws the bow)."
+  },
+  "spec": {
+    "template": "grandma",
+    "face": "content",
+    "hands": "both",
+    "hair": {
+      "style": "bun",
+      "color": "#f2f2f2"
+    },
+    "shirt": {
+      "pattern": "cardigan",
+      "color": "#c0607a",
+      "sleeves": "full"
+    },
+    "pants": {
+      "pattern": "skirt",
+      "color": "#5a4a6a",
+      "length": 1.4
+    }
+  }
+}

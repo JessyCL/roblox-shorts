@@ -1,0 +1,40 @@
+{
+  "header": {
+    "id": "villager_curly",
+    "tags": {
+      "role": [
+        "villager",
+        "dancer",
+        "extra"
+      ],
+      "age": "adult",
+      "mood": [
+        "happy"
+      ],
+      "story": "everyone-has-one-hand"
+    },
+    "description": "Curly-haired villager in a green shirt and boots."
+  },
+  "spec": {
+    "hands": "right",
+    "faceStyle": "a",
+    "face": "smile",
+    "skin": "pastel-brown",
+    "hair": {
+      "style": "curly",
+      "color": "#1a1410"
+    },
+    "shirt": {
+      "sleeves": "full",
+      "pattern": "solid",
+      "color": "#5a7a3a"
+    },
+    "pants": {
+      "color": "#4a3a2c",
+      "shoes": {
+        "style": "boot",
+        "color": "#2a2018"
+      }
+    }
+  }
+}

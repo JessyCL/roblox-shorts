@@ -1,0 +1,1512 @@
+{
+ "style": {
+  "font": "poppins",
+  "color": "white",
+  "y": 0.7,
+  "size": 145,
+  "outline": 7,
+  "pop": false
+ },
+ "words": [
+  {
+   "start": 0.1,
+   "end": 0.671,
+   "text": "in this village,"
+  },
+  {
+   "start": 0.671,
+   "end": 1.084,
+   "text": "everyone"
+  },
+  {
+   "start": 1.084,
+   "end": 1.459,
+   "text": "is born"
+  },
+  {
+   "start": 1.459,
+   "end": 2.26,
+   "text": "with one hand,"
+  },
+  {
+   "start": 2.26,
+   "end": 2.871,
+   "text": "and two hands"
+  },
+  {
+   "start": 2.871,
+   "end": 3.109,
+   "text": "means"
+  },
+  {
+   "start": 3.109,
+   "end": 3.209,
+   "text": "you're"
+  },
+  {
+   "start": 3.209,
+   "end": 3.819,
+   "text": "the grabber"
+  },
+  {
+   "start": 4.319,
+   "end": 4.588,
+   "text": "you see,"
+  },
+  {
+   "start": 4.588,
+   "end": 4.876,
+   "text": "gloves"
+  },
+  {
+   "start": 4.876,
+   "end": 5.214,
+   "text": "are sold"
+  },
+  {
+   "start": 5.214,
+   "end": 5.451,
+   "text": "one at"
+  },
+  {
+   "start": 5.451,
+   "end": 5.938,
+   "text": "a time,"
+  },
+  {
+   "start": 5.938,
+   "end": 6.488,
+   "text": "and nobody's"
+  },
+  {
+   "start": 6.488,
+   "end": 6.688,
+   "text": "ever"
+  },
+  {
+   "start": 6.688,
+   "end": 7.25,
+   "text": "clapped"
+  },
+  {
+   "start": 7.25,
+   "end": 7.464,
+   "text": "applause"
+  },
+  {
+   "start": 7.464,
+   "end": 8.077,
+   "text": "is stomping"
+  },
+  {
+   "start": 8.077,
+   "end": 8.377,
+   "text": "weddings"
+  },
+  {
+   "start": 8.377,
+   "end": 8.614,
+   "text": "sound"
+  },
+  {
+   "start": 8.614,
+   "end": 8.739,
+   "text": "like"
+  },
+  {
+   "start": 8.739,
+   "end": 9.488,
+   "text": "a stampede"
+  },
+  {
+   "start": 9.488,
+   "end": 10.162,
+   "text": "the jar factory"
+  },
+  {
+   "start": 10.162,
+   "end": 10.5,
+   "text": "closed"
+  },
+  {
+   "start": 10.5,
+   "end": 11.698,
+   "text": "in 1931,"
+  },
+  {
+   "start": 11.698,
+   "end": 12.262,
+   "text": "because nobody"
+  },
+  {
+   "start": 12.262,
+   "end": 12.737,
+   "text": "in town"
+  },
+  {
+   "start": 12.737,
+   "end": 13.1,
+   "text": "could open"
+  },
+  {
+   "start": 13.1,
+   "end": 13.68,
+   "text": "a jar"
+  },
+  {
+   "start": 13.68,
+   "end": 13.84,
+   "text": "and when"
+  },
+  {
+   "start": 13.84,
+   "end": 14.202,
+   "text": "you wave"
+  },
+  {
+   "start": 14.202,
+   "end": 14.715,
+   "text": "goodbye,"
+  },
+  {
+   "start": 14.715,
+   "end": 14.965,
+   "text": "you have"
+  },
+  {
+   "start": 14.965,
+   "end": 15.502,
+   "text": "to put down"
+  },
+  {
+   "start": 15.502,
+   "end": 15.79,
+   "text": "whatever"
+  },
+  {
+   "start": 15.79,
+   "end": 15.902,
+   "text": "you're"
+  },
+  {
+   "start": 15.902,
+   "end": 16.433,
+   "text": "holding"
+  },
+  {
+   "start": 16.433,
+   "end": 16.725,
+   "text": "nobody"
+  },
+  {
+   "start": 16.725,
+   "end": 16.95,
+   "text": "goes"
+  },
+  {
+   "start": 16.95,
+   "end": 17.263,
+   "text": "past"
+  },
+  {
+   "start": 17.263,
+   "end": 17.85,
+   "text": "the old mill"
+  },
+  {
+   "start": 17.85,
+   "end": 18.523,
+   "text": "after dark,"
+  },
+  {
+   "start": 18.523,
+   "end": 18.938,
+   "text": "because that's"
+  },
+  {
+   "start": 18.938,
+   "end": 19.525,
+   "text": "where the grabber"
+  },
+  {
+   "start": 19.525,
+   "end": 20.09,
+   "text": "lives"
+  },
+  {
+   "start": 20.09,
+   "end": 20.587,
+   "text": "11 feet"
+  },
+  {
+   "start": 20.587,
+   "end": 20.912,
+   "text": "tall,"
+  },
+  {
+   "start": 20.912,
+   "end": 21.587,
+   "text": "two enormous"
+  },
+  {
+   "start": 21.587,
+   "end": 22.22,
+   "text": "hands"
+  },
+  {
+   "start": 22.22,
+   "end": 22.799,
+   "text": "every winter,"
+  },
+  {
+   "start": 22.799,
+   "end": 23.162,
+   "text": "it takes"
+  },
+  {
+   "start": 23.162,
+   "end": 23.612,
+   "text": "one thing"
+  },
+  {
+   "start": 23.612,
+   "end": 24.451,
+   "text": "from the village"
+  },
+  {
+   "start": 24.451,
+   "end": 24.744,
+   "text": "a church"
+  },
+  {
+   "start": 24.744,
+   "end": 24.994,
+   "text": "bell"
+  },
+  {
+   "start": 24.994,
+   "end": 25.731,
+   "text": "a hay cart"
+  },
+  {
+   "start": 25.731,
+   "end": 25.994,
+   "text": "mrs"
+  },
+  {
+   "start": 25.994,
+   "end": 26.569,
+   "text": "abernathy's"
+  },
+  {
+   "start": 26.569,
+   "end": 26.911,
+   "text": "left"
+  },
+  {
+   "start": 26.911,
+   "end": 27.291,
+   "text": "boot"
+  },
+  {
+   "start": 27.291,
+   "end": 27.594,
+   "text": "nobody"
+  },
+  {
+   "start": 27.594,
+   "end": 27.844,
+   "text": "knows"
+  },
+  {
+   "start": 27.844,
+   "end": 28.319,
+   "text": "why it only"
+  },
+  {
+   "start": 28.319,
+   "end": 28.557,
+   "text": "wants"
+  },
+  {
+   "start": 28.557,
+   "end": 28.882,
+   "text": "the left"
+  },
+  {
+   "start": 28.882,
+   "end": 29.273,
+   "text": "one"
+  },
+  {
+   "start": 29.273,
+   "end": 29.57,
+   "text": "my name"
+  },
+  {
+   "start": 29.57,
+   "end": 30.02,
+   "text": "is lenny,"
+  },
+  {
+   "start": 30.02,
+   "end": 30.308,
+   "text": "and there's"
+  },
+  {
+   "start": 30.308,
+   "end": 30.733,
+   "text": "one thing"
+  },
+  {
+   "start": 30.733,
+   "end": 31.145,
+   "text": "you should know"
+  },
+  {
+   "start": 31.145,
+   "end": 31.783,
+   "text": "about me"
+  },
+  {
+   "start": 31.783,
+   "end": 32.195,
+   "text": "i was born"
+  },
+  {
+   "start": 32.195,
+   "end": 33.173,
+   "text": "with two hands"
+  },
+  {
+   "start": 33.173,
+   "end": 33.855,
+   "text": "my mom sews"
+  },
+  {
+   "start": 33.855,
+   "end": 34.355,
+   "text": "my second"
+  },
+  {
+   "start": 34.355,
+   "end": 34.693,
+   "text": "sleeve"
+  },
+  {
+   "start": 34.693,
+   "end": 34.955,
+   "text": "shut"
+  },
+  {
+   "start": 34.955,
+   "end": 35.743,
+   "text": "every morning,"
+  },
+  {
+   "start": 35.743,
+   "end": 36.105,
+   "text": "and i keep"
+  },
+  {
+   "start": 36.105,
+   "end": 36.543,
+   "text": "that hand"
+  },
+  {
+   "start": 36.543,
+   "end": 37.105,
+   "text": "in my pocket"
+  },
+  {
+   "start": 37.105,
+   "end": 37.63,
+   "text": "so nobody"
+  },
+  {
+   "start": 37.63,
+   "end": 38.316,
+   "text": "screams"
+  },
+  {
+   "start": 38.316,
+   "end": 38.509,
+   "text": "kids"
+  },
+  {
+   "start": 38.509,
+   "end": 38.672,
+   "text": "call"
+  },
+  {
+   "start": 38.672,
+   "end": 39.346,
+   "text": "me spare"
+  },
+  {
+   "start": 39.346,
+   "end": 39.809,
+   "text": "every day,"
+  },
+  {
+   "start": 39.809,
+   "end": 40.109,
+   "text": "gordy"
+  },
+  {
+   "start": 40.109,
+   "end": 40.359,
+   "text": "platt"
+  },
+  {
+   "start": 40.359,
+   "end": 40.734,
+   "text": "yells,"
+  },
+  {
+   "start": 40.734,
+   "end": 40.959,
+   "text": "hey,"
+  },
+  {
+   "start": 40.959,
+   "end": 41.222,
+   "text": "spare,"
+  },
+  {
+   "start": 41.222,
+   "end": 41.347,
+   "text": "give"
+  },
+  {
+   "start": 41.347,
+   "end": 42.03,
+   "text": "us a hand!"
+  },
+  {
+   "start": 42.03,
+   "end": 42.312,
+   "text": "he thinks"
+  },
+  {
+   "start": 42.312,
+   "end": 42.487,
+   "text": "that's"
+  },
+  {
+   "start": 42.487,
+   "end": 43.25,
+   "text": "hilarious"
+  },
+  {
+   "start": 43.25,
+   "end": 43.662,
+   "text": "honestly,"
+  },
+  {
+   "start": 43.662,
+   "end": 43.775,
+   "text": "it's"
+  },
+  {
+   "start": 43.775,
+   "end": 44.025,
+   "text": "pretty"
+  },
+  {
+   "start": 44.025,
+   "end": 44.287,
+   "text": "good"
+  },
+  {
+   "start": 44.287,
+   "end": 44.862,
+   "text": "i'm 12"
+  },
+  {
+   "start": 44.862,
+   "end": 45,
+   "text": "i've"
+  },
+  {
+   "start": 45,
+   "end": 45.2,
+   "text": "never"
+  },
+  {
+   "start": 45.2,
+   "end": 45.487,
+   "text": "clapped"
+  },
+  {
+   "start": 45.487,
+   "end": 46.156,
+   "text": "in public"
+  },
+  {
+   "start": 46.156,
+   "end": 46.589,
+   "text": "my grandma"
+  },
+  {
+   "start": 46.589,
+   "end": 46.939,
+   "text": "says,"
+  },
+  {
+   "start": 46.939,
+   "end": 47.227,
+   "text": "a hand"
+  },
+  {
+   "start": 47.227,
+   "end": 47.552,
+   "text": "you hide"
+  },
+  {
+   "start": 47.552,
+   "end": 47.927,
+   "text": "is a hand"
+  },
+  {
+   "start": 47.927,
+   "end": 48.089,
+   "text": "you'll"
+  },
+  {
+   "start": 48.089,
+   "end": 48.616,
+   "text": "need"
+  },
+  {
+   "start": 48.616,
+   "end": 48.764,
+   "text": "she's"
+  },
+  {
+   "start": 48.764,
+   "end": 49.339,
+   "text": "94"
+  },
+  {
+   "start": 49.339,
+   "end": 49.652,
+   "text": "she says"
+  },
+  {
+   "start": 49.652,
+   "end": 49.852,
+   "text": "a lot"
+  },
+  {
+   "start": 49.852,
+   "end": 50.404,
+   "text": "of things"
+  },
+  {
+   "start": 51.054,
+   "end": 51.463,
+   "text": "then one night"
+  },
+  {
+   "start": 51.463,
+   "end": 52.113,
+   "text": "in january,"
+  },
+  {
+   "start": 52.113,
+   "end": 52.625,
+   "text": "the new church"
+  },
+  {
+   "start": 52.625,
+   "end": 52.85,
+   "text": "bell"
+  },
+  {
+   "start": 52.85,
+   "end": 53.113,
+   "text": "rang"
+  },
+  {
+   "start": 53.113,
+   "end": 54.114,
+   "text": "13 times"
+  },
+  {
+   "start": 54.114,
+   "end": 54.325,
+   "text": "something"
+  },
+  {
+   "start": 54.325,
+   "end": 54.813,
+   "text": "was walking"
+  },
+  {
+   "start": 54.813,
+   "end": 55.063,
+   "text": "down"
+  },
+  {
+   "start": 55.063,
+   "end": 55.313,
+   "text": "main"
+  },
+  {
+   "start": 55.313,
+   "end": 55.764,
+   "text": "street,"
+  },
+  {
+   "start": 55.764,
+   "end": 56,
+   "text": "taller"
+  },
+  {
+   "start": 56,
+   "end": 56.588,
+   "text": "than the lamps,"
+  },
+  {
+   "start": 56.588,
+   "end": 56.95,
+   "text": "dragging"
+  },
+  {
+   "start": 56.95,
+   "end": 57.425,
+   "text": "its knuckles"
+  },
+  {
+   "start": 57.425,
+   "end": 58.276,
+   "text": "on the cobbles"
+  },
+  {
+   "start": 58.276,
+   "end": 58.656,
+   "text": "the rule"
+  },
+  {
+   "start": 58.656,
+   "end": 59.376,
+   "text": "is simple"
+  },
+  {
+   "start": 59.376,
+   "end": 59.856,
+   "text": "when the grabber"
+  },
+  {
+   "start": 59.856,
+   "end": 60.218,
+   "text": "comes,"
+  },
+  {
+   "start": 60.218,
+   "end": 60.443,
+   "text": "you get"
+  },
+  {
+   "start": 60.443,
+   "end": 61.006,
+   "text": "under your bed"
+  },
+  {
+   "start": 61.006,
+   "end": 61.368,
+   "text": "and hold"
+  },
+  {
+   "start": 61.368,
+   "end": 61.993,
+   "text": "your one hand"
+  },
+  {
+   "start": 61.993,
+   "end": 62.822,
+   "text": "over your mouth"
+  },
+  {
+   "start": 62.822,
+   "end": 63.276,
+   "text": "so i did"
+  },
+  {
+   "start": 63.276,
+   "end": 63.526,
+   "text": "and then"
+  },
+  {
+   "start": 63.526,
+   "end": 63.851,
+   "text": "i heard"
+  },
+  {
+   "start": 63.851,
+   "end": 64.189,
+   "text": "my little"
+  },
+  {
+   "start": 64.189,
+   "end": 64.489,
+   "text": "sister"
+  },
+  {
+   "start": 64.489,
+   "end": 64.789,
+   "text": "pip's"
+  },
+  {
+   "start": 64.789,
+   "end": 65.064,
+   "text": "window"
+  },
+  {
+   "start": 65.064,
+   "end": 65.543,
+   "text": "open"
+  },
+  {
+   "start": 65.543,
+   "end": 65.964,
+   "text": "two huge"
+  },
+  {
+   "start": 65.964,
+   "end": 66.164,
+   "text": "gray"
+  },
+  {
+   "start": 66.164,
+   "end": 66.539,
+   "text": "fingers"
+  },
+  {
+   "start": 66.539,
+   "end": 66.801,
+   "text": "reached"
+  },
+  {
+   "start": 66.801,
+   "end": 67.089,
+   "text": "in,"
+  },
+  {
+   "start": 67.089,
+   "end": 67.276,
+   "text": "picked"
+  },
+  {
+   "start": 67.276,
+   "end": 67.651,
+   "text": "her up like"
+  },
+  {
+   "start": 67.651,
+   "end": 68.176,
+   "text": "a sandwich,"
+  },
+  {
+   "start": 68.176,
+   "end": 68.426,
+   "text": "and she"
+  },
+  {
+   "start": 68.426,
+   "end": 69.098,
+   "text": "was gone"
+  },
+  {
+   "start": 69.098,
+   "end": 69.313,
+   "text": "i sat"
+  },
+  {
+   "start": 69.313,
+   "end": 69.838,
+   "text": "on my bed,"
+  },
+  {
+   "start": 69.838,
+   "end": 70.188,
+   "text": "and i ripped"
+  },
+  {
+   "start": 70.188,
+   "end": 70.563,
+   "text": "my sleeve"
+  },
+  {
+   "start": 70.563,
+   "end": 71.029,
+   "text": "open"
+  },
+  {
+   "start": 71.029,
+   "end": 71.319,
+   "text": "i climbed"
+  },
+  {
+   "start": 71.319,
+   "end": 71.469,
+   "text": "down"
+  },
+  {
+   "start": 71.469,
+   "end": 71.994,
+   "text": "the drainpipe"
+  },
+  {
+   "start": 71.994,
+   "end": 72.719,
+   "text": "with two hands,"
+  },
+  {
+   "start": 72.719,
+   "end": 72.919,
+   "text": "which,"
+  },
+  {
+   "start": 72.919,
+   "end": 73.344,
+   "text": "by the way,"
+  },
+  {
+   "start": 73.344,
+   "end": 73.731,
+   "text": "is really"
+  },
+  {
+   "start": 73.731,
+   "end": 74.262,
+   "text": "easy"
+  },
+  {
+   "start": 74.262,
+   "end": 74.711,
+   "text": "the footprints"
+  },
+  {
+   "start": 74.711,
+   "end": 74.874,
+   "text": "went"
+  },
+  {
+   "start": 74.874,
+   "end": 75.174,
+   "text": "straight"
+  },
+  {
+   "start": 75.174,
+   "end": 75.774,
+   "text": "to the mill"
+  },
+  {
+   "start": 75.774,
+   "end": 76.236,
+   "text": "inside,"
+  },
+  {
+   "start": 76.236,
+   "end": 76.761,
+   "text": "there were piles"
+  },
+  {
+   "start": 76.761,
+   "end": 77.182,
+   "text": "of stuff"
+  },
+  {
+   "start": 77.422,
+   "end": 77.724,
+   "text": "bells,"
+  },
+  {
+   "start": 77.724,
+   "end": 78.099,
+   "text": "carts,"
+  },
+  {
+   "start": 78.099,
+   "end": 78.461,
+   "text": "tools,"
+  },
+  {
+   "start": 78.461,
+   "end": 79.432,
+   "text": "and 61 left"
+  },
+  {
+   "start": 79.432,
+   "end": 79.914,
+   "text": "boots"
+  },
+  {
+   "start": 79.914,
+   "end": 80.05,
+   "text": "and on"
+  },
+  {
+   "start": 80.05,
+   "end": 80.675,
+   "text": "the top shelf,"
+  },
+  {
+   "start": 80.675,
+   "end": 80.85,
+   "text": "next"
+  },
+  {
+   "start": 80.85,
+   "end": 81.488,
+   "text": "to a lantern,"
+  },
+  {
+   "start": 81.488,
+   "end": 81.975,
+   "text": "sat pip,"
+  },
+  {
+   "start": 81.975,
+   "end": 82.2,
+   "text": "eating"
+  },
+  {
+   "start": 82.2,
+   "end": 82.791,
+   "text": "a cookie"
+  },
+  {
+   "start": 82.791,
+   "end": 83.227,
+   "text": "then the dark"
+  },
+  {
+   "start": 83.227,
+   "end": 83.627,
+   "text": "at the back"
+  },
+  {
+   "start": 83.627,
+   "end": 84.014,
+   "text": "of the mill"
+  },
+  {
+   "start": 84.014,
+   "end": 84.227,
+   "text": "stood"
+  },
+  {
+   "start": 84.227,
+   "end": 84.581,
+   "text": "up,"
+  },
+  {
+   "start": 84.581,
+   "end": 85.114,
+   "text": "11 feet"
+  },
+  {
+   "start": 85.114,
+   "end": 85.477,
+   "text": "tall,"
+  },
+  {
+   "start": 85.477,
+   "end": 85.839,
+   "text": "and reached"
+  },
+  {
+   "start": 85.839,
+   "end": 86.102,
+   "text": "for me"
+  },
+  {
+   "start": 86.102,
+   "end": 86.464,
+   "text": "with both"
+  },
+  {
+   "start": 86.464,
+   "end": 87.004,
+   "text": "hands"
+  },
+  {
+   "start": 87.754,
+   "end": 88.29,
+   "text": "and it stopped"
+  },
+  {
+   "start": 88.29,
+   "end": 88.69,
+   "text": "it stared"
+  },
+  {
+   "start": 88.69,
+   "end": 89.544,
+   "text": "at my hands"
+  },
+  {
+   "start": 89.544,
+   "end": 90.053,
+   "text": "then it slowly"
+  },
+  {
+   "start": 90.053,
+   "end": 90.29,
+   "text": "held"
+  },
+  {
+   "start": 90.29,
+   "end": 90.753,
+   "text": "out its own"
+  },
+  {
+   "start": 90.753,
+   "end": 91.028,
+   "text": "two,"
+  },
+  {
+   "start": 91.028,
+   "end": 91.34,
+   "text": "palms"
+  },
+  {
+   "start": 91.34,
+   "end": 91.515,
+   "text": "up,"
+  },
+  {
+   "start": 91.515,
+   "end": 91.64,
+   "text": "like"
+  },
+  {
+   "start": 91.64,
+   "end": 92.14,
+   "text": "it was asking"
+  },
+  {
+   "start": 92.14,
+   "end": 92.825,
+   "text": "me something"
+  },
+  {
+   "start": 92.825,
+   "end": 92.966,
+   "text": "that's"
+  },
+  {
+   "start": 92.966,
+   "end": 93.666,
+   "text": "when i realized"
+  },
+  {
+   "start": 93.666,
+   "end": 94.178,
+   "text": "the grabber"
+  },
+  {
+   "start": 94.178,
+   "end": 94.466,
+   "text": "wasn't"
+  },
+  {
+   "start": 94.466,
+   "end": 95.215,
+   "text": "a monster"
+  },
+  {
+   "start": 95.215,
+   "end": 95.341,
+   "text": "it was"
+  },
+  {
+   "start": 95.341,
+   "end": 95.828,
+   "text": "a kid,"
+  },
+  {
+   "start": 95.828,
+   "end": 96.078,
+   "text": "born"
+  },
+  {
+   "start": 96.078,
+   "end": 96.891,
+   "text": "here 60 years"
+  },
+  {
+   "start": 96.891,
+   "end": 97.166,
+   "text": "ago,"
+  },
+  {
+   "start": 97.166,
+   "end": 98.168,
+   "text": "with two hands"
+  },
+  {
+   "start": 98.168,
+   "end": 98.482,
+   "text": "they locked"
+  },
+  {
+   "start": 98.482,
+   "end": 98.807,
+   "text": "the doors"
+  },
+  {
+   "start": 98.807,
+   "end": 99.358,
+   "text": "on him"
+  },
+  {
+   "start": 99.358,
+   "end": 100.132,
+   "text": "so every winter,"
+  },
+  {
+   "start": 100.132,
+   "end": 100.444,
+   "text": "he took"
+  },
+  {
+   "start": 100.444,
+   "end": 100.944,
+   "text": "one thing,"
+  },
+  {
+   "start": 100.944,
+   "end": 101.269,
+   "text": "hoping"
+  },
+  {
+   "start": 101.269,
+   "end": 101.532,
+   "text": "someone"
+  },
+  {
+   "start": 101.532,
+   "end": 101.782,
+   "text": "would come"
+  },
+  {
+   "start": 101.782,
+   "end": 101.982,
+   "text": "to get"
+  },
+  {
+   "start": 101.982,
+   "end": 102.59,
+   "text": "it back"
+  },
+  {
+   "start": 102.59,
+   "end": 102.862,
+   "text": "nobody"
+  },
+  {
+   "start": 102.862,
+   "end": 103.037,
+   "text": "ever"
+  },
+  {
+   "start": 103.037,
+   "end": 103.45,
+   "text": "came"
+  },
+  {
+   "start": 103.45,
+   "end": 103.775,
+   "text": "not once"
+  },
+  {
+   "start": 103.775,
+   "end": 104.607,
+   "text": "in 60 years"
+  },
+  {
+   "start": 105.157,
+   "end": 105.352,
+   "text": "so i"
+  },
+  {
+   "start": 105.352,
+   "end": 105.827,
+   "text": "did the thing"
+  },
+  {
+   "start": 105.827,
+   "end": 106.227,
+   "text": "nobody"
+  },
+  {
+   "start": 106.227,
+   "end": 106.752,
+   "text": "in this village"
+  },
+  {
+   "start": 106.752,
+   "end": 107.164,
+   "text": "has ever"
+  },
+  {
+   "start": 107.164,
+   "end": 107.677,
+   "text": "done"
+  },
+  {
+   "start": 107.677,
+   "end": 108.014,
+   "text": "i held"
+  },
+  {
+   "start": 108.014,
+   "end": 108.202,
+   "text": "both"
+  },
+  {
+   "start": 108.202,
+   "end": 108.976,
+   "text": "his hands"
+  },
+  {
+   "start": 108.976,
+   "end": 109.302,
+   "text": "then i let"
+  },
+  {
+   "start": 109.302,
+   "end": 109.514,
+   "text": "go,"
+  },
+  {
+   "start": 109.514,
+   "end": 110.164,
+   "text": "and i clapped"
+  },
+  {
+   "start": 110.164,
+   "end": 110.577,
+   "text": "he clapped"
+  },
+  {
+   "start": 110.577,
+   "end": 110.889,
+   "text": "back"
+  },
+  {
+   "start": 110.889,
+   "end": 111.264,
+   "text": "it sounded"
+  },
+  {
+   "start": 111.264,
+   "end": 111.452,
+   "text": "like"
+  },
+  {
+   "start": 111.452,
+   "end": 112.017,
+   "text": "thunder"
+  },
+  {
+   "start": 112.017,
+   "end": 112.318,
+   "text": "we walked"
+  },
+  {
+   "start": 112.318,
+   "end": 112.505,
+   "text": "back"
+  },
+  {
+   "start": 112.505,
+   "end": 112.98,
+   "text": "into town"
+  },
+  {
+   "start": 112.98,
+   "end": 113.668,
+   "text": "at sunrise,"
+  },
+  {
+   "start": 113.668,
+   "end": 114.005,
+   "text": "carrying"
+  },
+  {
+   "start": 114.005,
+   "end": 114.38,
+   "text": "the bell,"
+  },
+  {
+   "start": 114.38,
+   "end": 114.805,
+   "text": "the carts,"
+  },
+  {
+   "start": 114.805,
+   "end": 115.155,
+   "text": "and pip,"
+  },
+  {
+   "start": 115.155,
+   "end": 115.593,
+   "text": "who was still"
+  },
+  {
+   "start": 115.593,
+   "end": 116.071,
+   "text": "eating"
+  },
+  {
+   "start": 116.071,
+   "end": 116.269,
+   "text": "mrs"
+  },
+  {
+   "start": 116.269,
+   "end": 116.744,
+   "text": "abernathy"
+  },
+  {
+   "start": 116.744,
+   "end": 117.294,
+   "text": "got her boots"
+  },
+  {
+   "start": 117.294,
+   "end": 117.669,
+   "text": "back"
+  },
+  {
+   "start": 117.669,
+   "end": 118.594,
+   "text": "all 61 left"
+  },
+  {
+   "start": 118.594,
+   "end": 118.994,
+   "text": "ones"
+  },
+  {
+   "start": 118.994,
+   "end": 119.319,
+   "text": "gordy"
+  },
+  {
+   "start": 119.319,
+   "end": 119.594,
+   "text": "platt"
+  },
+  {
+   "start": 119.594,
+   "end": 120.15,
+   "text": "fainted"
+  },
+  {
+   "start": 120.15,
+   "end": 120.374,
+   "text": "grandma"
+  },
+  {
+   "start": 120.374,
+   "end": 121.07,
+   "text": "just nodded"
+  },
+  {
+   "start": 121.07,
+   "end": 121.274,
+   "text": "told"
+  },
+  {
+   "start": 121.274,
+   "end": 122.036,
+   "text": "you, she said"
+  },
+  {
+   "start": 122.036,
+   "end": 122.508,
+   "text": "now clapping"
+  },
+  {
+   "start": 122.508,
+   "end": 123.166,
+   "text": "is legal"
+  },
+  {
+   "start": 123.166,
+   "end": 123.733,
+   "text": "there are exactly"
+  },
+  {
+   "start": 123.733,
+   "end": 124.195,
+   "text": "2 people"
+  },
+  {
+   "start": 124.195,
+   "end": 124.545,
+   "text": "in town"
+  },
+  {
+   "start": 124.545,
+   "end": 124.808,
+   "text": "who can"
+  },
+  {
+   "start": 124.808,
+   "end": 125.158,
+   "text": "do it,"
+  },
+  {
+   "start": 125.158,
+   "end": 125.395,
+   "text": "and we"
+  },
+  {
+   "start": 125.395,
+   "end": 125.683,
+   "text": "do it"
+  },
+  {
+   "start": 125.683,
+   "end": 126.562,
+   "text": "at every wedding"
+  },
+  {
+   "start": 126.562,
+   "end": 126.745,
+   "text": "they still"
+  },
+  {
+   "start": 126.745,
+   "end": 126.883,
+   "text": "call"
+  },
+  {
+   "start": 126.883,
+   "end": 127.683,
+   "text": "me spare"
+  },
+  {
+   "start": 127.683,
+   "end": 128.047,
+   "text": "every village"
+  },
+  {
+   "start": 128.047,
+   "end": 128.284,
+   "text": "needs"
+  },
+  {
+   "start": 128.284,
+   "end": 128.622,
+   "text": "one"
+  }
+ ]
+}

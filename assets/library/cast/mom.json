@@ -1,0 +1,38 @@
+{
+  "header": {
+    "id": "mom",
+    "tags": {
+      "role": [
+        "parent",
+        "villager"
+      ],
+      "age": "adult",
+      "mood": [
+        "kind",
+        "calm"
+      ],
+      "story": "everyone-has-one-hand"
+    },
+    "description": "Medieval mom in a teal dress, brown bun; one hand. Works with the sew clip."
+  },
+  "spec": {
+    "hands": "right",
+    "faceStyle": "b",
+    "face": "smile",
+    "skin": "light",
+    "hair": {
+      "style": "bun",
+      "color": "#6a4026"
+    },
+    "shirt": {
+      "sleeves": "full",
+      "pattern": "dress",
+      "color": "#3f7f6a"
+    },
+    "pants": {
+      "pattern": "skirt",
+      "color": "#3f7f6a",
+      "length": 1.4
+    }
+  }
+}

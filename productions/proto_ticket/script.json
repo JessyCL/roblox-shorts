@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "slug": "proto_ticket",
+  "title": "Everyone Gets a TICKET... #shorts #roblox #viral",
+  "note": "Small worked example: a 14 s opening with original assets.",
+  "premise": "In this world, every baby is handed a ticket, and you wait your whole life for your number.",
+  "pov": "first",
+  "narrator": { "name": "Tam", "age": 12, "gender": "m" },
+  "target_duration_s": 14,
+  "voice": { "engine": "kokoro", "voice": "am_fenrir", "speed": 1.25, "target_wpm": 262, "line_gap_ms": 150 },
+  "music": [
+    { "id": "M1", "role": "bed", "at": { "line": "L01", "w": 0 }, "mood": "whimsical-curious", "feel": ["Mysterious", "Calming"], "must_have": "no drums", "level_db_under_voice": 22 },
+    { "id": "END", "role": "stop", "at": "last_word_end", "tail_ms": 200 }
+  ],
+  "lines": [
+    { "id": "L01", "beat": "hook", "text": "In this world, every baby is handed a ticket, and you wait your whole life for your number.",
+      "emphasis": [7], "pause_after_ms": 550,
+      "sfx": [{ "id": "whoosh", "w": 0, "gain_db": -12 }] },
+    { "id": "L02", "beat": "world", "text": "You see, the sign hangs over the square. \"Now serving seven.\"", "emphasis": [10] },
+    { "id": "L03", "beat": "world", "text": "It has said seven for 200 years.", "say": { "200": "two hundred" } },
+    { "id": "L04", "beat": "mystery", "text": "Nobody knows what you get when you're served." },
+    { "id": "L05", "beat": "world", "text": "The stories say number one asked for a crown and got a crown.", "emphasis": [12],
+      "sfx": [{ "id": "pop", "w": 10, "gain_db": -14 }] },
+    { "id": "L06", "beat": "world", "text": "Number two asked for a boat.", "emphasis": [5] }
+  ]
+}

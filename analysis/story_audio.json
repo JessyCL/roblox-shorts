@@ -1,0 +1,220 @@
+{
+  "_doc": "Story & audio targets plus the per-production script.json contract consumed by engine/audio/tts.py (TTS + timing stage). Derived from 10 sample Shorts. Human-readable rationale: the STORY & AUDIO FORMULA doc. Token = whitespace-separated word of a line's `text` (punctuation attached, digits count as 1 token), 0-based within the line.",
+  "version": 1,
+
+  "measured": {
+    "_cols": "dur_s, tokens (en-orig ASR), wpm (tokens/runtime), pauses_ge_0p6s, numeral_tokens, hero_intro_s, inciting_s, music_turn_s (30-120 Hz floor step), twist_s, lufs, lra, tp_dbtp, title_pattern",
+    "S1": [118.1, 523, 266, 6, 14, 34.0, 51.0, 51.4, 85.8, -13.1, 1.9, 0.1, "A"],
+    "S2": [160.4, 707, 265, 7, 11, 35.9, 71.4, 71.0, 112.8, -10.0, 1.6, 0.1, "B"],
+    "S3": [144.5, 591, 245, 6, 5, 33.5, 42.8, 44.5, 59.8, -13.9, 3.5, -0.3, "A"],
+    "S4": [147.6, 547, 222, 7, 2, 27.9, 62.2, null, 97.1, -17.2, 2.8, -2.0, "A"],
+    "S5": [111.2, 461, 249, 2, 2, 16.2, 51.9, 48.7, 81.8, -17.2, 2.7, -2.9, "A"],
+    "S6": [123.5, 546, 265, 3, 2, 24.2, 41.1, 41.4, 72.0, -13.1, 3.3, 0.0, "A"],
+    "S7": [158.3, 669, 254, 9, 11, 34.8, 49.3, 140.1, 97.0, -12.7, 1.8, 0.1, "B"],
+    "S8": [109.8, 464, 254, 5, 11, 26.6, 49.5, 49.9, 83.1, -16.8, 2.3, -2.9, "A"],
+    "S9": [117.8, 540, 275, 1, 2, 20.2, 51.6, 30.0, 84.3, -12.8, 1.9, -0.1, "outlier"],
+    "S10": [151.4, 645, 256, 5, 9, 50.9, 61.8, 62.1, 89.8, -12.9, 1.8, 0.2, "B (too new to judge)"]
+  },
+
+  "targets": {
+    "story": {
+      "duration_s": {"target": 138, "range": [120, 150], "hard": [105, 165]},
+      "tokens": {"target": 600, "range": [520, 650], "hard": [450, 720]},
+      "beat_start_pct": {
+        "hook": [0, 0], "you_see_line": [2, 6], "hero_intro": [15, 35], "inciting": [38, 47],
+        "low_point": [48, 62], "twist": [66, 78], "climax_hero_action": [74, 90], "payoff": [85, 95], "ending_button": [94, 98]
+      },
+      "hook_max_s": 4.5,
+      "last_line_max_tokens": 8,
+      "line_max_tokens": 32,
+      "short_sentence_share": [0.25, 0.36],
+      "numeral_tokens_min": 8,
+      "plants_min": 3,
+      "pov": "first person kid narrator (default) or third-person storyteller",
+      "tense": {"rules": "present", "story": "past", "coda": "present"},
+      "no_cta": true
+    },
+    "narration": {
+      "wpm": {"target": 262, "range": [255, 270]},
+      "kokoro_speed_start": {"am_fenrir": 1.25, "am_michael": 1.37, "af_heart": 1.37},
+      "kokoro_speed_bounds": [1.2, 1.45],
+      "line_gap_ms": {"default": 150, "range": [120, 200]},
+      "pause_ms": {"after_hook": [500, 700], "before_inciting": [600, 800], "after_shout_or_quote": [600, 900], "after_big_reveal": [800, 1200], "max": 1600},
+      "pauses_ge_500ms_count": [3, 8]
+    },
+    "music": {
+      "bed_db_under_voice": {"pre_turn": 22, "post_turn": 16, "tolerance": 3},
+      "turn_anchor": "first token of the inciting line (+-0.2 s)",
+      "turn_fade_in_ms": [300, 700],
+      "turn_low_band_rise_db": [12, 23],
+      "optional_dropout_before_turn_ms": 150,
+      "drums": "none or barely audible",
+      "end": "hard stop at last word end + <=300 ms (30-80 ms fade), no outro"
+    },
+    "sfx": {"max_cues": 10, "typical": [2, 6], "transient_db_under_voice_peak": [8, 14], "diegetic_bed_db_under_voice": [15, 20]},
+    "mix": {
+      "voice_bus_lufs": -16,
+      "master_lufs": -14, "master_lufs_tolerance": 0.5, "alt_master_lufs": -13,
+      "true_peak_dbtp_max": -1.0,
+      "lra_lu": [2, 4],
+      "side_to_mid_db_max": -20,
+      "sample_rate": 48000
+    }
+  },
+
+  "lint": [
+    "tokens and duration inside targets.story ranges (warn), inside hard ranges (fail)",
+    "L01 starts with 'In this world,' or 'In this town,' and its last token ends <= 4.5 s",
+    "the second line starts with 'You see,'",
+    "exactly one line has beat 'inciting'; it starts at 38-47% of runtime; a music cue with role 'turn' is anchored at its token 0",
+    "the first 'twist' line starts at 66-78%; the first 'payoff' line at >= 85%; the 'ending' lines start at >= 94%",
+    "every plant: set_up line comes before paid_off line; >= 3 plants",
+    "at least one 'climax' line has hero_action=true (the protagonist's own decision resolves the story)",
+    "numeral tokens >= 8; no line > 32 tokens; last line <= 8 tokens",
+    "measured wpm 255-270 after TTS (re-render with speed *= wpm_target/wpm_measured once if outside)",
+    "3-8 pauses >= 500 ms; none > 1600 ms",
+    "<= 10 sfx cues; music stop resolves to <= 300 ms after the last word end",
+    "no CTA tokens: subscribe, like, comment, follow, part 2"
+  ],
+
+  "script_schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "roblox-shorts/script/1",
+    "title": "Production script (productions/<slug>/script.json)",
+    "type": "object",
+    "required": ["version", "slug", "title", "premise", "pov", "voice", "lines", "music", "plants"],
+    "additionalProperties": false,
+    "properties": {
+      "version": {"const": 1},
+      "slug": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+      "title": {"type": "string", "description": "YouTube title incl. ' #shorts #roblox #viral'"},
+      "premise": {"type": "string", "description": "One sentence world rule; usually identical to L01"},
+      "pov": {"enum": ["first", "third"]},
+      "narrator": {"type": "object", "properties": {"name": {"type": "string"}, "age": {"type": "integer"}, "gender": {"enum": ["m", "f", "n"]}}},
+      "target_duration_s": {"type": "number", "minimum": 105, "maximum": 165},
+      "voice": {
+        "type": "object",
+        "description": "{preset: name} from engine/voices.json (script keys override it; no voice/engine = its default, ElevenLabs), or a full object: kokoro {voice, speed, target_wpm} or elevenlabs {voice_id, model_id, voice_settings, target_wpm}",
+        "properties": {
+          "preset": {"type": "string", "description": "engine/voices.json preset name, e.g. lukas, kokoro_fenrir"},
+          "engine": {"enum": ["elevenlabs", "kokoro", "chatterbox", "external"]},
+          "voice_id": {"type": "string", "description": "elevenlabs voice id"},
+          "model_id": {"type": "string", "default": "eleven_multilingual_v2"},
+          "voice_settings": {"type": "object", "description": "elevenlabs {stability, similarity_boost, style, use_speaker_boost, speed<=1.2}"},
+          "voice": {"type": "string", "description": "kokoro: e.g. am_fenrir, am_michael, af_heart, or 'a+b' blend"},
+          "speed": {"type": "number", "minimum": 1.0, "maximum": 1.6},
+          "target_wpm": {"type": "number", "minimum": 240, "maximum": 285},
+          "line_gap_ms": {"type": "integer", "default": 150},
+          "lang": {"type": "string", "default": "en-us"}
+        }
+      },
+      "plants": {
+        "type": "array",
+        "items": {
+          "type": "object", "required": ["id", "what", "set_up", "paid_off"],
+          "properties": {"id": {"type": "string"}, "what": {"type": "string"}, "set_up": {"$ref": "#/$defs/lineId"}, "paid_off": {"$ref": "#/$defs/lineId"}}
+        }
+      },
+      "music": {
+        "type": "array", "minItems": 2,
+        "items": {
+          "type": "object", "required": ["id", "role", "at"],
+          "properties": {
+            "id": {"type": "string"},
+            "role": {"enum": ["bed", "turn", "lift", "stop"], "description": "bed = act-1 light bed; turn = bass/drone layer at the inciting line; lift = optional swell at reveal/payoff; stop = hard end"},
+            "at": {"oneOf": [{"$ref": "#/$defs/anchor"}, {"const": "last_word_end"}]},
+            "mood": {"type": "string", "description": "e.g. whimsical-curious, mysterious, dark-emotional, tense, warm-resolve"},
+            "feel": {"type": "array", "items": {"type": "string"}, "description": "Incompetech pieces.json 'feel' tags to search"},
+            "track": {"type": "string", "description": "optional explicit file/title; filled by the music stage if absent"},
+            "mode": {"enum": ["replace", "add"], "default": "add", "description": "add = layer over the running bed; replace = crossfade"},
+            "must_have": {"type": "string", "description": "e.g. 'sustained bass/drone 40-120 Hz, no drums'"},
+            "level_db_under_voice": {"type": "number", "minimum": 10, "maximum": 30},
+            "fade_in_ms": {"type": "integer", "default": 0},
+            "tail_ms": {"type": "integer", "maximum": 300, "description": "stop only"}
+          }
+        }
+      },
+      "lines": {"type": "array", "minItems": 30, "items": {"$ref": "#/$defs/line"}}
+    },
+    "$defs": {
+      "lineId": {"type": "string", "pattern": "^L[0-9]{2,3}$"},
+      "anchor": {
+        "type": "object", "required": ["line", "w"],
+        "properties": {"line": {"$ref": "#/$defs/lineId"}, "w": {"type": "integer", "minimum": 0}, "word": {"type": "string", "description": "optional sanity check: must equal token w (punctuation-insensitive)"}, "offset_ms": {"type": "integer", "default": 0}}
+      },
+      "line": {
+        "type": "object",
+        "required": ["id", "beat", "text"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {"$ref": "#/$defs/lineId"},
+          "beat": {"enum": ["hook", "world", "mystery", "hero", "wound", "rival", "plant", "inciting", "rising", "low_point", "false_climax", "twist", "climax", "comeuppance", "payoff", "ending"]},
+          "text": {"type": "string", "maxLength": 240, "description": "Exactly what the captions show. Numbers as digits. One or more sentences."},
+          "say": {"type": "object", "additionalProperties": {"type": "string"}, "description": "token -> spoken form override, e.g. {\"1952\": \"nineteen fifty-two\"}; the caption keeps the token, the timing of the token spans the spoken form"},
+          "emphasis": {"type": "array", "items": {"type": "integer", "minimum": 0}, "description": "token indexes that carry the beat; drive punch-ins, face swaps, SFX hits. NOT caption styling, NOT TTS stress (Kokoro has none)"},
+          "pause_after_ms": {"type": "integer", "minimum": 0, "maximum": 1600, "description": "silence after this line; default voice.line_gap_ms"},
+          "speed": {"type": "number", "description": "optional per-line Kokoro speed override (use sparingly, +-0.05)"},
+          "delivery": {"enum": ["even", "wonder", "dread", "shout", "whisper", "deadpan", "warm"], "default": "even", "description": "hint; used only by expressive engines"},
+          "dialogue": {"type": "boolean", "default": false, "description": "quoted speech, still in the narrator's voice"},
+          "hero_action": {"type": "boolean", "default": false, "description": "marks the protagonist's decisive choice/action"},
+          "shots": {
+            "type": "array",
+            "items": {
+              "type": "object", "required": ["w", "hint"],
+              "properties": {
+                "w": {"type": "integer", "minimum": 0, "description": "cut lands on this token's start (minus 1 frame)"},
+                "hint": {"type": "string", "description": "literal picture of what the words say"},
+                "framing": {"enum": ["ECU", "CU", "MCU", "MS", "WS", "EWS", "aerial", "top_down", "insert"]},
+                "move": {"type": "string", "description": "camera/ module move name, default push_in"},
+                "set": {"type": "string"},
+                "fx": {"type": "array", "items": {"type": "string"}},
+                "grade": {"type": "string", "description": "e.g. sepia_flashback, night, warm_resolve"}
+              }
+            }
+          },
+          "sfx": {
+            "type": "array",
+            "items": {
+              "type": "object", "required": ["id", "w"],
+              "properties": {
+                "id": {"type": "string", "description": "procedural name (whoosh, swoosh, impact_boom, sub_drop, hit, pop, ding, heartbeat, clock_tick, ...) or library asset id"},
+                "w": {"type": "integer", "minimum": 0},
+                "offset_ms": {"type": "integer", "default": 0},
+                "gain_db": {"type": "number", "maximum": -6, "description": "relative to voice peak level"},
+                "dur_ms": {"type": "integer", "description": "for beds/loops (crying, rain, crowd)"}
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+
+  "timing_output": {
+    "_doc": "productions/<slug>/timing.json written by the TTS stage; production.js reads timing.words[i].start/end",
+    "duration": "number, seconds (last word end + stop tail)",
+    "wpm": "number, tokens / (last word end - first word start) * 60",
+    "words": "[{i, line, w, text, start, end}] one entry per script token, in order; end includes no trailing pause",
+    "lines": "[{id, beat, start, end, pause_after_ms}]",
+    "beats": "{beat: [start, end]} first-to-last line of each beat",
+    "cues": "{music: [{id, role, t, ...}], sfx: [{id, t, gain_db, ...}], shots: [{line, w, t, hint, ...}]} anchors resolved to seconds",
+    "lint": "[{rule, ok, detail}]"
+  },
+
+  "example_lines": [
+    {"id": "L01", "beat": "hook", "text": "In this world, the sea goes out for one hour a year, and whatever you carry back is yours.", "emphasis": [9, 18], "pause_after_ms": 550,
+     "shots": [{"w": 0, "hint": "frame 0 zoom-blur in: kid sprinting across wet seabed hugging a gold anchor", "framing": "MS", "move": "lead", "fx": ["zoom_blur_in"]},
+               {"w": 4, "hint": "aerial: drained bay, ships on their sides, hundreds running out with wheelbarrows, sea a wall on the horizon", "framing": "aerial", "move": "crane_up"},
+               {"w": 13, "hint": "CU wheelbarrow heaped with coins being hauled up the beach", "framing": "CU"}],
+     "sfx": [{"id": "whoosh", "w": 0, "gain_db": -12}]},
+    {"id": "L02", "beat": "world", "text": "You see, at dawn on Low Day, the harbor bell rings once, and the water just walks away, past the lighthouse, past the horizon.",
+     "shots": [{"w": 2, "hint": "harbor tower bell at dawn, swings once"}, {"w": 12, "hint": "water receding fast from the harbor wall (time-lapse)"}, {"w": 18, "hint": "lighthouse with the sea pulling away behind it"}]},
+    {"id": "L15", "beat": "inciting", "text": "Then this Low Day, at minute 41, Grandpa sat down on the tower stairs and didn't get up.", "pause_after_ms": 150,
+     "shots": [{"w": 0, "hint": "hourglass half-run, low angle"}, {"w": 7, "hint": "grandpa sliding down the wall onto the stairs, face swap to worried"}]}
+  ],
+  "example_music": [
+    {"id": "M1", "role": "bed", "at": {"line": "L01", "w": 0}, "mood": "whimsical-curious", "feel": ["Mysterious", "Calming"], "must_have": "no drums, mid-register pads/plucks", "level_db_under_voice": 22},
+    {"id": "M2", "role": "turn", "at": {"line": "L15", "w": 0, "word": "Then"}, "mood": "dark-emotional", "feel": ["Dark", "Somber", "Suspenseful"], "mode": "add", "must_have": "sustained bass/drone 40-120 Hz, no drums", "level_db_under_voice": 16, "fade_in_ms": 500},
+    {"id": "END", "role": "stop", "at": "last_word_end", "tail_ms": 200}
+  ]
+}

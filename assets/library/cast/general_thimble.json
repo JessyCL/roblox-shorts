@@ -1,0 +1,52 @@
+{
+  "header": {
+    "id": "general_thimble",
+    "tags": {
+      "role": [
+        "villain",
+        "rival",
+        "general",
+        "leader"
+      ],
+      "age": "adult",
+      "mood": [
+        "smug",
+        "angry"
+      ],
+      "story": "the-tiny-war"
+    },
+    "description": "General Thimble: heavy classic body, silver thimble-like top hat, navy general suit with gold tie, mustache, sewing-needle sword."
+  },
+  "spec": {
+    "body": "classic",
+    "build": "heavy",
+    "faceStyle": "c",
+    "face": "smug",
+    "hands": "both",
+    "skin": "light",
+    "beard": {
+      "style": "mustache",
+      "color": "#3a2a1a"
+    },
+    "hair": {
+      "style": "bald"
+    },
+    "hat": {
+      "type": "tophat",
+      "color": "#c4c8d0"
+    },
+    "shirt": {
+      "pattern": "suit",
+      "color": "#24408a",
+      "tie": "#e0b030",
+      "sleeves": "full"
+    },
+    "pants": {
+      "pattern": "suit",
+      "color": "#1e2a4a"
+    },
+    "attach": [
+      "needle"
+    ]
+  }
+}

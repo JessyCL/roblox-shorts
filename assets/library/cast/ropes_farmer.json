@@ -1,0 +1,49 @@
+{
+  "header": {
+    "id": "ropes_farmer",
+    "tags": {
+      "role": [
+        "villager",
+        "farmer",
+        "extra"
+      ],
+      "age": "adult",
+      "mood": [
+        "calm"
+      ],
+      "story": "the-ropes"
+    },
+    "description": "Village farmer: denim overalls over a white shirt, brown beard, flat cap, both hands."
+  },
+  "spec": {
+    "faceStyle": "c",
+    "face": "neutral",
+    "skin": "nougat",
+    "hands": "both",
+    "hair": {
+      "style": "messy",
+      "color": "#4a2a14"
+    },
+    "beard": {
+      "style": "beard",
+      "color": "#4a2a14"
+    },
+    "hat": {
+      "type": "flatcap",
+      "color": "#6a5a4a"
+    },
+    "shirt": {
+      "pattern": "solid",
+      "color": "#f0ece0",
+      "sleeves": "full"
+    },
+    "pants": {
+      "pattern": "overalls",
+      "color": "#3a5a8a",
+      "shoes": {
+        "style": "boot",
+        "color": "#3a2a1e"
+      }
+    }
+  }
+}

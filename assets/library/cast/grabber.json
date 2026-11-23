@@ -1,0 +1,54 @@
+{
+  "header": {
+    "id": "grabber",
+    "tags": {
+      "role": [
+        "monster",
+        "giant",
+        "villain"
+      ],
+      "age": "adult",
+      "mood": [
+        "scary",
+        "angry"
+      ],
+      "story": "everyone-has-one-hand"
+    },
+    "description": "The Grabber, scary default: 11-stud grey giant with long arms, torn clothes, red-ink angry face. Pair with the monster_entrance fx recipe."
+  },
+  "spec": {
+    "build": {
+      "legY": 1.25,
+      "torsoY": 1.25,
+      "armY": 1.8,
+      "w": 1.12,
+      "head": 0.92
+    },
+    "height": 11.2,
+    "skin": "#8d939b",
+    "hands": "both",
+    "hair": {
+      "style": "messy",
+      "color": "#34343a"
+    },
+    "shirt": {
+      "pattern": "tshirt",
+      "color": "#5c5046",
+      "torn": true,
+      "sleeves": "short"
+    },
+    "pants": {
+      "pattern": "plain",
+      "color": "#463a30",
+      "torn": true,
+      "shoes": false
+    },
+    "faceStyle": {
+      "eyes": "round",
+      "brows": "thick",
+      "ink": "#ff2a1a",
+      "glint": 0
+    },
+    "face": "angry"
+  }
+}

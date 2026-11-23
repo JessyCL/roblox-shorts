@@ -1,0 +1,33 @@
+{
+  "header": {
+    "id": "tam",
+    "tags": {
+      "role": [
+        "hero",
+        "kid"
+      ],
+      "age": "teen",
+      "mood": [
+        "neutral",
+        "curious"
+      ],
+      "story": "proto_ticket"
+    },
+    "description": "Tam, modern hero: red hoodie, jeans, spiky black hair. Signature colour red."
+  },
+  "spec": {
+    "skin": "#f1c9a5",
+    "face": "neutral",
+    "hair": {
+      "style": "spiky",
+      "color": "#151515"
+    },
+    "shirt": {
+      "pattern": "hoodie",
+      "color": "#d8342c"
+    },
+    "pants": {
+      "pattern": "jeans"
+    }
+  }
+}

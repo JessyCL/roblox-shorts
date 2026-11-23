@@ -1,0 +1,17 @@
+{
+  "header": {
+    "id": "door_kid",
+    "tags": { "role": ["hero", "narrator", "kid"], "age": "child", "mood": ["brave", "scared", "determined"], "story": "the-door" },
+    "description": "Pip, hero of The Door: the smallest kid in the village (child build), bright teal hoodie (signature colour, readable at night and at distance), navy shorts, messy dark-brown hair, both hands (they fit the carved handprints). Pair with hold_bar / push_door / lift."
+  },
+  "spec": {
+    "build": "child",
+    "faceStyle": "e",
+    "face": "determined",
+    "skin": "light",
+    "hands": "both",
+    "hair": { "style": "messy", "color": "#3a2416" },
+    "shirt": { "pattern": "hoodie", "color": "#14c2b0", "sleeves": "full" },
+    "pants": { "pattern": "shorts", "color": "#26304e", "shoes": { "style": "sneaker", "color": "#e8e0d0" } }
+  }
+}

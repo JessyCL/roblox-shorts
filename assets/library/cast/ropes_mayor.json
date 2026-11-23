@@ -1,0 +1,52 @@
+{
+  "header": {
+    "id": "ropes_mayor",
+    "tags": {
+      "role": [
+        "mayor",
+        "authority",
+        "rich"
+      ],
+      "age": "adult",
+      "mood": [
+        "smug",
+        "nervous"
+      ],
+      "story": "the-ropes"
+    },
+    "description": "The mayor: round (heavy build), plum suit with a gold tie, black top hat, grey mustache, smug face. His rope is so tight he walks on his toes (tiptoe / tiptoe_stand clips)."
+  },
+  "spec": {
+    "build": "heavy",
+    "faceStyle": "a",
+    "face": "smug",
+    "skin": "pale",
+    "hands": "both",
+    "hair": {
+      "style": "slicked",
+      "color": "#4a4a4a"
+    },
+    "beard": {
+      "style": "mustache",
+      "color": "#8a8a8a"
+    },
+    "hat": {
+      "type": "tophat",
+      "color": "#1a1a1e"
+    },
+    "shirt": {
+      "pattern": "suit",
+      "color": "#6a1f5a",
+      "tie": "#e0b04a",
+      "sleeves": "full"
+    },
+    "pants": {
+      "pattern": "suit",
+      "color": "#4a1440",
+      "shoes": {
+        "style": "shoe",
+        "color": "#1a1a1e"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "header": {
+    "id": "lenny",
+    "tags": {
+      "role": [
+        "hero",
+        "kid"
+      ],
+      "age": "kid",
+      "mood": [
+        "cheerful",
+        "brave"
+      ],
+      "story": "everyone-has-one-hand"
+    },
+    "description": "Short kid hero in a red sweater and jeans, messy brown hair, both hands visible (hide one with hide: [hand_l_mesh] for the sewn-sleeve look). Signature colour red."
+  },
+  "spec": {
+    "build": "short",
+    "faceStyle": "e",
+    "face": "smile",
+    "skin": "light",
+    "hands": "both",
+    "hair": {
+      "style": "messy",
+      "color": "#5a3720"
+    },
+    "shirt": {
+      "pattern": "sweater",
+      "color": "#d8282a",
+      "sleeves": "full"
+    },
+    "pants": {
+      "pattern": "jeans",
+      "shoes": {
+        "style": "sneaker",
+        "color": "#f2f2f2"
+      }
+    }
+  }
+}

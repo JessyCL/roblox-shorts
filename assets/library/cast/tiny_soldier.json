@@ -1,0 +1,39 @@
+{
+  "header": {
+    "id": "tiny_soldier",
+    "tags": {
+      "role": [
+        "soldier",
+        "army",
+        "extra"
+      ],
+      "age": "adult",
+      "mood": [
+        "determined"
+      ],
+      "story": "the-tiny-war"
+    },
+    "description": "Blue-jacketed foot soldier with a grey helmet (tiny kingdom army)."
+  },
+  "spec": {
+    "hands": "both",
+    "shirt": {
+      "pattern": "jacket",
+      "color": "#2f5fae",
+      "sleeves": "full"
+    },
+    "pants": {
+      "pattern": "plain",
+      "color": "#2a2a3a",
+      "shoes": {
+        "style": "boot",
+        "color": "#3a2a1e"
+      }
+    },
+    "hat": {
+      "type": "hardhat",
+      "color": "#9aa2ac"
+    },
+    "face": "determined"
+  }
+}

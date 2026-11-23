@@ -1,0 +1,39 @@
+{
+  "header": {
+    "id": "pip",
+    "tags": {
+      "role": [
+        "sister",
+        "kid",
+        "victim"
+      ],
+      "age": "child",
+      "mood": [
+        "happy",
+        "innocent"
+      ],
+      "story": "everyone-has-one-hand"
+    },
+    "description": "Little sister in a pink dress with blonde pigtails; one (right) hand; pair with the cookie prop / eat clip."
+  },
+  "spec": {
+    "build": "child",
+    "faceStyle": "b",
+    "face": "happy",
+    "skin": "light",
+    "hands": "right",
+    "hair": {
+      "style": "pigtails",
+      "color": "#e2b24a"
+    },
+    "shirt": {
+      "pattern": "dress",
+      "color": "#ff8cb8",
+      "sleeves": "full"
+    },
+    "pants": {
+      "pattern": "skirt",
+      "color": "#ff8cb8"
+    }
+  }
+}

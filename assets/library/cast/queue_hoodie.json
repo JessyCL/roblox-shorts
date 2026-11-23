@@ -1,0 +1,34 @@
+{
+  "header": {
+    "id": "queue_hoodie",
+    "tags": {
+      "role": [
+        "bystander",
+        "queue",
+        "extra"
+      ],
+      "age": "teen",
+      "mood": [
+        "worried"
+      ],
+      "story": "proto_ticket"
+    },
+    "description": "Teen in a blue hoodie and track pants, spiky black hair."
+  },
+  "spec": {
+    "skin": "#8d5a3b",
+    "face": "worried",
+    "hair": {
+      "style": "spiky",
+      "color": "#151515"
+    },
+    "shirt": {
+      "pattern": "hoodie",
+      "color": "#2f6fd6"
+    },
+    "pants": {
+      "pattern": "track",
+      "color": "#1d1f2a"
+    }
+  }
+}

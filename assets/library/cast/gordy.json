@@ -1,0 +1,52 @@
+{
+  "header": {
+    "id": "gordy",
+    "tags": {
+      "role": [
+        "bully",
+        "rival",
+        "kid"
+      ],
+      "age": "kid",
+      "mood": [
+        "smug",
+        "mocking"
+      ],
+      "story": "everyone-has-one-hand"
+    },
+    "description": "Stocky ginger bully in a green cap and yellow/green stripes; smug face. Goes with laugh / point clips."
+  },
+  "spec": {
+    "hands": "right",
+    "faceStyle": "c",
+    "face": "smug",
+    "build": {
+      "torsoX": 1.3,
+      "torsoZ": 1.35,
+      "legX": 1.15,
+      "legY": 0.82,
+      "torsoY": 0.9,
+      "armY": 0.9,
+      "head": 1
+    },
+    "skin": "pastel-brown",
+    "hair": {
+      "style": "spiky",
+      "color": "#c0703a"
+    },
+    "hat": {
+      "type": "cap",
+      "color": "#2f8a3a"
+    },
+    "shirt": {
+      "sleeves": "full",
+      "pattern": "stripes",
+      "color": "#e8d23a",
+      "color2": "#2f8a3a"
+    },
+    "pants": {
+      "pattern": "shorts",
+      "color": "#4a3a2c"
+    }
+  }
+}

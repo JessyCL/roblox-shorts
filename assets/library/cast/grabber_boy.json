@@ -1,0 +1,42 @@
+{
+  "header": {
+    "id": "grabber_boy",
+    "tags": {
+      "role": [
+        "kid",
+        "outcast",
+        "flashback"
+      ],
+      "age": "child",
+      "mood": [
+        "sad",
+        "lonely"
+      ],
+      "story": "everyone-has-one-hand"
+    },
+    "description": "The Grabber as a grey-skinned boy 60 years ago (flashback): torn clothes, both hands."
+  },
+  "spec": {
+    "build": "child",
+    "faceStyle": "e",
+    "face": "sad",
+    "skin": "#b9bdc2",
+    "hands": "both",
+    "hair": {
+      "style": "messy",
+      "color": "#34343a"
+    },
+    "shirt": {
+      "pattern": "tshirt",
+      "color": "#5c5046",
+      "torn": true,
+      "sleeves": "full"
+    },
+    "pants": {
+      "pattern": "plain",
+      "color": "#463a30",
+      "torn": true,
+      "shoes": false
+    }
+  }
+}

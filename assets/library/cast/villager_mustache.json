@@ -1,0 +1,46 @@
+{
+  "header": {
+    "id": "villager_mustache",
+    "tags": {
+      "role": [
+        "villager",
+        "shopkeeper",
+        "extra"
+      ],
+      "age": "adult",
+      "mood": [
+        "friendly"
+      ],
+      "story": "everyone-has-one-hand"
+    },
+    "description": "Medieval villager: mustache, flat cap, brown waistcoat over a white shirt, boots."
+  },
+  "spec": {
+    "hands": "right",
+    "faceStyle": "a",
+    "face": "smile",
+    "skin": "light",
+    "beard": "mustache",
+    "hair": {
+      "style": "balding",
+      "color": "#5a3a20"
+    },
+    "hat": {
+      "type": "flatcap",
+      "color": "#6b4a2e"
+    },
+    "shirt": {
+      "sleeves": "full",
+      "pattern": "waistcoat",
+      "color": "#6a3a1e",
+      "inner": "#f4f1e8"
+    },
+    "pants": {
+      "color": "#3c3c44",
+      "shoes": {
+        "style": "boot",
+        "color": "#2a2018"
+      }
+    }
+  }
+}

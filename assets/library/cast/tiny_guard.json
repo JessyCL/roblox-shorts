@@ -1,0 +1,45 @@
+{
+  "header": {
+    "id": "tiny_guard",
+    "tags": {
+      "role": [
+        "guard",
+        "soldier",
+        "castle"
+      ],
+      "age": "adult",
+      "mood": [
+        "stern"
+      ],
+      "story": "the-tiny-war"
+    },
+    "description": "Castle guard: navy tabard-suit with gold trim, steel helmet, spear in the right hand (pair with the hold clip)."
+  },
+  "spec": {
+    "hands": "both",
+    "face": "determined",
+    "shirt": {
+      "pattern": "suit",
+      "color": "#2a3a6a",
+      "tie": "#e0b030",
+      "sleeves": "full"
+    },
+    "pants": {
+      "pattern": "plain",
+      "color": "#1e2436",
+      "shoes": {
+        "style": "boot",
+        "color": "#2a2018"
+      }
+    },
+    "hat": {
+      "type": "hardhat",
+      "color": "#b8bcc4"
+    },
+    "hold": {
+      "r": {
+        "type": "spear"
+      }
+    }
+  }
+}

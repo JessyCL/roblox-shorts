@@ -1,0 +1,33 @@
+{
+  "header": {
+    "id": "mr_hale",
+    "tags": {
+      "role": [
+        "elder",
+        "husband",
+        "sleeper"
+      ],
+      "age": "elder",
+      "mood": [
+        "sleeping"
+      ],
+      "story": "the-ropes"
+    },
+    "description": "Mrs. Hale's husband: grandpa template, navy waistcoat, white beard, both hands; mostly seen asleep hanging upside down (hang_ankle, face sleepy)."
+  },
+  "spec": {
+    "template": "grandpa",
+    "face": "sleepy",
+    "hands": "both",
+    "shirt": {
+      "pattern": "waistcoat",
+      "color": "#2f4a6a",
+      "inner": "#f4f1e8",
+      "tie": "#c0607a"
+    },
+    "pants": {
+      "pattern": "plain",
+      "color": "#4a4038"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,145,&H00FFFFFF,&H000000FF,&H00000000,&H60000000,-1,0,0,0,100,100,0,0,1,7,3,5,60,60,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.10,0:00:00.75,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}in this world,
+Dialogue: 0,0:00:00.75,0:00:01.35,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}every baby
+Dialogue: 0,0:00:01.35,0:00:01.73,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}is handed
+Dialogue: 0,0:00:01.73,0:00:02.17,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}a ticket,
+Dialogue: 0,0:00:02.38,0:00:02.76,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}and you wait
+Dialogue: 0,0:00:02.76,0:00:03.12,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}your whole
+Dialogue: 0,0:00:03.12,0:00:03.37,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}life
+Dialogue: 0,0:00:03.37,0:00:04.08,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}for your number
+Dialogue: 0,0:00:04.58,0:00:04.83,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}you see,
+Dialogue: 0,0:00:04.83,0:00:05.20,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}the sign
+Dialogue: 0,0:00:05.20,0:00:05.43,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}hangs
+Dialogue: 0,0:00:05.43,0:00:06.33,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}over the square
+Dialogue: 0,0:00:06.33,0:00:06.86,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}now serving
+Dialogue: 0,0:00:06.86,0:00:07.40,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}seven
+Dialogue: 0,0:00:07.40,0:00:07.77,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}it has said
+Dialogue: 0,0:00:07.77,0:00:08.12,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}seven
+Dialogue: 0,0:00:08.12,0:00:09.26,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}for 200 years
+Dialogue: 0,0:00:09.26,0:00:09.55,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}nobody
+Dialogue: 0,0:00:09.55,0:00:09.81,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}knows
+Dialogue: 0,0:00:09.81,0:00:10.18,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}what you get
+Dialogue: 0,0:00:10.18,0:00:10.42,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}when you're
+Dialogue: 0,0:00:10.42,0:00:11.01,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}served
+Dialogue: 0,0:00:11.01,0:00:11.38,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}the stories
+Dialogue: 0,0:00:11.38,0:00:11.83,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}say number
+Dialogue: 0,0:00:11.83,0:00:12.42,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}one asked
+Dialogue: 0,0:00:12.42,0:00:12.93,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}for a crown
+Dialogue: 0,0:00:12.93,0:00:13.20,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}and got
+Dialogue: 0,0:00:13.20,0:00:13.81,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}a crown
+Dialogue: 0,0:00:13.81,0:00:13.99,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}number
+Dialogue: 0,0:00:13.99,0:00:14.42,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}two asked
+Dialogue: 0,0:00:14.42,0:00:14.92,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}for a boat

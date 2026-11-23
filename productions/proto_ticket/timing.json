@@ -1,0 +1,707 @@
+{
+ "duration": 15.069,
+ "wpm": 255.9,
+ "voice": "am_fenrir",
+ "speed": 1.266,
+ "words": [
+  {
+   "i": 0,
+   "line": "L01",
+   "w": 0,
+   "text": "In",
+   "start": 0.1,
+   "end": 0.171
+  },
+  {
+   "i": 1,
+   "line": "L01",
+   "w": 1,
+   "text": "this",
+   "start": 0.171,
+   "end": 0.371
+  },
+  {
+   "i": 2,
+   "line": "L01",
+   "w": 2,
+   "text": "world,",
+   "start": 0.371,
+   "end": 0.696
+  },
+  {
+   "i": 3,
+   "line": "L01",
+   "w": 3,
+   "text": "every",
+   "start": 0.746,
+   "end": 1.046
+  },
+  {
+   "i": 4,
+   "line": "L01",
+   "w": 4,
+   "text": "baby",
+   "start": 1.046,
+   "end": 1.346
+  },
+  {
+   "i": 5,
+   "line": "L01",
+   "w": 5,
+   "text": "is",
+   "start": 1.346,
+   "end": 1.471
+  },
+  {
+   "i": 6,
+   "line": "L01",
+   "w": 6,
+   "text": "handed",
+   "start": 1.471,
+   "end": 1.734
+  },
+  {
+   "i": 7,
+   "line": "L01",
+   "w": 7,
+   "text": "a",
+   "start": 1.734,
+   "end": 1.796
+  },
+  {
+   "i": 8,
+   "line": "L01",
+   "w": 8,
+   "text": "ticket,",
+   "start": 1.796,
+   "end": 2.12
+  },
+  {
+   "i": 9,
+   "line": "L01",
+   "w": 9,
+   "text": "and",
+   "start": 2.38,
+   "end": 2.434
+  },
+  {
+   "i": 10,
+   "line": "L01",
+   "w": 10,
+   "text": "you",
+   "start": 2.434,
+   "end": 2.571
+  },
+  {
+   "i": 11,
+   "line": "L01",
+   "w": 11,
+   "text": "wait",
+   "start": 2.571,
+   "end": 2.759
+  },
+  {
+   "i": 12,
+   "line": "L01",
+   "w": 12,
+   "text": "your",
+   "start": 2.759,
+   "end": 2.896
+  },
+  {
+   "i": 13,
+   "line": "L01",
+   "w": 13,
+   "text": "whole",
+   "start": 2.896,
+   "end": 3.121
+  },
+  {
+   "i": 14,
+   "line": "L01",
+   "w": 14,
+   "text": "life",
+   "start": 3.121,
+   "end": 3.371
+  },
+  {
+   "i": 15,
+   "line": "L01",
+   "w": 15,
+   "text": "for",
+   "start": 3.371,
+   "end": 3.496
+  },
+  {
+   "i": 16,
+   "line": "L01",
+   "w": 16,
+   "text": "your",
+   "start": 3.496,
+   "end": 3.621
+  },
+  {
+   "i": 17,
+   "line": "L01",
+   "w": 17,
+   "text": "number.",
+   "start": 3.621,
+   "end": 4.025
+  },
+  {
+   "i": 18,
+   "line": "L02",
+   "w": 0,
+   "text": "You",
+   "start": 4.575,
+   "end": 4.621
+  },
+  {
+   "i": 19,
+   "line": "L02",
+   "w": 1,
+   "text": "see,",
+   "start": 4.621,
+   "end": 4.796
+  },
+  {
+   "i": 20,
+   "line": "L02",
+   "w": 2,
+   "text": "the",
+   "start": 4.834,
+   "end": 4.921
+  },
+  {
+   "i": 21,
+   "line": "L02",
+   "w": 3,
+   "text": "sign",
+   "start": 4.921,
+   "end": 5.196
+  },
+  {
+   "i": 22,
+   "line": "L02",
+   "w": 4,
+   "text": "hangs",
+   "start": 5.196,
+   "end": 5.434
+  },
+  {
+   "i": 23,
+   "line": "L02",
+   "w": 5,
+   "text": "over",
+   "start": 5.434,
+   "end": 5.634
+  },
+  {
+   "i": 24,
+   "line": "L02",
+   "w": 6,
+   "text": "the",
+   "start": 5.634,
+   "end": 5.721
+  },
+  {
+   "i": 25,
+   "line": "L02",
+   "w": 7,
+   "text": "square.",
+   "start": 5.721,
+   "end": 6.135
+  },
+  {
+   "i": 26,
+   "line": "L02",
+   "w": 8,
+   "text": "\"Now",
+   "start": 6.325,
+   "end": 6.496
+  },
+  {
+   "i": 27,
+   "line": "L02",
+   "w": 9,
+   "text": "serving",
+   "start": 6.496,
+   "end": 6.859
+  },
+  {
+   "i": 28,
+   "line": "L02",
+   "w": 10,
+   "text": "seven.\"",
+   "start": 6.859,
+   "end": 7.25
+  },
+  {
+   "i": 29,
+   "line": "L03",
+   "w": 0,
+   "text": "It",
+   "start": 7.4,
+   "end": 7.434
+  },
+  {
+   "i": 30,
+   "line": "L03",
+   "w": 1,
+   "text": "has",
+   "start": 7.434,
+   "end": 7.546
+  },
+  {
+   "i": 31,
+   "line": "L03",
+   "w": 2,
+   "text": "said",
+   "start": 7.546,
+   "end": 7.771
+  },
+  {
+   "i": 32,
+   "line": "L03",
+   "w": 3,
+   "text": "seven",
+   "start": 7.771,
+   "end": 8.121
+  },
+  {
+   "i": 33,
+   "line": "L03",
+   "w": 4,
+   "text": "for",
+   "start": 8.121,
+   "end": 8.246
+  },
+  {
+   "i": 34,
+   "line": "L03",
+   "w": 5,
+   "text": "200",
+   "start": 8.246,
+   "end": 8.696
+  },
+  {
+   "i": 35,
+   "line": "L03",
+   "w": 6,
+   "text": "years.",
+   "start": 8.696,
+   "end": 9.111
+  },
+  {
+   "i": 36,
+   "line": "L04",
+   "w": 0,
+   "text": "Nobody",
+   "start": 9.261,
+   "end": 9.547
+  },
+  {
+   "i": 37,
+   "line": "L04",
+   "w": 1,
+   "text": "knows",
+   "start": 9.547,
+   "end": 9.809
+  },
+  {
+   "i": 38,
+   "line": "L04",
+   "w": 2,
+   "text": "what",
+   "start": 9.809,
+   "end": 9.934
+  },
+  {
+   "i": 39,
+   "line": "L04",
+   "w": 3,
+   "text": "you",
+   "start": 9.934,
+   "end": 10.022
+  },
+  {
+   "i": 40,
+   "line": "L04",
+   "w": 4,
+   "text": "get",
+   "start": 10.022,
+   "end": 10.184
+  },
+  {
+   "i": 41,
+   "line": "L04",
+   "w": 5,
+   "text": "when",
+   "start": 10.184,
+   "end": 10.309
+  },
+  {
+   "i": 42,
+   "line": "L04",
+   "w": 6,
+   "text": "you're",
+   "start": 10.309,
+   "end": 10.422
+  },
+  {
+   "i": 43,
+   "line": "L04",
+   "w": 7,
+   "text": "served.",
+   "start": 10.422,
+   "end": 10.861
+  },
+  {
+   "i": 44,
+   "line": "L05",
+   "w": 0,
+   "text": "The",
+   "start": 11.011,
+   "end": 11.034
+  },
+  {
+   "i": 45,
+   "line": "L05",
+   "w": 1,
+   "text": "stories",
+   "start": 11.034,
+   "end": 11.384
+  },
+  {
+   "i": 46,
+   "line": "L05",
+   "w": 2,
+   "text": "say",
+   "start": 11.384,
+   "end": 11.584
+  },
+  {
+   "i": 47,
+   "line": "L05",
+   "w": 3,
+   "text": "number",
+   "start": 11.584,
+   "end": 11.834
+  },
+  {
+   "i": 48,
+   "line": "L05",
+   "w": 4,
+   "text": "one",
+   "start": 11.834,
+   "end": 12.147
+  },
+  {
+   "i": 49,
+   "line": "L05",
+   "w": 5,
+   "text": "asked",
+   "start": 12.147,
+   "end": 12.422
+  },
+  {
+   "i": 50,
+   "line": "L05",
+   "w": 6,
+   "text": "for",
+   "start": 12.422,
+   "end": 12.522
+  },
+  {
+   "i": 51,
+   "line": "L05",
+   "w": 7,
+   "text": "a",
+   "start": 12.522,
+   "end": 12.584
+  },
+  {
+   "i": 52,
+   "line": "L05",
+   "w": 8,
+   "text": "crown",
+   "start": 12.584,
+   "end": 12.934
+  },
+  {
+   "i": 53,
+   "line": "L05",
+   "w": 9,
+   "text": "and",
+   "start": 12.934,
+   "end": 13.047
+  },
+  {
+   "i": 54,
+   "line": "L05",
+   "w": 10,
+   "text": "got",
+   "start": 13.047,
+   "end": 13.197
+  },
+  {
+   "i": 55,
+   "line": "L05",
+   "w": 11,
+   "text": "a",
+   "start": 13.197,
+   "end": 13.259
+  },
+  {
+   "i": 56,
+   "line": "L05",
+   "w": 12,
+   "text": "crown.",
+   "start": 13.259,
+   "end": 13.658
+  },
+  {
+   "i": 57,
+   "line": "L06",
+   "w": 0,
+   "text": "Number",
+   "start": 13.808,
+   "end": 13.985
+  },
+  {
+   "i": 58,
+   "line": "L06",
+   "w": 1,
+   "text": "two",
+   "start": 13.985,
+   "end": 14.185
+  },
+  {
+   "i": 59,
+   "line": "L06",
+   "w": 2,
+   "text": "asked",
+   "start": 14.185,
+   "end": 14.423
+  },
+  {
+   "i": 60,
+   "line": "L06",
+   "w": 3,
+   "text": "for",
+   "start": 14.423,
+   "end": 14.523
+  },
+  {
+   "i": 61,
+   "line": "L06",
+   "w": 4,
+   "text": "a",
+   "start": 14.523,
+   "end": 14.585
+  },
+  {
+   "i": 62,
+   "line": "L06",
+   "w": 5,
+   "text": "boat.",
+   "start": 14.585,
+   "end": 14.869
+  }
+ ],
+ "lines": [
+  {
+   "id": "L01",
+   "beat": "hook",
+   "start": 0.1,
+   "end": 4.025,
+   "pause_after_ms": 550
+  },
+  {
+   "id": "L02",
+   "beat": "world",
+   "start": 4.575,
+   "end": 7.25,
+   "pause_after_ms": 150
+  },
+  {
+   "id": "L03",
+   "beat": "world",
+   "start": 7.4,
+   "end": 9.111,
+   "pause_after_ms": 150
+  },
+  {
+   "id": "L04",
+   "beat": "mystery",
+   "start": 9.261,
+   "end": 10.861,
+   "pause_after_ms": 150
+  },
+  {
+   "id": "L05",
+   "beat": "world",
+   "start": 11.011,
+   "end": 13.658,
+   "pause_after_ms": 150
+  },
+  {
+   "id": "L06",
+   "beat": "world",
+   "start": 13.808,
+   "end": 14.869,
+   "pause_after_ms": 0
+  }
+ ],
+ "beats": {
+  "hook": [
+   0.1,
+   4.025
+  ],
+  "world": [
+   4.575,
+   14.869
+  ],
+  "mystery": [
+   9.261,
+   10.861
+  ]
+ },
+ "cues": {
+  "music": [
+   {
+    "id": "M1",
+    "role": "bed",
+    "mood": "whimsical-curious",
+    "feel": [
+     "Mysterious",
+     "Calming"
+    ],
+    "must_have": "no drums",
+    "level_db_under_voice": 22,
+    "t": 0.1
+   },
+   {
+    "id": "END",
+    "role": "stop",
+    "tail_ms": 200,
+    "t": 15.069
+   }
+  ],
+  "sfx": [
+   {
+    "id": "whoosh",
+    "w": 0,
+    "gain_db": -12,
+    "line": "L01",
+    "t": 0.1
+   },
+   {
+    "id": "pop",
+    "w": 10,
+    "gain_db": -14,
+    "line": "L05",
+    "t": 13.047
+   }
+  ],
+  "shots": []
+ },
+ "lint": [
+  {
+   "rule": "tokens 520-650 (hard 450-720)",
+   "ok": false,
+   "level": "fail",
+   "detail": "63"
+  },
+  {
+   "rule": "duration 120-150 s (hard 105-165)",
+   "ok": false,
+   "level": "fail",
+   "detail": "15.1s"
+  },
+  {
+   "rule": "L01 starts 'In this world,'/'In this town,' and ends <= 4.5 s",
+   "ok": true,
+   "level": "warn",
+   "detail": "ends 4.025s"
+  },
+  {
+   "rule": "line 2 starts 'You see,'",
+   "ok": true,
+   "level": "warn",
+   "detail": ""
+  },
+  {
+   "rule": "one inciting line at 38-47 % with the turn cue on its token 0",
+   "ok": false,
+   "level": "warn",
+   "detail": "0 inciting"
+  },
+  {
+   "rule": "first twist at 66-78 %",
+   "ok": false,
+   "level": "warn",
+   "detail": "missing"
+  },
+  {
+   "rule": "first payoff at 85-100 %",
+   "ok": false,
+   "level": "warn",
+   "detail": "missing"
+  },
+  {
+   "rule": "first ending at 94-100 %",
+   "ok": false,
+   "level": "warn",
+   "detail": "missing"
+  },
+  {
+   "rule": ">= 3 plants, each set up before paid off",
+   "ok": false,
+   "level": "warn",
+   "detail": "0 plants"
+  },
+  {
+   "rule": "a climax line with hero_action",
+   "ok": false,
+   "level": "warn",
+   "detail": ""
+  },
+  {
+   "rule": ">= 8 numeral tokens",
+   "ok": false,
+   "level": "warn",
+   "detail": "1"
+  },
+  {
+   "rule": "no line > 32 tokens; last line <= 8 tokens",
+   "ok": true,
+   "level": "warn",
+   "detail": ""
+  },
+  {
+   "rule": "wpm 255-270",
+   "ok": true,
+   "level": "warn",
+   "detail": "256 wpm @ speed 1.266"
+  },
+  {
+   "rule": "3-8 pauses >= 500 ms, none > 1600",
+   "ok": false,
+   "level": "warn",
+   "detail": "1"
+  },
+  {
+   "rule": "<= 10 sfx; music stop <= 300 ms after the last word",
+   "ok": true,
+   "level": "warn",
+   "detail": "2 sfx, stop +200 ms"
+  },
+  {
+   "rule": "no CTA words",
+   "ok": true,
+   "level": "warn",
+   "detail": ""
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+  "header": {
+    "id": "toby",
+    "tags": {
+      "role": [
+        "hero",
+        "kid",
+        "narrator"
+      ],
+      "age": "kid",
+      "mood": [
+        "brave",
+        "quiet"
+      ],
+      "story": "the-ropes"
+    },
+    "description": "Toby (12), the hero of The Ropes: short kid, mustard-yellow jacket (signature colour, readable at distance), jeans, messy brown hair, both hands (climbs / unties). Pairs with rope_climb, hang_ankle, ankle_lift, untie."
+  },
+  "spec": {
+    "build": "short",
+    "faceStyle": "e",
+    "face": "neutral",
+    "skin": "light",
+    "hands": "both",
+    "hair": {
+      "style": "messy",
+      "color": "#5a3720"
+    },
+    "shirt": {
+      "pattern": "jacket",
+      "color": "#e0a420",
+      "color2": "#6a3a14",
+      "sleeves": "full"
+    },
+    "pants": {
+      "pattern": "jeans",
+      "color": "#34466a",
+      "shoes": {
+        "style": "sneaker",
+        "color": "#e8e0d0"
+      }
+    }
+  }
+}

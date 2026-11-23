@@ -1,0 +1,43 @@
+{
+  "header": {
+    "id": "toby_young",
+    "tags": {
+      "role": [
+        "hero",
+        "kid",
+        "flashback"
+      ],
+      "age": "child",
+      "mood": [
+        "sad",
+        "small"
+      ],
+      "story": "the-ropes"
+    },
+    "description": "Toby at 6 (flashback): child build, mustard tee (same signature colour), navy shorts, messy brown hair, both hands."
+  },
+  "spec": {
+    "build": "child",
+    "faceStyle": "e",
+    "face": "sad",
+    "skin": "light",
+    "hands": "both",
+    "hair": {
+      "style": "messy",
+      "color": "#5a3720"
+    },
+    "shirt": {
+      "pattern": "tshirt",
+      "color": "#e0a420",
+      "sleeves": "short"
+    },
+    "pants": {
+      "pattern": "shorts",
+      "color": "#2f3e57",
+      "shoes": {
+        "style": "sneaker",
+        "color": "#e8e0d0"
+      }
+    }
+  }
+}

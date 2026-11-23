@@ -1,0 +1,12 @@
+{
+  "name": "roblox-shorts-engine",
+  "private": true,
+  "type": "module",
+  "description": "Offline deterministic renderer for Roblox-style vertical Shorts (three.js in headless Chrome -> ffmpeg).",
+  "dependencies": {
+    "n8ao": "^2.0.2",
+    "postprocessing": "^6.39.6",
+    "puppeteer-core": "^25.17.0",
+    "three": "^0.187.0"
+  }
+}

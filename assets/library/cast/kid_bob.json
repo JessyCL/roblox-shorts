@@ -1,0 +1,37 @@
+{
+  "header": {
+    "id": "kid_bob",
+    "tags": {
+      "role": [
+        "kid",
+        "sidekick",
+        "bully"
+      ],
+      "age": "kid",
+      "mood": [
+        "laughing"
+      ],
+      "story": "everyone-has-one-hand"
+    },
+    "description": "Short tan kid with a black bob and blue shirt; one of the bully pals."
+  },
+  "spec": {
+    "hands": "right",
+    "faceStyle": "e",
+    "face": "smile",
+    "build": "short",
+    "skin": "tan",
+    "hair": {
+      "style": "bob",
+      "color": "#2a1b10"
+    },
+    "shirt": {
+      "sleeves": "full",
+      "pattern": "solid",
+      "color": "#3a6ab0"
+    },
+    "pants": {
+      "color": "#4a3a2c"
+    }
+  }
+}

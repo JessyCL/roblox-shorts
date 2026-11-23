@@ -1,0 +1,38 @@
+{
+  "header": {
+    "id": "groom",
+    "tags": {
+      "role": [
+        "groom",
+        "villager",
+        "wedding"
+      ],
+      "age": "adult",
+      "mood": [
+        "happy"
+      ],
+      "story": "everyone-has-one-hand"
+    },
+    "description": "Groom in a black suit with a red tie, slicked hair."
+  },
+  "spec": {
+    "hands": "right",
+    "faceStyle": "a",
+    "face": "happy",
+    "skin": "nougat",
+    "hair": {
+      "style": "slicked",
+      "color": "#2a1b10"
+    },
+    "shirt": {
+      "sleeves": "full",
+      "pattern": "suit",
+      "color": "#22222a",
+      "tie": "#c4281c"
+    },
+    "pants": {
+      "pattern": "suit",
+      "color": "#22222a"
+    }
+  }
+}

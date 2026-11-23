@@ -1,0 +1,43 @@
+{
+  "header": {
+    "id": "rope_kid_a",
+    "tags": {
+      "role": [
+        "kid",
+        "bully"
+      ],
+      "age": "kid",
+      "mood": [
+        "mean",
+        "laughing"
+      ],
+      "story": "the-ropes"
+    },
+    "description": "Mean village kid (steps on Toby's rope): red-striped tee, black spiky hair, grin. Child build, both hands."
+  },
+  "spec": {
+    "build": "child",
+    "faceStyle": "e",
+    "face": "grin",
+    "skin": "tan",
+    "hands": "both",
+    "hair": {
+      "style": "spiky",
+      "color": "#1a1410"
+    },
+    "shirt": {
+      "pattern": "stripes",
+      "color": "#c0302a",
+      "color2": "#f2efe6",
+      "sleeves": "short"
+    },
+    "pants": {
+      "pattern": "shorts",
+      "color": "#3a3a44",
+      "shoes": {
+        "style": "sneaker",
+        "color": "#2a2a2a"
+      }
+    }
+  }
+}

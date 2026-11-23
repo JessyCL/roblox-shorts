@@ -1,0 +1,37 @@
+{
+  "header": {
+    "id": "ropes_villager_woman",
+    "tags": {
+      "role": [
+        "villager",
+        "extra"
+      ],
+      "age": "adult",
+      "mood": [
+        "worried"
+      ],
+      "story": "the-ropes"
+    },
+    "description": "Village woman: green dress, black bob, both hands (holds her own rope: hold_rope clip)."
+  },
+  "spec": {
+    "faceStyle": "b",
+    "face": "worried",
+    "skin": "brown",
+    "hands": "both",
+    "hair": {
+      "style": "bob",
+      "color": "#1a1410"
+    },
+    "shirt": {
+      "pattern": "dress",
+      "color": "#3f7a4a",
+      "sleeves": "full"
+    },
+    "pants": {
+      "pattern": "skirt",
+      "color": "#3f7a4a",
+      "length": 1.3
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "header": {
+    "id": "villager_bald_box",
+    "tags": {
+      "role": [
+        "villager",
+        "mover",
+        "extra"
+      ],
+      "age": "adult",
+      "mood": [
+        "sad",
+        "friendly"
+      ],
+      "story": "everyone-has-one-hand"
+    },
+    "description": "Bald villager in suspenders carrying a cardboard box (hold r: box; hide: [box] to drop it)."
+  },
+  "spec": {
+    "hands": "right",
+    "faceStyle": "c",
+    "face": "smile",
+    "skin": "brown",
+    "hair": {
+      "style": "bald"
+    },
+    "hold": {
+      "r": "box"
+    },
+    "shirt": {
+      "sleeves": "full",
+      "pattern": "suspenders",
+      "color": "#e8e0cc",
+      "suspenders": "#5a3a20"
+    },
+    "pants": {
+      "color": "#3a4a5a",
+      "shoes": {
+        "style": "boot",
+        "color": "#2a2018"
+      }
+    }
+  }
+}

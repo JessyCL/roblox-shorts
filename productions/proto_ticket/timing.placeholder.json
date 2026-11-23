@@ -1,0 +1,555 @@
+{
+ "placeholder": true,
+ "duration": 16.256,
+ "wpm": 262,
+ "words": [
+  {
+   "i": 0,
+   "line": "L01",
+   "w": 0,
+   "text": "In",
+   "start": 0,
+   "end": 0.206
+  },
+  {
+   "i": 1,
+   "line": "L01",
+   "w": 1,
+   "text": "this",
+   "start": 0.229,
+   "end": 0.435
+  },
+  {
+   "i": 2,
+   "line": "L01",
+   "w": 2,
+   "text": "world,",
+   "start": 0.458,
+   "end": 0.664
+  },
+  {
+   "i": 3,
+   "line": "L01",
+   "w": 3,
+   "text": "every",
+   "start": 0.687,
+   "end": 0.893
+  },
+  {
+   "i": 4,
+   "line": "L01",
+   "w": 4,
+   "text": "baby",
+   "start": 0.916,
+   "end": 1.122
+  },
+  {
+   "i": 5,
+   "line": "L01",
+   "w": 5,
+   "text": "is",
+   "start": 1.145,
+   "end": 1.351
+  },
+  {
+   "i": 6,
+   "line": "L01",
+   "w": 6,
+   "text": "handed",
+   "start": 1.374,
+   "end": 1.58
+  },
+  {
+   "i": 7,
+   "line": "L01",
+   "w": 7,
+   "text": "a",
+   "start": 1.603,
+   "end": 1.809
+  },
+  {
+   "i": 8,
+   "line": "L01",
+   "w": 8,
+   "text": "ticket,",
+   "start": 1.832,
+   "end": 2.038
+  },
+  {
+   "i": 9,
+   "line": "L01",
+   "w": 9,
+   "text": "and",
+   "start": 2.061,
+   "end": 2.267
+  },
+  {
+   "i": 10,
+   "line": "L01",
+   "w": 10,
+   "text": "you",
+   "start": 2.29,
+   "end": 2.496
+  },
+  {
+   "i": 11,
+   "line": "L01",
+   "w": 11,
+   "text": "wait",
+   "start": 2.519,
+   "end": 2.725
+  },
+  {
+   "i": 12,
+   "line": "L01",
+   "w": 12,
+   "text": "your",
+   "start": 2.748,
+   "end": 2.954
+  },
+  {
+   "i": 13,
+   "line": "L01",
+   "w": 13,
+   "text": "whole",
+   "start": 2.977,
+   "end": 3.183
+  },
+  {
+   "i": 14,
+   "line": "L01",
+   "w": 14,
+   "text": "life",
+   "start": 3.206,
+   "end": 3.412
+  },
+  {
+   "i": 15,
+   "line": "L01",
+   "w": 15,
+   "text": "for",
+   "start": 3.435,
+   "end": 3.641
+  },
+  {
+   "i": 16,
+   "line": "L01",
+   "w": 16,
+   "text": "your",
+   "start": 3.664,
+   "end": 3.87
+  },
+  {
+   "i": 17,
+   "line": "L01",
+   "w": 17,
+   "text": "number.",
+   "start": 3.893,
+   "end": 4.099
+  },
+  {
+   "i": 18,
+   "line": "L02",
+   "w": 0,
+   "text": "You",
+   "start": 4.672,
+   "end": 4.878
+  },
+  {
+   "i": 19,
+   "line": "L02",
+   "w": 1,
+   "text": "see,",
+   "start": 4.901,
+   "end": 5.107
+  },
+  {
+   "i": 20,
+   "line": "L02",
+   "w": 2,
+   "text": "the",
+   "start": 5.13,
+   "end": 5.336
+  },
+  {
+   "i": 21,
+   "line": "L02",
+   "w": 3,
+   "text": "sign",
+   "start": 5.359,
+   "end": 5.565
+  },
+  {
+   "i": 22,
+   "line": "L02",
+   "w": 4,
+   "text": "hangs",
+   "start": 5.588,
+   "end": 5.794
+  },
+  {
+   "i": 23,
+   "line": "L02",
+   "w": 5,
+   "text": "over",
+   "start": 5.817,
+   "end": 6.023
+  },
+  {
+   "i": 24,
+   "line": "L02",
+   "w": 6,
+   "text": "the",
+   "start": 6.046,
+   "end": 6.252
+  },
+  {
+   "i": 25,
+   "line": "L02",
+   "w": 7,
+   "text": "square.",
+   "start": 6.275,
+   "end": 6.481
+  },
+  {
+   "i": 26,
+   "line": "L02",
+   "w": 8,
+   "text": "\"Now",
+   "start": 6.504,
+   "end": 6.71
+  },
+  {
+   "i": 27,
+   "line": "L02",
+   "w": 9,
+   "text": "serving",
+   "start": 6.733,
+   "end": 6.939
+  },
+  {
+   "i": 28,
+   "line": "L02",
+   "w": 10,
+   "text": "seven.\"",
+   "start": 6.962,
+   "end": 7.168
+  },
+  {
+   "i": 29,
+   "line": "L03",
+   "w": 0,
+   "text": "It",
+   "start": 7.341,
+   "end": 7.547
+  },
+  {
+   "i": 30,
+   "line": "L03",
+   "w": 1,
+   "text": "has",
+   "start": 7.57,
+   "end": 7.776
+  },
+  {
+   "i": 31,
+   "line": "L03",
+   "w": 2,
+   "text": "said",
+   "start": 7.799,
+   "end": 8.005
+  },
+  {
+   "i": 32,
+   "line": "L03",
+   "w": 3,
+   "text": "seven",
+   "start": 8.028,
+   "end": 8.234
+  },
+  {
+   "i": 33,
+   "line": "L03",
+   "w": 4,
+   "text": "for",
+   "start": 8.257,
+   "end": 8.463
+  },
+  {
+   "i": 34,
+   "line": "L03",
+   "w": 5,
+   "text": "200",
+   "start": 8.486,
+   "end": 8.898
+  },
+  {
+   "i": 35,
+   "line": "L03",
+   "w": 6,
+   "text": "years.",
+   "start": 8.944,
+   "end": 9.15
+  },
+  {
+   "i": 36,
+   "line": "L04",
+   "w": 0,
+   "text": "Nobody",
+   "start": 9.323,
+   "end": 9.529
+  },
+  {
+   "i": 37,
+   "line": "L04",
+   "w": 1,
+   "text": "knows",
+   "start": 9.552,
+   "end": 9.758
+  },
+  {
+   "i": 38,
+   "line": "L04",
+   "w": 2,
+   "text": "what",
+   "start": 9.781,
+   "end": 9.987
+  },
+  {
+   "i": 39,
+   "line": "L04",
+   "w": 3,
+   "text": "you",
+   "start": 10.01,
+   "end": 10.216
+  },
+  {
+   "i": 40,
+   "line": "L04",
+   "w": 4,
+   "text": "get",
+   "start": 10.239,
+   "end": 10.445
+  },
+  {
+   "i": 41,
+   "line": "L04",
+   "w": 5,
+   "text": "when",
+   "start": 10.468,
+   "end": 10.674
+  },
+  {
+   "i": 42,
+   "line": "L04",
+   "w": 6,
+   "text": "you're",
+   "start": 10.697,
+   "end": 10.903
+  },
+  {
+   "i": 43,
+   "line": "L04",
+   "w": 7,
+   "text": "served.",
+   "start": 10.926,
+   "end": 11.132
+  },
+  {
+   "i": 44,
+   "line": "L05",
+   "w": 0,
+   "text": "The",
+   "start": 11.305,
+   "end": 11.511
+  },
+  {
+   "i": 45,
+   "line": "L05",
+   "w": 1,
+   "text": "stories",
+   "start": 11.534,
+   "end": 11.74
+  },
+  {
+   "i": 46,
+   "line": "L05",
+   "w": 2,
+   "text": "say",
+   "start": 11.763,
+   "end": 11.969
+  },
+  {
+   "i": 47,
+   "line": "L05",
+   "w": 3,
+   "text": "number",
+   "start": 11.992,
+   "end": 12.198
+  },
+  {
+   "i": 48,
+   "line": "L05",
+   "w": 4,
+   "text": "one",
+   "start": 12.221,
+   "end": 12.427
+  },
+  {
+   "i": 49,
+   "line": "L05",
+   "w": 5,
+   "text": "asked",
+   "start": 12.45,
+   "end": 12.656
+  },
+  {
+   "i": 50,
+   "line": "L05",
+   "w": 6,
+   "text": "for",
+   "start": 12.679,
+   "end": 12.885
+  },
+  {
+   "i": 51,
+   "line": "L05",
+   "w": 7,
+   "text": "a",
+   "start": 12.908,
+   "end": 13.115
+  },
+  {
+   "i": 52,
+   "line": "L05",
+   "w": 8,
+   "text": "crown",
+   "start": 13.137,
+   "end": 13.344
+  },
+  {
+   "i": 53,
+   "line": "L05",
+   "w": 9,
+   "text": "and",
+   "start": 13.366,
+   "end": 13.573
+  },
+  {
+   "i": 54,
+   "line": "L05",
+   "w": 10,
+   "text": "got",
+   "start": 13.595,
+   "end": 13.802
+  },
+  {
+   "i": 55,
+   "line": "L05",
+   "w": 11,
+   "text": "a",
+   "start": 13.824,
+   "end": 14.031
+  },
+  {
+   "i": 56,
+   "line": "L05",
+   "w": 12,
+   "text": "crown.",
+   "start": 14.053,
+   "end": 14.26
+  },
+  {
+   "i": 57,
+   "line": "L06",
+   "w": 0,
+   "text": "Number",
+   "start": 14.432,
+   "end": 14.639
+  },
+  {
+   "i": 58,
+   "line": "L06",
+   "w": 1,
+   "text": "two",
+   "start": 14.661,
+   "end": 14.868
+  },
+  {
+   "i": 59,
+   "line": "L06",
+   "w": 2,
+   "text": "asked",
+   "start": 14.89,
+   "end": 15.097
+  },
+  {
+   "i": 60,
+   "line": "L06",
+   "w": 3,
+   "text": "for",
+   "start": 15.119,
+   "end": 15.326
+  },
+  {
+   "i": 61,
+   "line": "L06",
+   "w": 4,
+   "text": "a",
+   "start": 15.348,
+   "end": 15.555
+  },
+  {
+   "i": 62,
+   "line": "L06",
+   "w": 5,
+   "text": "boat.",
+   "start": 15.577,
+   "end": 15.784
+  }
+ ],
+ "lines": [
+  {
+   "id": "L01",
+   "beat": "hook",
+   "start": 0,
+   "end": 4.122,
+   "pause_after_ms": 550
+  },
+  {
+   "id": "L02",
+   "beat": "world",
+   "start": 4.672,
+   "end": 7.191,
+   "pause_after_ms": 150
+  },
+  {
+   "id": "L03",
+   "beat": "world",
+   "start": 7.341,
+   "end": 9.173,
+   "pause_after_ms": 150
+  },
+  {
+   "id": "L04",
+   "beat": "mystery",
+   "start": 9.323,
+   "end": 11.155,
+   "pause_after_ms": 150
+  },
+  {
+   "id": "L05",
+   "beat": "world",
+   "start": 11.305,
+   "end": 14.282,
+   "pause_after_ms": 150
+  },
+  {
+   "id": "L06",
+   "beat": "world",
+   "start": 14.432,
+   "end": 15.806,
+   "pause_after_ms": 150
+  }
+ ]
+}

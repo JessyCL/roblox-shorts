@@ -1,0 +1,42 @@
+{
+  "header": {
+    "id": "mrs_abernathy",
+    "tags": {
+      "role": [
+        "villager",
+        "comic",
+        "neighbour"
+      ],
+      "age": "elder",
+      "mood": [
+        "grumpy",
+        "angry"
+      ],
+      "story": "everyone-has-one-hand"
+    },
+    "description": "Mrs. Abernathy: grey bun, glasses, maroon cardigan, no shoes (lost a boot) - hops and shakes her fist."
+  },
+  "spec": {
+    "hands": "right",
+    "faceStyle": "b",
+    "face": "angry",
+    "skin": "pale",
+    "hair": {
+      "style": "bun",
+      "color": "#cfcfcf"
+    },
+    "acc": [
+      "glasses"
+    ],
+    "shirt": {
+      "sleeves": "full",
+      "pattern": "cardigan",
+      "color": "#8a2a3a"
+    },
+    "pants": {
+      "pattern": "skirt",
+      "color": "#3a2a3a",
+      "shoes": false
+    }
+  }
+}

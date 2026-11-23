@@ -1,0 +1,1171 @@
+{
+  "version": 1,
+  "slug": "everyone-has-one-hand",
+  "title": "Everyone Has ONE Hand... #shorts #roblox #viral",
+  "premise": "In this village, everyone is born with one hand, and two hands means you're the Grabber.",
+  "pov": "first",
+  "narrator": {
+    "name": "Lenny",
+    "age": 12,
+    "gender": "m"
+  },
+  "target_duration_s": 126,
+  "voice": {
+    "engine": "kokoro",
+    "voice": "am_fenrir",
+    "speed": 1.33,
+    "target_wpm": 262,
+    "line_gap_ms": 150
+  },
+  "plants": [
+    {
+      "id": "P1",
+      "what": "the Grabber takes Mrs. Abernathy's left boot",
+      "set_up": "L08",
+      "paid_off": "L31"
+    },
+    {
+      "id": "P2",
+      "what": "Grandma: a hand you hide is a hand you'll need",
+      "set_up": "L13",
+      "paid_off": "L32"
+    },
+    {
+      "id": "P3",
+      "what": "nobody has ever clapped",
+      "set_up": "L02",
+      "paid_off": "L29"
+    },
+    {
+      "id": "P4",
+      "what": "kids call him Spare / give us a hand",
+      "set_up": "L11",
+      "paid_off": "L35"
+    },
+    {
+      "id": "P5",
+      "what": "Pip eating",
+      "set_up": "L22",
+      "paid_off": "L30"
+    }
+  ],
+  "music": [
+    {
+      "id": "M1",
+      "role": "section",
+      "at": {
+        "line": "L01",
+        "w": 0
+      },
+      "track": "assets/library/music/waltz-of-the-carnies.mp3",
+      "mood": "funny-sinister rules",
+      "level_db_under_voice": 14,
+      "offset_s": 0
+    },
+    {
+      "id": "M2",
+      "role": "section",
+      "at": {
+        "line": "L06",
+        "w": 0
+      },
+      "track": "assets/library/music/graveyard-shift.mp3",
+      "mood": "spooky-funny legend + Lenny (user pick)",
+      "level_db_under_voice": 14,
+      "offset_s": 28.5,
+      "transition": {
+        "type": "crossfade",
+        "dur_ms": 1500,
+        "sweep": true
+      }
+    },
+    {
+      "id": "M3",
+      "role": "section",
+      "at": {
+        "line": "L14",
+        "w": 0
+      },
+      "track": "assets/library/music/crypto.mp3",
+      "mood": "night attack suspense (user pick)",
+      "level_db_under_voice": 12,
+      "offset_s": 30,
+      "transition": {
+        "type": "drop",
+        "fade_ms": 300,
+        "gap_ms": 250,
+        "dur_ms": 800
+      }
+    },
+    {
+      "id": "M4",
+      "role": "section",
+      "at": {
+        "line": "L21",
+        "w": 0
+      },
+      "track": "assets/library/music/day-of-chaos.mp3",
+      "mood": "horror peak in the mill (user pick; alt: malicious @ 38)",
+      "level_db_under_voice": 12,
+      "offset_s": 58,
+      "transition": {
+        "type": "crossfade",
+        "dur_ms": 2000
+      }
+    },
+    {
+      "id": "M5",
+      "role": "section",
+      "at": {
+        "line": "L24",
+        "w": 0
+      },
+      "track": "assets/library/music/gymnopedie-no-1.mp3",
+      "mood": "sad backstory (user pick)",
+      "level_db_under_voice": 14,
+      "offset_s": 0,
+      "transition": {
+        "type": "cut",
+        "gap_ms": 500,
+        "dur_ms": 2000
+      }
+    },
+    {
+      "id": "M6",
+      "role": "section",
+      "at": {
+        "line": "L28",
+        "w": 0
+      },
+      "track": "assets/library/music/carpe-diem.mp3",
+      "mood": "hopeful climax + sunrise (user pick)",
+      "level_db_under_voice": 14,
+      "offset_s": 12.5,
+      "transition": {
+        "type": "crossfade",
+        "dur_ms": 2500
+      }
+    },
+    {
+      "id": "M7",
+      "role": "section",
+      "at": {
+        "line": "L31",
+        "w": 0
+      },
+      "track": "assets/library/music/waltz-of-the-carnies.mp3",
+      "mood": "bookend",
+      "level_db_under_voice": 14,
+      "offset_s": 0.5,
+      "transition": {
+        "type": "crossfade",
+        "dur_ms": 1500
+      }
+    },
+    {
+      "id": "END",
+      "role": "stop",
+      "at": "last_word_end",
+      "tail_ms": 200
+    }
+  ],
+  "lines": [
+    {
+      "id": "L01",
+      "beat": "hook",
+      "text": "In this village, everyone is born with one hand, and two hands means you're the Grabber.",
+      "emphasis": [
+        8,
+        15
+      ],
+      "pause_after_ms": 550,
+      "sfx": [
+        {
+          "id": "sfx/intro_whoosh",
+          "w": 0,
+          "offset_ms": 0,
+          "gain_db": -6
+        },
+        {
+          "id": "sfx/boom_hit",
+          "w": 9,
+          "offset_ms": 20,
+          "gain_db": -6
+        },
+        {
+          "id": "sfx/horror_sting",
+          "w": 15,
+          "offset_ms": 54,
+          "gain_db": -6
+        }
+      ]
+    },
+    {
+      "id": "L02",
+      "beat": "world",
+      "text": "You see, gloves are sold one at a time, and nobody's ever clapped.",
+      "emphasis": [
+        12
+      ],
+      "sfx": [
+        {
+          "id": "sfx/footsteps_cobble_punch",
+          "w": 0,
+          "offset_ms": -49,
+          "gain_db": -3,
+          "dur_ms": 900
+        }
+      ]
+    },
+    {
+      "id": "L03",
+      "beat": "world",
+      "text": "Applause is stomping. Weddings sound like a stampede.",
+      "emphasis": [
+        7
+      ],
+      "sfx": [
+        {
+          "id": "sfx/stampede",
+          "w": 0,
+          "offset_ms": -10,
+          "gain_db": -6,
+          "dur_ms": 800
+        },
+        {
+          "id": "sfx/wedding_stampede",
+          "w": 3,
+          "offset_ms": -37,
+          "gain_db": -6,
+          "dur_ms": 1430
+        }
+      ]
+    },
+    {
+      "id": "L04",
+      "beat": "world",
+      "text": "The jar factory closed in 1931, because nobody in town could open a jar.",
+      "say": {
+        "1931,": "nineteen thirty-one,"
+      },
+      "sfx": [
+        {
+          "id": "sfx/footsteps_cobble_punch",
+          "w": 0,
+          "offset_ms": -48,
+          "gain_db": -3,
+          "dur_ms": 730
+        },
+        {
+          "id": "sfx/jar_twist",
+          "w": 6,
+          "offset_ms": -58,
+          "gain_db": -6,
+          "dur_ms": 1060
+        },
+        {
+          "id": "sfx/jar_bite",
+          "w": 10,
+          "offset_ms": -17,
+          "gain_db": -6
+        }
+      ]
+    },
+    {
+      "id": "L05",
+      "beat": "world",
+      "text": "And when you wave goodbye, you have to put down whatever you're holding.",
+      "sfx": [
+        {
+          "id": "sfx/footsteps_cobble_punch",
+          "w": 0,
+          "offset_ms": -70,
+          "gain_db": -3,
+          "dur_ms": 770
+        },
+        {
+          "id": "sfx/kenney_impactWood_heavy_000_punch",
+          "w": 9,
+          "offset_ms": 38,
+          "gain_db": -4
+        },
+        {
+          "id": "sfx/footsteps_cobble_punch",
+          "w": 10,
+          "offset_ms": 38,
+          "gain_db": -5,
+          "dur_ms": 830
+        }
+      ]
+    },
+    {
+      "id": "L06",
+      "beat": "mystery",
+      "text": "Nobody goes past the old mill after dark, because that's where the Grabber lives.",
+      "sfx": [
+        {
+          "id": "sfx/footsteps_cobble_punch",
+          "w": 0,
+          "offset_ms": -63,
+          "gain_db": -3,
+          "dur_ms": 630
+        },
+        {
+          "id": "sfx/mill_crows",
+          "w": 4,
+          "offset_ms": -35,
+          "gain_db": -8
+        },
+        {
+          "id": "sfx/horror_sting",
+          "w": 12,
+          "offset_ms": 50,
+          "gain_db": -6
+        }
+      ]
+    },
+    {
+      "id": "L07",
+      "beat": "mystery",
+      "text": "11 feet tall, two enormous hands. Every winter, it takes one thing from the village.",
+      "say": {
+        "11": "eleven"
+      },
+      "sfx": [
+        {
+          "id": "sfx/giant_walk_heavy",
+          "w": 0,
+          "offset_ms": -20,
+          "gain_db": -3,
+          "dur_ms": 800
+        },
+        {
+          "id": "sfx/boom_hit",
+          "w": 4,
+          "offset_ms": 43,
+          "gain_db": -4
+        },
+        {
+          "id": "sfx/winter_wind",
+          "w": 6,
+          "offset_ms": -50,
+          "gain_db": -11,
+          "dur_ms": 2260
+        },
+        {
+          "id": "sfx/giant_walk_snow",
+          "w": 8,
+          "offset_ms": -39,
+          "gain_db": -5,
+          "dur_ms": 1670
+        }
+      ]
+    },
+    {
+      "id": "L08",
+      "beat": "plant",
+      "text": "A church bell. A hay cart. Mrs. Abernathy's left boot. Nobody knows why it only wants the left one.",
+      "sfx": [
+        {
+          "id": "sfx/bell_strike",
+          "w": 0,
+          "offset_ms": -1,
+          "gain_db": -8
+        },
+        {
+          "id": "sfx/cart_rolling",
+          "w": 3,
+          "offset_ms": -24,
+          "gain_db": -5,
+          "dur_ms": 730
+        },
+        {
+          "id": "sfx/kenney_footstep_snow_000_punch",
+          "w": 6,
+          "offset_ms": -21,
+          "gain_db": -5
+        },
+        {
+          "id": "sfx/kenney_footstep_snow_001_punch",
+          "w": 7,
+          "offset_ms": 126,
+          "gain_db": -5
+        }
+      ]
+    },
+    {
+      "id": "L09",
+      "beat": "hero",
+      "text": "My name is Lenny, and there's one thing you should know about me. I was born with two hands.",
+      "emphasis": [
+        18
+      ],
+      "sfx": [
+        {
+          "id": "sfx/footsteps_cobble_punch",
+          "w": 0,
+          "offset_ms": -63,
+          "gain_db": -3,
+          "dur_ms": 2520
+        },
+        {
+          "id": "sfx/sparkle_chime",
+          "w": 18,
+          "offset_ms": 17,
+          "gain_db": -10
+        }
+      ]
+    },
+    {
+      "id": "L10",
+      "beat": "wound",
+      "text": "My mom sews my second sleeve shut every morning, and I keep that hand in my pocket so nobody screams.",
+      "sfx": [
+        {
+          "id": "sfx/sewing_stitch_even",
+          "w": 0,
+          "offset_ms": -23,
+          "gain_db": -6,
+          "dur_ms": 2550
+        },
+        {
+          "id": "sfx/footsteps_cobble_punch",
+          "w": 9,
+          "offset_ms": -63,
+          "gain_db": -3,
+          "dur_ms": 1380
+        },
+        {
+          "id": "sfx/cartoon_scream",
+          "w": 19,
+          "offset_ms": 10,
+          "gain_db": -12
+        }
+      ]
+    },
+    {
+      "id": "L11",
+      "beat": "rival",
+      "text": "Kids call me Spare. Every day, Gordy Platt yells, \"Hey, Spare, give us a hand!\"",
+      "emphasis": [
+        3
+      ],
+      "sfx": [
+        {
+          "id": "sfx/kids_laugh",
+          "w": 0,
+          "offset_ms": -36,
+          "gain_db": -8,
+          "dur_ms": 1000
+        },
+        {
+          "id": "sfx/footsteps_cobble_punch",
+          "w": 4,
+          "offset_ms": -66,
+          "gain_db": -3,
+          "dur_ms": 1180
+        }
+      ]
+    },
+    {
+      "id": "L12",
+      "beat": "wound",
+      "text": "He thinks that's hilarious. Honestly, it's pretty good. I'm 12. I've never clapped in public.",
+      "sfx": [
+        {
+          "id": "sfx/kids_laugh",
+          "w": 0,
+          "offset_ms": -20,
+          "gain_db": -8,
+          "dur_ms": 1220
+        },
+        {
+          "id": "sfx/stampede",
+          "w": 8,
+          "offset_ms": -17,
+          "gain_db": -7,
+          "dur_ms": 1860
+        }
+      ]
+    },
+    {
+      "id": "L13",
+      "beat": "plant",
+      "text": "My grandma says, \"A hand you hide is a hand you'll need.\" She's 94. She says a lot of things.",
+      "pause_after_ms": 700,
+      "sfx": [
+        {
+          "id": "sfx/knitting_needles_even",
+          "w": 0,
+          "offset_ms": -16,
+          "gain_db": -5,
+          "dur_ms": 760
+        },
+        {
+          "id": "sfx/knitting_needles_even",
+          "w": 12,
+          "offset_ms": -46,
+          "gain_db": -5,
+          "dur_ms": 730
+        }
+      ]
+    },
+    {
+      "id": "L14",
+      "beat": "inciting",
+      "text": "Then one night in January, the new church bell rang 13 times.",
+      "emphasis": [
+        9
+      ],
+      "say": {
+        "13": "thirteen"
+      },
+      "sfx": [
+        {
+          "id": "sfx/boom_hit",
+          "w": 0,
+          "offset_ms": -4,
+          "gain_db": -4
+        },
+        {
+          "id": "sfx/winter_wind",
+          "w": 0,
+          "offset_ms": -44,
+          "gain_db": -11,
+          "dur_ms": 1060
+        },
+        {
+          "id": "sfx/floor_creak",
+          "w": 5,
+          "offset_ms": -33,
+          "gain_db": -7,
+          "dur_ms": 750
+        },
+        {
+          "id": "sfx/bell_strike",
+          "w": 9,
+          "offset_ms": 0,
+          "gain_db": -7
+        },
+        {
+          "id": "sfx/bell_strike",
+          "w": 10,
+          "offset_ms": -13,
+          "gain_db": -8
+        },
+        {
+          "id": "sfx/bell_strike",
+          "w": 11,
+          "offset_ms": -150,
+          "gain_db": -8
+        },
+        {
+          "id": "sfx/bell_strike",
+          "w": 11,
+          "offset_ms": 100,
+          "gain_db": -9
+        },
+        {
+          "id": "sfx/bell_strike",
+          "w": 11,
+          "offset_ms": 350,
+          "gain_db": -9
+        }
+      ]
+    },
+    {
+      "id": "L15",
+      "beat": "inciting",
+      "text": "Something was walking down Main Street, taller than the lamps, dragging its knuckles on the cobbles.",
+      "sfx": [
+        {
+          "id": "sfx/giant_steps",
+          "w": 0,
+          "offset_ms": -34,
+          "gain_db": -6
+        },
+        {
+          "id": "sfx/knuckle_scrape",
+          "w": 10,
+          "offset_ms": -158,
+          "gain_db": -5,
+          "dur_ms": 1800
+        }
+      ]
+    },
+    {
+      "id": "L16",
+      "beat": "rising",
+      "text": "The rule is simple. When the Grabber comes, you get under your bed and hold your one hand over your mouth.",
+      "sfx": [
+        {
+          "id": "sfx/giant_walk_snow",
+          "w": 4,
+          "offset_ms": -46,
+          "gain_db": -5,
+          "dur_ms": 870
+        },
+        {
+          "id": "sfx/slide_under_bed",
+          "w": 8,
+          "offset_ms": -18,
+          "gain_db": -5
+        },
+        {
+          "id": "sfx/heartbeat",
+          "w": 13,
+          "offset_ms": -6,
+          "gain_db": -9,
+          "dur_ms": 2230
+        }
+      ]
+    },
+    {
+      "id": "L17",
+      "beat": "rising",
+      "text": "So I did. And then I heard my little sister Pip's window open.",
+      "sfx": [
+        {
+          "id": "sfx/horror_sting",
+          "w": 6,
+          "offset_ms": 61,
+          "gain_db": -7
+        },
+        {
+          "id": "sfx/window_creak",
+          "w": 9,
+          "offset_ms": 21,
+          "gain_db": -5
+        },
+        {
+          "id": "sfx/winter_wind",
+          "w": 11,
+          "offset_ms": -119,
+          "gain_db": -9,
+          "dur_ms": 830
+        }
+      ]
+    },
+    {
+      "id": "L18",
+      "beat": "rising",
+      "text": "Two huge gray fingers reached in, picked her up like a sandwich, and she was gone.",
+      "emphasis": [
+        15
+      ],
+      "sfx": [
+        {
+          "id": "sfx/fingers_creep",
+          "w": 0,
+          "offset_ms": -33,
+          "gain_db": -6,
+          "dur_ms": 1560
+        },
+        {
+          "id": "sfx/snatch_whoosh",
+          "w": 6,
+          "offset_ms": -19,
+          "gain_db": -5
+        },
+        {
+          "id": "sfx/giant_walk_snow",
+          "w": 12,
+          "offset_ms": -46,
+          "gain_db": -6,
+          "dur_ms": 930
+        }
+      ]
+    },
+    {
+      "id": "L19",
+      "beat": "rising",
+      "hero_action": true,
+      "text": "I sat on my bed, and I ripped my sleeve open.",
+      "emphasis": [
+        7
+      ],
+      "sfx": [
+        {
+          "id": "sfx/floor_creak",
+          "w": 0,
+          "offset_ms": -18,
+          "gain_db": -9,
+          "dur_ms": 700
+        },
+        {
+          "id": "sfx/sleeve_rip",
+          "w": 6,
+          "offset_ms": -18,
+          "gain_db": -4
+        },
+        {
+          "id": "sfx/power_glow",
+          "w": 8,
+          "offset_ms": -58,
+          "gain_db": -6
+        }
+      ]
+    },
+    {
+      "id": "L20",
+      "beat": "rising",
+      "hero_action": true,
+      "text": "I climbed down the drainpipe with two hands, which, by the way, is really easy.",
+      "sfx": [
+        {
+          "id": "sfx/drainpipe_climb",
+          "w": 0,
+          "offset_ms": -19,
+          "gain_db": -6,
+          "dur_ms": 1690
+        },
+        {
+          "id": "sfx/kenney_footstep_snow_002_punch",
+          "w": 11,
+          "offset_ms": 89,
+          "gain_db": -5
+        },
+        {
+          "id": "sfx/run_snow",
+          "w": 14,
+          "offset_ms": 99,
+          "gain_db": -6,
+          "dur_ms": 1400
+        },
+        {
+          "id": "sfx/riser",
+          "w": 2,
+          "offset_ms": -9,
+          "gain_db": -12
+        }
+      ]
+    },
+    {
+      "id": "L21",
+      "beat": "low_point",
+      "text": "The footprints went straight to the mill. Inside, there were piles of stuff. Bells, carts, tools, and 61 left boots.",
+      "say": {
+        "61": "sixty-one"
+      },
+      "sfx": [
+        {
+          "id": "sfx/thunder_crack",
+          "w": 5,
+          "offset_ms": 19,
+          "gain_db": -9
+        },
+        {
+          "id": "sfx/footsteps_wood_punch",
+          "w": 8,
+          "offset_ms": -26,
+          "gain_db": -4,
+          "dur_ms": 900
+        },
+        {
+          "id": "sfx/kenney_impactBell_heavy_000_punch",
+          "w": 13,
+          "offset_ms": 38,
+          "gain_db": -9
+        },
+        {
+          "id": "sfx/kenney_impactWood_medium_000_punch",
+          "w": 14,
+          "offset_ms": 36,
+          "gain_db": -4
+        },
+        {
+          "id": "sfx/kenney_impactMetal_heavy_000_punch",
+          "w": 15,
+          "offset_ms": 41,
+          "gain_db": -3
+        },
+        {
+          "id": "sfx/kenney_impactSoft_medium_000_punch",
+          "w": 18,
+          "offset_ms": 121,
+          "gain_db": -8
+        }
+      ]
+    },
+    {
+      "id": "L22",
+      "beat": "low_point",
+      "text": "And on the top shelf, next to a lantern, sat Pip, eating a cookie.",
+      "sfx": [
+        {
+          "id": "sfx/cookie_munch_even",
+          "w": 9,
+          "offset_ms": -8,
+          "gain_db": -6,
+          "dur_ms": 1290
+        }
+      ]
+    },
+    {
+      "id": "L23",
+      "beat": "false_climax",
+      "text": "Then the dark at the back of the mill stood up, 11 feet tall, and reached for me with both hands.",
+      "say": {
+        "11": "eleven"
+      },
+      "pause_after_ms": 800,
+      "sfx": [
+        {
+          "id": "sfx/monster_growl",
+          "w": 9,
+          "offset_ms": -34,
+          "gain_db": -5
+        },
+        {
+          "id": "sfx/boom_hit",
+          "w": 11,
+          "offset_ms": -31,
+          "gain_db": -4
+        },
+        {
+          "id": "sfx/giant_walk_heavy",
+          "w": 14,
+          "offset_ms": -37,
+          "gain_db": -4,
+          "dur_ms": 1200
+        },
+        {
+          "id": "sfx/horror_riser",
+          "w": 20,
+          "offset_ms": 566,
+          "gain_db": -9
+        }
+      ]
+    },
+    {
+      "id": "L24",
+      "beat": "twist",
+      "text": "And it stopped. It stared at my hands. Then it slowly held out its own two, palms up, like it was asking me something.",
+      "sfx": [
+        {
+          "id": "sfx/kenney_impactWood_heavy_001_punch",
+          "w": 8,
+          "offset_ms": -24,
+          "gain_db": -4
+        }
+      ]
+    },
+    {
+      "id": "L25",
+      "beat": "twist",
+      "text": "That's when I realized the Grabber wasn't a monster. It was a kid, born here 60 years ago, with two hands.",
+      "say": {
+        "60": "sixty"
+      },
+      "sfx": [
+        {
+          "id": "sfx/reveal_whoosh",
+          "w": 0,
+          "offset_ms": -885,
+          "gain_db": -6
+        },
+        {
+          "id": "sfx/footsteps_wood_punch",
+          "w": 4,
+          "offset_ms": -26,
+          "gain_db": -4,
+          "dur_ms": 500
+        },
+        {
+          "id": "sfx/whoosh",
+          "w": 9,
+          "offset_ms": -105,
+          "gain_db": -7
+        },
+        {
+          "id": "sfx/crowd_gasp",
+          "w": 13,
+          "offset_ms": -18,
+          "gain_db": -7
+        }
+      ]
+    },
+    {
+      "id": "L26",
+      "beat": "twist",
+      "text": "They locked the doors on him. So every winter, he took one thing, hoping someone would come to get it back.",
+      "sfx": [
+        {
+          "id": "sfx/kenney_impactWood_light_000_punch",
+          "w": 1,
+          "offset_ms": -14,
+          "gain_db": -3
+        },
+        {
+          "id": "sfx/kenney_impactWood_heavy_002_punch",
+          "w": 2,
+          "offset_ms": -92,
+          "gain_db": -3
+        },
+        {
+          "id": "sfx/kenney_impactWood_light_000_punch",
+          "w": 3,
+          "offset_ms": 41,
+          "gain_db": -3
+        },
+        {
+          "id": "sfx/kenney_impactWood_heavy_003_punch",
+          "w": 4,
+          "offset_ms": -87,
+          "gain_db": -3
+        },
+        {
+          "id": "sfx/giant_walk_snow",
+          "w": 6,
+          "offset_ms": -28,
+          "gain_db": -7,
+          "dur_ms": 1570
+        },
+        {
+          "id": "sfx/bell_strike",
+          "w": 6,
+          "offset_ms": 42,
+          "gain_db": -11
+        },
+        {
+          "id": "sfx/winter_wind",
+          "w": 13,
+          "offset_ms": -74,
+          "gain_db": -11,
+          "dur_ms": 1700
+        }
+      ]
+    },
+    {
+      "id": "L27",
+      "beat": "twist",
+      "text": "Nobody ever came. Not once in 60 years.",
+      "say": {
+        "60": "sixty"
+      },
+      "pause_after_ms": 600,
+      "sfx": [
+        {
+          "id": "sfx/winter_wind",
+          "w": 0,
+          "offset_ms": -50,
+          "gain_db": -11,
+          "dur_ms": 2590
+        }
+      ]
+    },
+    {
+      "id": "L28",
+      "beat": "climax",
+      "hero_action": true,
+      "text": "So I did the thing nobody in this village has ever done. I held both his hands.",
+      "sfx": [
+        {
+          "id": "sfx/reveal_whoosh",
+          "w": 0,
+          "offset_ms": -1287,
+          "gain_db": -8
+        },
+        {
+          "id": "sfx/footsteps_wood_punch",
+          "w": 0,
+          "offset_ms": -7,
+          "gain_db": -4,
+          "dur_ms": 700
+        },
+        {
+          "id": "sfx/sparkle_chime",
+          "w": 13,
+          "offset_ms": 21,
+          "gain_db": -6
+        },
+        {
+          "id": "sfx/power_glow",
+          "w": 14,
+          "offset_ms": 16,
+          "gain_db": -7
+        }
+      ]
+    },
+    {
+      "id": "L29",
+      "beat": "climax",
+      "hero_action": true,
+      "text": "Then I let go, and I clapped. He clapped back. It sounded like thunder.",
+      "emphasis": [
+        6,
+        13
+      ],
+      "sfx": [
+        {
+          "id": "sfx/floor_creak",
+          "w": 2,
+          "offset_ms": 38,
+          "gain_db": -7,
+          "dur_ms": 800
+        },
+        {
+          "id": "sfx/single_clap",
+          "w": 6,
+          "offset_ms": 153,
+          "gain_db": -4
+        },
+        {
+          "id": "sfx/thunder_clap",
+          "w": 8,
+          "offset_ms": 53,
+          "gain_db": -4
+        },
+        {
+          "id": "sfx/thunder_crack",
+          "w": 10,
+          "offset_ms": -9,
+          "gain_db": -10
+        }
+      ]
+    },
+    {
+      "id": "L30",
+      "beat": "climax",
+      "text": "We walked back into town at sunrise, carrying the bell, the carts, and Pip, who was still eating.",
+      "sfx": [
+        {
+          "id": "sfx/dawn_birds",
+          "w": 0,
+          "offset_ms": -1017,
+          "gain_db": -12
+        },
+        {
+          "id": "sfx/cart_rolling",
+          "w": 7,
+          "offset_ms": -28,
+          "gain_db": -7,
+          "dur_ms": 1120
+        },
+        {
+          "id": "sfx/bell_strike",
+          "w": 9,
+          "offset_ms": 17,
+          "gain_db": -11
+        },
+        {
+          "id": "sfx/cookie_munch_even",
+          "w": 12,
+          "offset_ms": -25,
+          "gain_db": -6,
+          "dur_ms": 1250
+        }
+      ]
+    },
+    {
+      "id": "L31",
+      "beat": "payoff",
+      "text": "Mrs. Abernathy got her boots back. All 61 left ones. Gordy Platt fainted.",
+      "say": {
+        "61": "sixty-one"
+      },
+      "sfx": [
+        {
+          "id": "sfx/crowd_cheer",
+          "w": 0,
+          "offset_ms": -31,
+          "gain_db": -8,
+          "dur_ms": 1590
+        },
+        {
+          "id": "sfx/faint_thud_fall",
+          "w": 12,
+          "offset_ms": -94,
+          "gain_db": -8
+        }
+      ]
+    },
+    {
+      "id": "L32",
+      "beat": "payoff",
+      "text": "Grandma just nodded. \"Told you,\" she said.",
+      "sfx": [
+        {
+          "id": "sfx/knitting_needles_even",
+          "w": 0,
+          "offset_ms": -10,
+          "gain_db": -5,
+          "dur_ms": 890
+        },
+        {
+          "id": "sfx/sparkle_chime",
+          "w": 6,
+          "offset_ms": 26,
+          "gain_db": -11
+        }
+      ]
+    },
+    {
+      "id": "L33",
+      "beat": "ending",
+      "text": "Now clapping is legal. There are exactly 2 people in town who can do it, and we do it at every wedding.",
+      "say": {
+        "2": "two"
+      },
+      "sfx": [
+        {
+          "id": "sfx/crowd_cheer",
+          "w": 0,
+          "offset_ms": -26,
+          "gain_db": -9,
+          "dur_ms": 1850
+        },
+        {
+          "id": "sfx/claps_loop",
+          "w": 9,
+          "offset_ms": -15,
+          "gain_db": -5,
+          "dur_ms": 1000
+        },
+        {
+          "id": "sfx/wedding_stampede",
+          "w": 15,
+          "offset_ms": -18,
+          "gain_db": -8,
+          "dur_ms": 1390
+        },
+        {
+          "id": "sfx/claps_loop",
+          "w": 17,
+          "offset_ms": 55,
+          "gain_db": -6,
+          "dur_ms": 1000
+        }
+      ]
+    },
+    {
+      "id": "L34",
+      "beat": "ending",
+      "text": "They still call me Spare.",
+      "pause_after_ms": 250,
+      "sfx": [
+        {
+          "id": "sfx/kids_laugh",
+          "w": 0,
+          "offset_ms": -22,
+          "gain_db": -8,
+          "dur_ms": 1090
+        }
+      ]
+    },
+    {
+      "id": "L35",
+      "beat": "ending",
+      "text": "Every village needs one.",
+      "sfx": [
+        {
+          "id": "sfx/crowd_cheer",
+          "w": 0,
+          "offset_ms": -43,
+          "gain_db": -9,
+          "dur_ms": 1130
+        }
+      ]
+    }
+  ]
+}

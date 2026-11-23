@@ -1,0 +1,39 @@
+{
+  "header": {
+    "id": "bo_giant",
+    "tags": {
+      "role": [
+        "giant",
+        "kid",
+        "friend"
+      ],
+      "age": "kid",
+      "mood": [
+        "happy",
+        "curious"
+      ],
+      "story": "the-tiny-war"
+    },
+    "description": "Bo, the giant kid: kid template at scale 25 (about 90 studs tall), green-and-white striped tee, navy shorts, messy brown hair."
+  },
+  "spec": {
+    "template": "kid",
+    "scale": 25,
+    "face": "happy",
+    "hands": "both",
+    "hair": {
+      "style": "messy",
+      "color": "#6a3a1a"
+    },
+    "shirt": {
+      "pattern": "stripes",
+      "color": "#2fa84f",
+      "color2": "#f4f4f4",
+      "sleeves": "short"
+    },
+    "pants": {
+      "pattern": "shorts",
+      "color": "#3a4a6a"
+    }
+  }
+}

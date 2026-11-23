@@ -1,0 +1,37 @@
+{
+  "header": {
+    "id": "grandpa_soldier",
+    "tags": {
+      "role": [
+        "mentor",
+        "grandpa",
+        "veteran"
+      ],
+      "age": "old",
+      "mood": [
+        "wise",
+        "content"
+      ],
+      "story": "the-tiny-war"
+    },
+    "description": "Old veteran soldier grandpa: grandpa template, faded blue jacket and flat cap, full white beard."
+  },
+  "spec": {
+    "template": "grandpa",
+    "hands": "both",
+    "face": "content",
+    "hat": {
+      "type": "flatcap",
+      "color": "#4a5a7a"
+    },
+    "shirt": {
+      "pattern": "jacket",
+      "color": "#4a5a7a",
+      "sleeves": "full"
+    },
+    "pants": {
+      "pattern": "plain",
+      "color": "#2a2a3a"
+    }
+  }
+}

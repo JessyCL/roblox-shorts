@@ -1,0 +1,108 @@
+{
+  "header": {
+    "id": "tiny_guard_crowd",
+    "tags": {
+      "role": [
+        "guard",
+        "crowd",
+        "soldier"
+      ],
+      "age": "adult",
+      "mood": [
+        "stern"
+      ],
+      "story": "the-tiny-war"
+    },
+    "description": "Crowd of castle guards (navy/red suits with gold trim) for wall walks and streets; set path/area per use."
+  },
+  "spec": {
+    "crowd": {
+      "count": 30,
+      "area": [
+        -20,
+        -10,
+        20,
+        10
+      ],
+      "clip": "walk",
+      "speed": 3,
+      "seed": 41,
+      "outfits": [
+        {
+          "skin": "light",
+          "shirt": {
+            "sleeves": "full",
+            "pattern": "suit",
+            "color": "#2a3a6a",
+            "tie": "#e0b030"
+          },
+          "pants": {
+            "color": "#1e2436",
+            "shoes": {
+              "style": "boot",
+              "color": "#2a2018"
+            }
+          }
+        },
+        {
+          "skin": "tan",
+          "shirt": {
+            "sleeves": "full",
+            "pattern": "suit",
+            "color": "#24305a",
+            "tie": "#e0b030"
+          },
+          "pants": {
+            "color": "#1e2436",
+            "shoes": {
+              "style": "boot",
+              "color": "#2a2018"
+            }
+          }
+        },
+        {
+          "skin": "nougat",
+          "shirt": {
+            "sleeves": "full",
+            "pattern": "suit",
+            "color": "#30407a",
+            "tie": "#e0b030"
+          },
+          "pants": {
+            "color": "#1e2436",
+            "shoes": {
+              "style": "boot",
+              "color": "#2a2018"
+            }
+          }
+        },
+        {
+          "skin": "pale",
+          "shirt": {
+            "sleeves": "full",
+            "pattern": "suit",
+            "color": "#8a1e1e",
+            "tie": "#e0b030"
+          },
+          "pants": {
+            "color": "#1e2436",
+            "shoes": {
+              "style": "boot",
+              "color": "#2a2018"
+            }
+          }
+        }
+      ],
+      "faces": [
+        "determined",
+        "neutral",
+        "smug"
+      ],
+      "hairs": [
+        "bald",
+        "messy",
+        "spiky"
+      ]
+    }
+  }
+}

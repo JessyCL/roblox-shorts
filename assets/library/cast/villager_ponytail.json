@@ -1,0 +1,37 @@
+{
+  "header": {
+    "id": "villager_ponytail",
+    "tags": {
+      "role": [
+        "villager",
+        "extra"
+      ],
+      "age": "adult",
+      "mood": [
+        "cheerful",
+        "skeptical"
+      ],
+      "story": "everyone-has-one-hand"
+    },
+    "description": "Medieval villager woman, ginger ponytail, mustard cardigan and skirt."
+  },
+  "spec": {
+    "hands": "right",
+    "faceStyle": "b",
+    "face": "smile",
+    "skin": "pale",
+    "hair": {
+      "style": "ponytail",
+      "color": "#a8582a"
+    },
+    "shirt": {
+      "sleeves": "full",
+      "pattern": "cardigan",
+      "color": "#c9a03a"
+    },
+    "pants": {
+      "pattern": "skirt",
+      "color": "#5a4030"
+    }
+  }
+}

@@ -1,0 +1,314 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Cap,Poppins,145,&H00FFFFFF,&H000000FF,&H00000000,&H60000000,-1,0,0,0,100,100,0,0,1,7,3,5,60,60,0,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.10,0:00:00.67,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}in this village,
+Dialogue: 0,0:00:00.67,0:00:01.08,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}everyone
+Dialogue: 0,0:00:01.08,0:00:01.46,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}is born
+Dialogue: 0,0:00:01.46,0:00:02.26,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}with one hand,
+Dialogue: 0,0:00:02.26,0:00:02.87,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}and two hands
+Dialogue: 0,0:00:02.87,0:00:03.11,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}means
+Dialogue: 0,0:00:03.11,0:00:03.21,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}you're
+Dialogue: 0,0:00:03.21,0:00:03.82,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}the grabber
+Dialogue: 0,0:00:04.32,0:00:04.59,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}you see,
+Dialogue: 0,0:00:04.59,0:00:04.88,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}gloves
+Dialogue: 0,0:00:04.88,0:00:05.21,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}are sold
+Dialogue: 0,0:00:05.21,0:00:05.45,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}one at
+Dialogue: 0,0:00:05.45,0:00:05.94,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}a time,
+Dialogue: 0,0:00:05.94,0:00:06.49,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}and nobody's
+Dialogue: 0,0:00:06.49,0:00:06.69,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}ever
+Dialogue: 0,0:00:06.69,0:00:07.25,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}clapped
+Dialogue: 0,0:00:07.25,0:00:07.46,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}applause
+Dialogue: 0,0:00:07.46,0:00:08.08,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}is stomping
+Dialogue: 0,0:00:08.08,0:00:08.38,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}weddings
+Dialogue: 0,0:00:08.38,0:00:08.61,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}sound
+Dialogue: 0,0:00:08.61,0:00:08.74,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}like
+Dialogue: 0,0:00:08.74,0:00:09.49,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}a stampede
+Dialogue: 0,0:00:09.49,0:00:10.16,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}the jar factory
+Dialogue: 0,0:00:10.16,0:00:10.50,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}closed
+Dialogue: 0,0:00:10.50,0:00:11.70,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}in 1931,
+Dialogue: 0,0:00:11.70,0:00:12.26,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}because nobody
+Dialogue: 0,0:00:12.26,0:00:12.74,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}in town
+Dialogue: 0,0:00:12.74,0:00:13.10,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}could open
+Dialogue: 0,0:00:13.10,0:00:13.68,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}a jar
+Dialogue: 0,0:00:13.68,0:00:13.84,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}and when
+Dialogue: 0,0:00:13.84,0:00:14.20,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}you wave
+Dialogue: 0,0:00:14.20,0:00:14.72,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}goodbye,
+Dialogue: 0,0:00:14.72,0:00:14.97,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}you have
+Dialogue: 0,0:00:14.97,0:00:15.50,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}to put down
+Dialogue: 0,0:00:15.50,0:00:15.79,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}whatever
+Dialogue: 0,0:00:15.79,0:00:15.90,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}you're
+Dialogue: 0,0:00:15.90,0:00:16.43,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}holding
+Dialogue: 0,0:00:16.43,0:00:16.73,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}nobody
+Dialogue: 0,0:00:16.73,0:00:16.95,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}goes
+Dialogue: 0,0:00:16.95,0:00:17.26,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}past
+Dialogue: 0,0:00:17.26,0:00:17.85,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}the old mill
+Dialogue: 0,0:00:17.85,0:00:18.52,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}after dark,
+Dialogue: 0,0:00:18.52,0:00:18.94,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}because that's
+Dialogue: 0,0:00:18.94,0:00:19.52,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}where the grabber
+Dialogue: 0,0:00:19.52,0:00:20.09,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}lives
+Dialogue: 0,0:00:20.09,0:00:20.59,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}11 feet
+Dialogue: 0,0:00:20.59,0:00:20.91,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}tall,
+Dialogue: 0,0:00:20.91,0:00:21.59,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}two enormous
+Dialogue: 0,0:00:21.59,0:00:22.22,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}hands
+Dialogue: 0,0:00:22.22,0:00:22.80,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}every winter,
+Dialogue: 0,0:00:22.80,0:00:23.16,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}it takes
+Dialogue: 0,0:00:23.16,0:00:23.61,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}one thing
+Dialogue: 0,0:00:23.61,0:00:24.45,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}from the village
+Dialogue: 0,0:00:24.45,0:00:24.74,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}a church
+Dialogue: 0,0:00:24.74,0:00:24.99,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}bell
+Dialogue: 0,0:00:24.99,0:00:25.73,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}a hay cart
+Dialogue: 0,0:00:25.73,0:00:25.99,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}mrs
+Dialogue: 0,0:00:25.99,0:00:26.57,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}abernathy's
+Dialogue: 0,0:00:26.57,0:00:26.91,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}left
+Dialogue: 0,0:00:26.91,0:00:27.29,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}boot
+Dialogue: 0,0:00:27.29,0:00:27.59,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}nobody
+Dialogue: 0,0:00:27.59,0:00:27.84,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}knows
+Dialogue: 0,0:00:27.84,0:00:28.32,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}why it only
+Dialogue: 0,0:00:28.32,0:00:28.56,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}wants
+Dialogue: 0,0:00:28.56,0:00:28.88,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}the left
+Dialogue: 0,0:00:28.88,0:00:29.27,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}one
+Dialogue: 0,0:00:29.27,0:00:29.57,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}my name
+Dialogue: 0,0:00:29.57,0:00:30.02,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}is lenny,
+Dialogue: 0,0:00:30.02,0:00:30.31,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}and there's
+Dialogue: 0,0:00:30.31,0:00:30.73,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}one thing
+Dialogue: 0,0:00:30.73,0:00:31.15,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}you should know
+Dialogue: 0,0:00:31.15,0:00:31.78,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}about me
+Dialogue: 0,0:00:31.78,0:00:32.20,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}i was born
+Dialogue: 0,0:00:32.20,0:00:33.17,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}with two hands
+Dialogue: 0,0:00:33.17,0:00:33.85,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}my mom sews
+Dialogue: 0,0:00:33.85,0:00:34.35,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}my second
+Dialogue: 0,0:00:34.35,0:00:34.69,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}sleeve
+Dialogue: 0,0:00:34.69,0:00:34.96,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}shut
+Dialogue: 0,0:00:34.96,0:00:35.74,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}every morning,
+Dialogue: 0,0:00:35.74,0:00:36.10,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}and i keep
+Dialogue: 0,0:00:36.10,0:00:36.54,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}that hand
+Dialogue: 0,0:00:36.54,0:00:37.10,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}in my pocket
+Dialogue: 0,0:00:37.10,0:00:37.63,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}so nobody
+Dialogue: 0,0:00:37.63,0:00:38.32,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}screams
+Dialogue: 0,0:00:38.32,0:00:38.51,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}kids
+Dialogue: 0,0:00:38.51,0:00:38.67,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}call
+Dialogue: 0,0:00:38.67,0:00:39.35,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}me spare
+Dialogue: 0,0:00:39.35,0:00:39.81,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}every day,
+Dialogue: 0,0:00:39.81,0:00:40.11,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}gordy
+Dialogue: 0,0:00:40.11,0:00:40.36,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}platt
+Dialogue: 0,0:00:40.36,0:00:40.73,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}yells,
+Dialogue: 0,0:00:40.73,0:00:40.96,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}hey,
+Dialogue: 0,0:00:40.96,0:00:41.22,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}spare,
+Dialogue: 0,0:00:41.22,0:00:41.35,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}give
+Dialogue: 0,0:00:41.35,0:00:42.03,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}us a hand!
+Dialogue: 0,0:00:42.03,0:00:42.31,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}he thinks
+Dialogue: 0,0:00:42.31,0:00:42.49,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}that's
+Dialogue: 0,0:00:42.49,0:00:43.25,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}hilarious
+Dialogue: 0,0:00:43.25,0:00:43.66,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}honestly,
+Dialogue: 0,0:00:43.66,0:00:43.78,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}it's
+Dialogue: 0,0:00:43.78,0:00:44.03,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}pretty
+Dialogue: 0,0:00:44.03,0:00:44.29,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}good
+Dialogue: 0,0:00:44.29,0:00:44.86,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}i'm 12
+Dialogue: 0,0:00:44.86,0:00:45.00,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}i've
+Dialogue: 0,0:00:45.00,0:00:45.20,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}never
+Dialogue: 0,0:00:45.20,0:00:45.49,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}clapped
+Dialogue: 0,0:00:45.49,0:00:46.16,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}in public
+Dialogue: 0,0:00:46.16,0:00:46.59,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}my grandma
+Dialogue: 0,0:00:46.59,0:00:46.94,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}says,
+Dialogue: 0,0:00:46.94,0:00:47.23,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}a hand
+Dialogue: 0,0:00:47.23,0:00:47.55,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}you hide
+Dialogue: 0,0:00:47.55,0:00:47.93,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}is a hand
+Dialogue: 0,0:00:47.93,0:00:48.09,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}you'll
+Dialogue: 0,0:00:48.09,0:00:48.62,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}need
+Dialogue: 0,0:00:48.62,0:00:48.76,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}she's
+Dialogue: 0,0:00:48.76,0:00:49.34,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}94
+Dialogue: 0,0:00:49.34,0:00:49.65,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}she says
+Dialogue: 0,0:00:49.65,0:00:49.85,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}a lot
+Dialogue: 0,0:00:49.85,0:00:50.40,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}of things
+Dialogue: 0,0:00:51.05,0:00:51.46,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}then one night
+Dialogue: 0,0:00:51.46,0:00:52.11,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}in january,
+Dialogue: 0,0:00:52.11,0:00:52.63,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}the new church
+Dialogue: 0,0:00:52.63,0:00:52.85,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}bell
+Dialogue: 0,0:00:52.85,0:00:53.11,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}rang
+Dialogue: 0,0:00:53.11,0:00:54.11,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}13 times
+Dialogue: 0,0:00:54.11,0:00:54.33,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}something
+Dialogue: 0,0:00:54.33,0:00:54.81,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}was walking
+Dialogue: 0,0:00:54.81,0:00:55.06,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}down
+Dialogue: 0,0:00:55.06,0:00:55.31,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}main
+Dialogue: 0,0:00:55.31,0:00:55.76,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}street,
+Dialogue: 0,0:00:55.76,0:00:56.00,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}taller
+Dialogue: 0,0:00:56.00,0:00:56.59,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}than the lamps,
+Dialogue: 0,0:00:56.59,0:00:56.95,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}dragging
+Dialogue: 0,0:00:56.95,0:00:57.43,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}its knuckles
+Dialogue: 0,0:00:57.43,0:00:58.28,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}on the cobbles
+Dialogue: 0,0:00:58.28,0:00:58.66,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}the rule
+Dialogue: 0,0:00:58.66,0:00:59.38,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}is simple
+Dialogue: 0,0:00:59.38,0:00:59.86,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}when the grabber
+Dialogue: 0,0:00:59.86,0:01:00.22,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}comes,
+Dialogue: 0,0:01:00.22,0:01:00.44,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}you get
+Dialogue: 0,0:01:00.44,0:01:01.01,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}under your bed
+Dialogue: 0,0:01:01.01,0:01:01.37,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}and hold
+Dialogue: 0,0:01:01.37,0:01:01.99,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}your one hand
+Dialogue: 0,0:01:01.99,0:01:02.82,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}over your mouth
+Dialogue: 0,0:01:02.82,0:01:03.28,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}so i did
+Dialogue: 0,0:01:03.28,0:01:03.53,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}and then
+Dialogue: 0,0:01:03.53,0:01:03.85,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}i heard
+Dialogue: 0,0:01:03.85,0:01:04.19,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}my little
+Dialogue: 0,0:01:04.19,0:01:04.49,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}sister
+Dialogue: 0,0:01:04.49,0:01:04.79,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}pip's
+Dialogue: 0,0:01:04.79,0:01:05.06,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}window
+Dialogue: 0,0:01:05.06,0:01:05.54,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}open
+Dialogue: 0,0:01:05.54,0:01:05.96,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}two huge
+Dialogue: 0,0:01:05.96,0:01:06.16,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}gray
+Dialogue: 0,0:01:06.16,0:01:06.54,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}fingers
+Dialogue: 0,0:01:06.54,0:01:06.80,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}reached
+Dialogue: 0,0:01:06.80,0:01:07.09,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}in,
+Dialogue: 0,0:01:07.09,0:01:07.28,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}picked
+Dialogue: 0,0:01:07.28,0:01:07.65,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}her up like
+Dialogue: 0,0:01:07.65,0:01:08.18,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}a sandwich,
+Dialogue: 0,0:01:08.18,0:01:08.43,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}and she
+Dialogue: 0,0:01:08.43,0:01:09.10,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}was gone
+Dialogue: 0,0:01:09.10,0:01:09.31,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}i sat
+Dialogue: 0,0:01:09.31,0:01:09.84,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}on my bed,
+Dialogue: 0,0:01:09.84,0:01:10.19,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}and i ripped
+Dialogue: 0,0:01:10.19,0:01:10.56,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}my sleeve
+Dialogue: 0,0:01:10.56,0:01:11.03,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}open
+Dialogue: 0,0:01:11.03,0:01:11.32,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}i climbed
+Dialogue: 0,0:01:11.32,0:01:11.47,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}down
+Dialogue: 0,0:01:11.47,0:01:11.99,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}the drainpipe
+Dialogue: 0,0:01:11.99,0:01:12.72,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}with two hands,
+Dialogue: 0,0:01:12.72,0:01:12.92,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}which,
+Dialogue: 0,0:01:12.92,0:01:13.34,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}by the way,
+Dialogue: 0,0:01:13.34,0:01:13.73,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}is really
+Dialogue: 0,0:01:13.73,0:01:14.26,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}easy
+Dialogue: 0,0:01:14.26,0:01:14.71,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}the footprints
+Dialogue: 0,0:01:14.71,0:01:14.87,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}went
+Dialogue: 0,0:01:14.87,0:01:15.17,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}straight
+Dialogue: 0,0:01:15.17,0:01:15.77,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}to the mill
+Dialogue: 0,0:01:15.77,0:01:16.24,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}inside,
+Dialogue: 0,0:01:16.24,0:01:16.76,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}there were piles
+Dialogue: 0,0:01:16.76,0:01:17.18,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}of stuff
+Dialogue: 0,0:01:17.42,0:01:17.72,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}bells,
+Dialogue: 0,0:01:17.72,0:01:18.10,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}carts,
+Dialogue: 0,0:01:18.10,0:01:18.46,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}tools,
+Dialogue: 0,0:01:18.46,0:01:19.43,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}and 61 left
+Dialogue: 0,0:01:19.43,0:01:19.91,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}boots
+Dialogue: 0,0:01:19.91,0:01:20.05,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}and on
+Dialogue: 0,0:01:20.05,0:01:20.68,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}the top shelf,
+Dialogue: 0,0:01:20.68,0:01:20.85,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}next
+Dialogue: 0,0:01:20.85,0:01:21.49,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}to a lantern,
+Dialogue: 0,0:01:21.49,0:01:21.98,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}sat pip,
+Dialogue: 0,0:01:21.98,0:01:22.20,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}eating
+Dialogue: 0,0:01:22.20,0:01:22.79,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}a cookie
+Dialogue: 0,0:01:22.79,0:01:23.23,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}then the dark
+Dialogue: 0,0:01:23.23,0:01:23.63,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}at the back
+Dialogue: 0,0:01:23.63,0:01:24.01,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}of the mill
+Dialogue: 0,0:01:24.01,0:01:24.23,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}stood
+Dialogue: 0,0:01:24.23,0:01:24.58,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}up,
+Dialogue: 0,0:01:24.58,0:01:25.11,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}11 feet
+Dialogue: 0,0:01:25.11,0:01:25.48,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}tall,
+Dialogue: 0,0:01:25.48,0:01:25.84,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}and reached
+Dialogue: 0,0:01:25.84,0:01:26.10,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}for me
+Dialogue: 0,0:01:26.10,0:01:26.46,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}with both
+Dialogue: 0,0:01:26.46,0:01:27.00,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}hands
+Dialogue: 0,0:01:27.75,0:01:28.29,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}and it stopped
+Dialogue: 0,0:01:28.29,0:01:28.69,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}it stared
+Dialogue: 0,0:01:28.69,0:01:29.54,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}at my hands
+Dialogue: 0,0:01:29.54,0:01:30.05,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}then it slowly
+Dialogue: 0,0:01:30.05,0:01:30.29,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}held
+Dialogue: 0,0:01:30.29,0:01:30.75,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}out its own
+Dialogue: 0,0:01:30.75,0:01:31.03,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}two,
+Dialogue: 0,0:01:31.03,0:01:31.34,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}palms
+Dialogue: 0,0:01:31.34,0:01:31.52,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}up,
+Dialogue: 0,0:01:31.52,0:01:31.64,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}like
+Dialogue: 0,0:01:31.64,0:01:32.14,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}it was asking
+Dialogue: 0,0:01:32.14,0:01:32.83,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}me something
+Dialogue: 0,0:01:32.83,0:01:32.97,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}that's
+Dialogue: 0,0:01:32.97,0:01:33.67,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}when i realized
+Dialogue: 0,0:01:33.67,0:01:34.18,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}the grabber
+Dialogue: 0,0:01:34.18,0:01:34.47,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}wasn't
+Dialogue: 0,0:01:34.47,0:01:35.22,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}a monster
+Dialogue: 0,0:01:35.22,0:01:35.34,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}it was
+Dialogue: 0,0:01:35.34,0:01:35.83,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}a kid,
+Dialogue: 0,0:01:35.83,0:01:36.08,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}born
+Dialogue: 0,0:01:36.08,0:01:36.89,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}here 60 years
+Dialogue: 0,0:01:36.89,0:01:37.17,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}ago,
+Dialogue: 0,0:01:37.17,0:01:38.17,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}with two hands
+Dialogue: 0,0:01:38.17,0:01:38.48,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}they locked
+Dialogue: 0,0:01:38.48,0:01:38.81,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}the doors
+Dialogue: 0,0:01:38.81,0:01:39.36,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}on him
+Dialogue: 0,0:01:39.36,0:01:40.13,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}so every winter,
+Dialogue: 0,0:01:40.13,0:01:40.44,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}he took
+Dialogue: 0,0:01:40.44,0:01:40.94,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}one thing,
+Dialogue: 0,0:01:40.94,0:01:41.27,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}hoping
+Dialogue: 0,0:01:41.27,0:01:41.53,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}someone
+Dialogue: 0,0:01:41.53,0:01:41.78,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}would come
+Dialogue: 0,0:01:41.78,0:01:41.98,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}to get
+Dialogue: 0,0:01:41.98,0:01:42.59,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}it back
+Dialogue: 0,0:01:42.59,0:01:42.86,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}nobody
+Dialogue: 0,0:01:42.86,0:01:43.04,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}ever
+Dialogue: 0,0:01:43.04,0:01:43.45,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}came
+Dialogue: 0,0:01:43.45,0:01:43.78,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}not once
+Dialogue: 0,0:01:43.78,0:01:44.61,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}in 60 years
+Dialogue: 0,0:01:45.16,0:01:45.35,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}so i
+Dialogue: 0,0:01:45.35,0:01:45.83,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}did the thing
+Dialogue: 0,0:01:45.83,0:01:46.23,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}nobody
+Dialogue: 0,0:01:46.23,0:01:46.75,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}in this village
+Dialogue: 0,0:01:46.75,0:01:47.16,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}has ever
+Dialogue: 0,0:01:47.16,0:01:47.68,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}done
+Dialogue: 0,0:01:47.68,0:01:48.01,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}i held
+Dialogue: 0,0:01:48.01,0:01:48.20,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}both
+Dialogue: 0,0:01:48.20,0:01:48.98,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}his hands
+Dialogue: 0,0:01:48.98,0:01:49.30,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}then i let
+Dialogue: 0,0:01:49.30,0:01:49.51,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}go,
+Dialogue: 0,0:01:49.51,0:01:50.16,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}and i clapped
+Dialogue: 0,0:01:50.16,0:01:50.58,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}he clapped
+Dialogue: 0,0:01:50.58,0:01:50.89,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}back
+Dialogue: 0,0:01:50.89,0:01:51.26,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}it sounded
+Dialogue: 0,0:01:51.26,0:01:51.45,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}like
+Dialogue: 0,0:01:51.45,0:01:52.02,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}thunder
+Dialogue: 0,0:01:52.02,0:01:52.32,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}we walked
+Dialogue: 0,0:01:52.32,0:01:52.51,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}back
+Dialogue: 0,0:01:52.51,0:01:52.98,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}into town
+Dialogue: 0,0:01:52.98,0:01:53.67,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}at sunrise,
+Dialogue: 0,0:01:53.67,0:01:54.01,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}carrying
+Dialogue: 0,0:01:54.01,0:01:54.38,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}the bell,
+Dialogue: 0,0:01:54.38,0:01:54.81,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}the carts,
+Dialogue: 0,0:01:54.81,0:01:55.16,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}and pip,
+Dialogue: 0,0:01:55.16,0:01:55.59,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}who was still
+Dialogue: 0,0:01:55.59,0:01:56.07,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}eating
+Dialogue: 0,0:01:56.07,0:01:56.27,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}mrs
+Dialogue: 0,0:01:56.27,0:01:56.74,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}abernathy
+Dialogue: 0,0:01:56.74,0:01:57.29,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}got her boots
+Dialogue: 0,0:01:57.29,0:01:57.67,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}back
+Dialogue: 0,0:01:57.67,0:01:58.59,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}all 61 left
+Dialogue: 0,0:01:58.59,0:01:58.99,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}ones
+Dialogue: 0,0:01:58.99,0:01:59.32,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}gordy
+Dialogue: 0,0:01:59.32,0:01:59.59,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}platt
+Dialogue: 0,0:01:59.59,0:02:00.15,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}fainted
+Dialogue: 0,0:02:00.15,0:02:00.37,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}grandma
+Dialogue: 0,0:02:00.37,0:02:01.07,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}just nodded
+Dialogue: 0,0:02:01.07,0:02:01.27,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}told
+Dialogue: 0,0:02:01.27,0:02:02.04,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}you, she said
+Dialogue: 0,0:02:02.04,0:02:02.51,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}now clapping
+Dialogue: 0,0:02:02.51,0:02:03.17,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}is legal
+Dialogue: 0,0:02:03.17,0:02:03.73,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}there are exactly
+Dialogue: 0,0:02:03.73,0:02:04.20,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}2 people
+Dialogue: 0,0:02:04.20,0:02:04.55,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}in town
+Dialogue: 0,0:02:04.55,0:02:04.81,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}who can
+Dialogue: 0,0:02:04.81,0:02:05.16,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}do it,
+Dialogue: 0,0:02:05.16,0:02:05.40,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}and we
+Dialogue: 0,0:02:05.40,0:02:05.68,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}do it
+Dialogue: 0,0:02:05.68,0:02:06.56,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}at every wedding
+Dialogue: 0,0:02:06.56,0:02:06.75,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}they still
+Dialogue: 0,0:02:06.75,0:02:06.88,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}call
+Dialogue: 0,0:02:06.88,0:02:07.68,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}me spare
+Dialogue: 0,0:02:07.68,0:02:08.05,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}every village
+Dialogue: 0,0:02:08.05,0:02:08.28,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}needs
+Dialogue: 0,0:02:08.28,0:02:08.62,Cap,,0,0,0,,{\pos(540,1344)\xshad3\yshad6}one

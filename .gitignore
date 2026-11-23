@@ -1,0 +1,17 @@
+# created by setup.ps1 / renders - never commit
+node_modules/
+.venv/
+__pycache__/
+tools/bin/
+tools/.venv/
+models/
+dist/
+productions/*/out/
+productions/*/renders/
+productions/*/stills/
+productions/*/cache/
+productions/*/auditions/
+productions/*/audio/cache/
+*.log
+.env
+.claude/settings.local.json

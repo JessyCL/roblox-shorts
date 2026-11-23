@@ -1,0 +1,160 @@
+{
+  "header": {
+    "id": "villager_crowd",
+    "tags": {
+      "role": [
+        "crowd",
+        "villager",
+        "extra"
+      ],
+      "age": "mixed",
+      "mood": [
+        "calm"
+      ],
+      "story": "everyone-has-one-hand"
+    },
+    "description": "Instanced medieval villager crowd (8 outfits, one-handed townsfolk). Override crowd.area or path, count, clip, seed per production."
+  },
+  "spec": {
+    "crowd": {
+      "count": 20,
+      "area": [
+        -12,
+        -5,
+        12,
+        5
+      ],
+      "clip": [
+        "idle",
+        "look_around",
+        "idle"
+      ],
+      "seed": 11,
+      "yawJitter": 30,
+      "outfits": [
+        {
+          "skin": "light",
+          "shirt": {
+            "sleeves": "full",
+            "pattern": "solid",
+            "color": "#7a4a2a"
+          },
+          "pants": {
+            "color": "#4a3a2c",
+            "shoes": {
+              "style": "boot",
+              "color": "#3a2a1e"
+            }
+          }
+        },
+        {
+          "skin": "nougat",
+          "shirt": {
+            "sleeves": "full",
+            "pattern": "cardigan",
+            "color": "#3f6f4a"
+          },
+          "pants": {
+            "pattern": "skirt",
+            "color": "#5a4030"
+          }
+        },
+        {
+          "skin": "tan",
+          "shirt": {
+            "sleeves": "full",
+            "pattern": "waistcoat",
+            "color": "#8a3a2a"
+          },
+          "pants": {
+            "color": "#3c3c44",
+            "shoes": {
+              "style": "boot",
+              "color": "#2a2018"
+            }
+          }
+        },
+        {
+          "skin": "pale",
+          "shirt": {
+            "sleeves": "full",
+            "pattern": "dress",
+            "color": "#c9a03a"
+          },
+          "pants": {
+            "pattern": "skirt",
+            "color": "#c9a03a"
+          }
+        },
+        {
+          "skin": "pastel-brown",
+          "shirt": {
+            "sleeves": "full",
+            "pattern": "plaid",
+            "color": "#3a5a8a"
+          },
+          "pants": {
+            "color": "#5a4a3a",
+            "shoes": {
+              "style": "boot",
+              "color": "#2a2018"
+            }
+          }
+        },
+        {
+          "skin": "brown",
+          "shirt": {
+            "sleeves": "full",
+            "pattern": "solid",
+            "color": "#a8452e"
+          },
+          "pants": {
+            "pattern": "skirt",
+            "color": "#3a3050"
+          }
+        },
+        {
+          "skin": "light",
+          "shirt": {
+            "sleeves": "full",
+            "pattern": "knit",
+            "color": "#6a7a3a"
+          },
+          "pants": {
+            "color": "#4a3a2c",
+            "shoes": {
+              "style": "boot",
+              "color": "#3a2a1e"
+            }
+          }
+        },
+        {
+          "skin": "reddish-brown",
+          "shirt": {
+            "sleeves": "full",
+            "pattern": "dress",
+            "color": "#7a3a6a"
+          },
+          "pants": {
+            "pattern": "skirt",
+            "color": "#7a3a6a"
+          }
+        }
+      ],
+      "faces": [
+        "smile",
+        "neutral",
+        "happy",
+        "content"
+      ],
+      "hairs": [
+        "bob",
+        "messy",
+        "bun",
+        "balding",
+        "bald",
+        "ponytail"
+      ]
+    }
+  }
+}

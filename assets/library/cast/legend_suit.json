@@ -1,0 +1,38 @@
+{
+  "header": {
+    "id": "legend_suit",
+    "tags": {
+      "role": [
+        "legend",
+        "rich",
+        "celebrity"
+      ],
+      "age": "adult",
+      "mood": [
+        "confident",
+        "smug"
+      ],
+      "story": "proto_ticket"
+    },
+    "description": "Legend in a maroon suit and sunglasses (asked for a crown)."
+  },
+  "spec": {
+    "skin": "#e9b98f",
+    "face": "smile",
+    "hair": {
+      "style": "slicked",
+      "color": "#1a1410"
+    },
+    "shirt": {
+      "pattern": "suit",
+      "color": "#7a1f2b"
+    },
+    "pants": {
+      "pattern": "suit",
+      "color": "#1e1e26"
+    },
+    "acc": [
+      "sunglasses"
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "header": {
+    "id": "grabber_gentle",
+    "tags": {
+      "role": [
+        "giant",
+        "friend",
+        "misunderstood"
+      ],
+      "age": "adult",
+      "mood": [
+        "sad",
+        "gentle"
+      ],
+      "story": "everyone-has-one-hand"
+    },
+    "description": "The Grabber, gentle variant (after the twist): same giant body with a soft sad face."
+  },
+  "spec": {
+    "build": {
+      "legY": 1.25,
+      "torsoY": 1.25,
+      "armY": 1.8,
+      "w": 1.12,
+      "head": 0.92
+    },
+    "height": 11.2,
+    "skin": "#8d939b",
+    "hands": "both",
+    "hair": {
+      "style": "messy",
+      "color": "#34343a"
+    },
+    "shirt": {
+      "pattern": "tshirt",
+      "color": "#5c5046",
+      "torn": true,
+      "sleeves": "short"
+    },
+    "pants": {
+      "pattern": "plain",
+      "color": "#463a30",
+      "torn": true,
+      "shoes": false
+    },
+    "faceStyle": "c",
+    "face": "sad"
+  }
+}

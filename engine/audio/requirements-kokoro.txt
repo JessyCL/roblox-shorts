@@ -1,0 +1,13 @@
+# Optional offline TTS (tts.py: Kokoro-82M voice + faster-whisper alignment fallback), CPU only. ~1.5 GB installed.
+# setup.ps1 -WithKokoro installs it into engine/.venv after requirements.txt, then downloads the models with
+#   engine/.venv/Scripts/python.exe -I engine/audio/fetch_models.py   (Kokoro-82M + voices -> models/hf-kokoro,
+#   faster-whisper base.en -> models/hf-whisper; folders set in engine/config.json)
+# Kokoro 0.9.x needs Python 3.10-3.12. PyPI's Windows torch wheel is the CPU build.
+-r requirements.txt
+kokoro==0.9.4
+misaki[en]==0.9.4
+torch>=2.4
+faster-whisper>=1.1
+huggingface_hub
+# misaki's English G2P loads this spaCy model; its auto-download needs pip, which uv venvs do not have.
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl

@@ -1,0 +1,46 @@
+{
+  "header": {
+    "id": "giant_guard",
+    "tags": {
+      "role": [
+        "guard",
+        "giant",
+        "soldier"
+      ],
+      "age": "adult",
+      "mood": [
+        "stern"
+      ],
+      "story": "the-tiny-war"
+    },
+    "description": "Giant castle guard at scale 30 (about 150 studs): red tabard-suit, steel helmet, spear."
+  },
+  "spec": {
+    "hands": "both",
+    "face": "determined",
+    "shirt": {
+      "pattern": "suit",
+      "color": "#8a1e1e",
+      "tie": "#e0b030",
+      "sleeves": "full"
+    },
+    "pants": {
+      "pattern": "plain",
+      "color": "#1e2436",
+      "shoes": {
+        "style": "boot",
+        "color": "#2a2018"
+      }
+    },
+    "hat": {
+      "type": "hardhat",
+      "color": "#b8bcc4"
+    },
+    "hold": {
+      "r": {
+        "type": "spear"
+      }
+    },
+    "scale": 30
+  }
+}

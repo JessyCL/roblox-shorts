@@ -1,0 +1,40 @@
+{
+  "header": {
+    "id": "ropes_mom",
+    "tags": {
+      "role": [
+        "parent",
+        "mom",
+        "villager"
+      ],
+      "age": "adult",
+      "mood": [
+        "kind",
+        "brave",
+        "sleeping"
+      ],
+      "story": "the-ropes"
+    },
+    "description": "Toby's mom: steel-blue dress, long brown hair (same brown as Toby), both hands. Faces used: smile, sleepy (hanging asleep with hang_ankle), determined."
+  },
+  "spec": {
+    "faceStyle": "b",
+    "face": "smile",
+    "skin": "light",
+    "hands": "both",
+    "hair": {
+      "style": "long",
+      "color": "#5a3720"
+    },
+    "shirt": {
+      "pattern": "dress",
+      "color": "#3f7fa0",
+      "sleeves": "full"
+    },
+    "pants": {
+      "pattern": "skirt",
+      "color": "#3f7fa0",
+      "length": 1.4
+    }
+  }
+}

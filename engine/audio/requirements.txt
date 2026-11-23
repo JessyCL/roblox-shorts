@@ -1,0 +1,6 @@
+# Audio venv (engine/.venv, Python 3.12) for mix.py, music.py, sfx.py, narration.py and tts_elevenlabs.py.
+# setup.ps1 installs it with: uv pip install -r engine/audio/requirements.txt --python engine/.venv/Scripts/python.exe
+# Everything else they use is the standard library (ElevenLabs calls go through urllib) + ffmpeg.
+numpy>=1.26
+scipy>=1.11
+soundfile>=0.12

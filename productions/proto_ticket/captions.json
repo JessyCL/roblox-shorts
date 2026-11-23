@@ -1,0 +1,167 @@
+{
+ "style": {
+  "font": "poppins",
+  "color": "white",
+  "y": 0.7,
+  "size": 145,
+  "outline": 7,
+  "pop": false
+ },
+ "words": [
+  {
+   "start": 0.1,
+   "end": 0.746,
+   "text": "in this world,"
+  },
+  {
+   "start": 0.746,
+   "end": 1.346,
+   "text": "every baby"
+  },
+  {
+   "start": 1.346,
+   "end": 1.734,
+   "text": "is handed"
+  },
+  {
+   "start": 1.734,
+   "end": 2.17,
+   "text": "a ticket,"
+  },
+  {
+   "start": 2.38,
+   "end": 2.759,
+   "text": "and you wait"
+  },
+  {
+   "start": 2.759,
+   "end": 3.121,
+   "text": "your whole"
+  },
+  {
+   "start": 3.121,
+   "end": 3.371,
+   "text": "life"
+  },
+  {
+   "start": 3.371,
+   "end": 4.075,
+   "text": "for your number"
+  },
+  {
+   "start": 4.575,
+   "end": 4.834,
+   "text": "you see,"
+  },
+  {
+   "start": 4.834,
+   "end": 5.196,
+   "text": "the sign"
+  },
+  {
+   "start": 5.196,
+   "end": 5.434,
+   "text": "hangs"
+  },
+  {
+   "start": 5.434,
+   "end": 6.325,
+   "text": "over the square"
+  },
+  {
+   "start": 6.325,
+   "end": 6.859,
+   "text": "now serving"
+  },
+  {
+   "start": 6.859,
+   "end": 7.4,
+   "text": "seven"
+  },
+  {
+   "start": 7.4,
+   "end": 7.771,
+   "text": "it has said"
+  },
+  {
+   "start": 7.771,
+   "end": 8.121,
+   "text": "seven"
+  },
+  {
+   "start": 8.121,
+   "end": 9.261,
+   "text": "for 200 years"
+  },
+  {
+   "start": 9.261,
+   "end": 9.547,
+   "text": "nobody"
+  },
+  {
+   "start": 9.547,
+   "end": 9.809,
+   "text": "knows"
+  },
+  {
+   "start": 9.809,
+   "end": 10.184,
+   "text": "what you get"
+  },
+  {
+   "start": 10.184,
+   "end": 10.422,
+   "text": "when you're"
+  },
+  {
+   "start": 10.422,
+   "end": 11.011,
+   "text": "served"
+  },
+  {
+   "start": 11.011,
+   "end": 11.384,
+   "text": "the stories"
+  },
+  {
+   "start": 11.384,
+   "end": 11.834,
+   "text": "say number"
+  },
+  {
+   "start": 11.834,
+   "end": 12.422,
+   "text": "one asked"
+  },
+  {
+   "start": 12.422,
+   "end": 12.934,
+   "text": "for a crown"
+  },
+  {
+   "start": 12.934,
+   "end": 13.197,
+   "text": "and got"
+  },
+  {
+   "start": 13.197,
+   "end": 13.808,
+   "text": "a crown"
+  },
+  {
+   "start": 13.808,
+   "end": 13.985,
+   "text": "number"
+  },
+  {
+   "start": 13.985,
+   "end": 14.423,
+   "text": "two asked"
+  },
+  {
+   "start": 14.423,
+   "end": 14.919,
+   "text": "for a boat"
+  }
+ ]
+}

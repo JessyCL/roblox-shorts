@@ -1,0 +1,32 @@
+{
+  "header": {
+    "id": "grandma",
+    "tags": {
+      "role": [
+        "grandparent",
+        "mentor"
+      ],
+      "age": "elder",
+      "mood": [
+        "wise",
+        "content"
+      ],
+      "story": "everyone-has-one-hand"
+    },
+    "description": "Purple-cardigan grandma (grandma template) with a white bun and glasses; knits in a rocking chair."
+  },
+  "spec": {
+    "template": "grandma",
+    "hands": "right",
+    "face": "content",
+    "shirt": {
+      "pattern": "cardigan",
+      "color": "#9a5ab8",
+      "sleeves": "full"
+    },
+    "hair": {
+      "style": "bun",
+      "color": "#f2f2f2"
+    }
+  }
+}

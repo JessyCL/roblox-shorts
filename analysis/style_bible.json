@@ -1,0 +1,212 @@
+{
+  "version": "1.0",
+  "date": "2026-11-14",
+  "doc": "Companion to the Visual Style Bible (synthesis of 10 sample analyses). Values are defaults plus allowed variants; 'freq' = number of the 10 sample Shorts showing the trait. Engine field names follow engine/runtime (world/looks.js, fx/finishing.js, fx/index.js, fx/particles.js, camera/index.js).",
+  "sources": ["S1", "S7", "S6", "S9", "S3", "S4", "S5", "S2", "S8", "S10"],
+  "outlier_note": "S3 is likely Blender-rendered (motion blur, mirror water reflections, filmic tone, luma 90). Treat as a variant source only; never as the default.",
+
+  "qa_metric": {
+    "definition": "Same as analysis/preprocess motion.csv: frame downscaled to 270x480, luma = mean Y (0-255), sat = mean HSV S (0-255), contrast = std of luma, rb = mean(R) - mean(B), sharp = Laplacian variance. Measure over a whole video or a scene, captions included.",
+    "per_video_measured": {
+      "S1": { "luma": 136.4, "sat": 100.1, "contrast": 57.6, "rgb": [154, 130, 124], "rb": 29, "sharp_med": 1327, "cadence": "30 dup" },
+      "S7": { "luma": 116.6, "sat": 132.9, "contrast": 57.0, "rgb": [135, 113, 88], "rb": 47, "sharp_med": 971, "cadence": "60 realtime, hitches" },
+      "S6": { "luma": 122.4, "sat": 139.2, "contrast": 63.6, "rgb": [139, 120, 92], "rb": 46, "sharp_med": 2899, "cadence": "30 dup" },
+      "S9": { "luma": 117.2, "sat": 155.0, "contrast": 54.1, "rgb": [120, 119, 101], "rb": 19, "sharp_med": 942, "cadence": "60" },
+      "S3": { "luma": 89.7, "sat": 120.5, "contrast": 48.8, "rgb": [89, 89, 92], "rb": -3, "sharp_med": 526, "cadence": "30 dup (Blender-like)" },
+      "S4": { "luma": 116.1, "sat": 133.0, "contrast": 51.0, "rgb": [117, 118, 101], "rb": 17, "sharp_med": 2013, "cadence": "30 optical-flow interpolated to 60" },
+      "S5": { "luma": 136.8, "sat": 99.2, "contrast": 50.5, "rgb": [172, 121, 124], "rb": 48, "sharp_med": 853, "cadence": "~41 realtime" },
+      "S2": { "luma": 110.7, "sat": 121.5, "contrast": 56.4, "rgb": [113, 112, 97], "rb": 15, "sharp_med": 1216, "cadence": "60" },
+      "S8": { "luma": 119.8, "sat": 132.6, "contrast": 55.3, "rgb": [118, 120, 121], "rb": -3, "sharp_med": 1834, "cadence": "60" },
+      "S10": { "luma": 120.3, "sat": 147.4, "contrast": 63.9, "rgb": [135, 119, 92], "rb": 43, "sharp_med": 2750, "cadence": "30 dup" }
+    },
+    "video_targets": { "luma": [110, 137], "luma_default": 118, "sat": [120, 155], "sat_default": 133, "contrast": [50, 64], "contrast_default": 56, "rb": [15, 48], "rb_default": 25, "luma_p10": [55, 100], "luma_p90": [137, 170] }
+  },
+
+  "global": {
+    "render_fps_unique": 30,
+    "output_fps": 60,
+    "cadence_note": "30 unique fps duplicated to 60 (5/10 samples are 30 fps content). Never interpolate or blend frames.",
+    "motion_blur": { "samples": 1, "note": "absent in 9/10; only S3 has it (Blender). Do not enable." },
+    "tone_mapping": "neutral",
+    "grain": 0,
+    "vignette": { "darkness": 0, "variant_z4Qm_corner_luma_ratio": 0.76, "freq": 1 },
+    "chromatic_aberration": 0,
+    "sharpen": { "default": 0.6, "soft_variant": 0.25, "soft_for": ["pastel", "high_key"], "freq_crunchy": 5, "freq_soft": 4 },
+    "house_grade": { "saturation": 1.22, "vibrance": 0.12, "contrast": 1.04, "curve": 0.22 },
+    "shadows": { "type": "soft-edged sun shadows, blue-grey fill, never black", "softness": [0.15, 0.35] }
+  },
+
+  "engine_deltas": [
+    { "where": "pipeline.js", "field": "post.grain default 0.06", "set": 0, "why": "no grain in 10/10" },
+    { "where": "pipeline.js", "field": "vignette darkness default 0.35 (always on)", "set": 0, "why": "vignette only in S8 (1/10, + low-confidence S3)" },
+    { "where": "pipeline.js / looks BASE", "field": "N8AO intensity 2.0 / ao 1.2", "set": "lower (research: subtle, 0.4-0.8 equivalent); verify vs sample CU contact shadows", "why": "heavy AO reads as Blender, not Roblox" },
+    { "where": "fx/finishing.js GRADE_PRESETS.night", "field": "saturation 0.7", "set": 1.15, "why": "target-style nights keep sat 150-250 (S9, S2, S7): saturated navy, not grey" },
+    { "where": "fx/finishing.js GRADE_PRESETS.horror", "field": "saturation 0.35", "set": 0.9, "why": "S7 horror nights sat 88-181 with warm practicals; only storm-day (S10) desaturates" },
+    { "where": "camera/index.js ZOOMS.slow", "field": "rate 0.14", "set": 0.09, "why": "median of per-video push rates is ~8-9 %/s (range 5-14)" },
+    { "where": "characters/faces.js", "field": "talk_a / talk_o visemes", "set": "unused by default", "why": "no lip-sync in 10/10; talking = held open-mouth decal" }
+  ],
+
+  "characters": {
+    "rig": { "parts": 6, "elbows_knees": false, "head": "rounded cylinder ~1.25 studs", "height_studs": 5.125, "freq": 10 },
+    "proportion_roles": {
+      "adult": 1.0,
+      "child": [0.65, 0.75],
+      "baby": "0.4-0.5 scaled rig or sphere-head pawn",
+      "tall_authority_stretch_y": 1.6,
+      "giant": [10, 100],
+      "evidence": { "S5": "child 0.65, balancer 1.6 stretch, gold statue giant", "S9": "giants x30 and x100", "S3": "merchant grows x10", "S8": "baby = scaled R6", "S1": "baby = sphere head" }
+    },
+    "faces": {
+      "style": "flat 2D decal, thick rounded black strokes, vertical oval or dot eyes (optional white glint), open mouths filled red with optional white teeth",
+      "swap": { "type": "instant, 1 frame, no tween", "anchor": "on cue-word onset or on the cut", "rate_per_s": [0.06, 0.12], "max_per_shot": 2 },
+      "lip_sync": false,
+      "required_set": ["neutral", "smile", "grin", "happy", "laugh", "content_closed_eyes", "smug", "deadpan", "side_eye", "skeptical", "worried", "sad", "cry", "shock", "googly_shock", "terrified", "shout", "angry", "determined", "evil", "sleepy", "wink", "toothy_grin"],
+      "special_variants": ["skull", "fangs", "glowing_eyes", "zzz_sleeping"],
+      "engine_gaps": ["googly_shock (big white-ringed eyes, small pupils: S3, S4, S6)", "side_eye", "wink", "content_closed_eyes", "toothy_grin", "skull/fangs variants"]
+    },
+    "clothing": { "type": "flat 2D shirt/pants textures with baked fabric detail and box-edge seams", "signature_textures": ["knit", "plaid/flannel", "denim", "hoodie", "suspenders", "overalls", "cardigan", "hi-vis", "apron", "lab coat", "suit"], "knit_freq": 7, "hero_signature_colour": "one saturated colour per hero (red/orange 5/10)" },
+    "hair": { "type": "chunky glossy rigid mesh, smooth-shaded", "freq": 10, "styles_by_frequency": ["spiky anime (5/10)", "messy/emo fringe", "swept/slick", "bob", "bun", "ponytail/pigtails", "long flowing", "bald + white side tufts"], "beards": ["white long (elder)", "full brown"], "elder_archetype_freq": 9 },
+    "animation": {
+      "walk": { "cycle_s": [0.6, 0.67], "legs_deg": [66, -45], "arms_deg": [-56, 63], "bob": 0, "speed_studs_s": 16 },
+      "run": { "cycle_s": 0.4, "swing_deg": 60, "bob": 0 },
+      "idle": "statue (<=1.5 deg); long dead holds are on-style",
+      "pose_change": { "snap_frames_30fps": [2, 3], "eased_s": [0.2, 0.4] },
+      "prop_drop_in": { "dur_s": [0.15, 0.25], "ease": "inQuad", "landing": "hard stop + dust burst" },
+      "fall": "arms straight up, no ragdoll",
+      "physics": "keyed or baked rigid motion, no live ragdoll"
+    },
+    "crowds": {
+      "tiers": {
+        "mass": { "count": [150, 1000], "freq": 4, "videos": ["S6", "S1", "S7", "S10"] },
+        "group": { "count": [8, 40], "freq": 6, "videos": ["S8", "S9", "S5", "S2", "S3", "S4"] }
+      },
+      "lod": { "hero": "full rig + unique outfit", "mid": "8-12 outfit variants, recoloured", "far": "pawn: sphere head + torso box + leg box, no arms (S1)", "very_far": "dots (S6 top-down)" },
+      "tricks": ["same pose for all (S7, S10, S1)", "recolour per group/kind (S2, S7)", "run-cycle phase offsets (S6)", "identical props e.g. chairs (S1)", "high camera angles to imply 10^4-10^5 people"]
+    },
+    "creatures": {
+      "default": "original blocky/voxel or stylized low-poly with googly or square eyes",
+      "variants": { "voxel_pets": "S9", "stylized_googly_fish": "S3", "realistic_giant_animals": "S4, S10 (toolbox look; use CC0 only)", "r6_monster_variants": "S7 (vampire, werewolf mask, ghost 50% transparent mint, zombie sage-green, skeleton bone legs)" },
+      "freq": 6
+    }
+  },
+
+  "looks": {
+    "day": { "engine": "day", "freq": 10, "sun_elevation": [45, 60], "sky": "saturated cyan-blue + cumulus (9/10)", "haze": { "color": "#b6d6f0", "density": [0.002, 0.0042] }, "bloom": { "intensity": 0.45, "threshold": 1.0 }, "targets": { "luma": [120, 160], "sat": [115, 165], "rb": [15, 50] } },
+    "golden_sunset": { "engine": "golden", "freq": 7, "videos": ["S6", "S7", "S10", "S5", "S9", "S3", "S4"], "sun_elevation": [8, 15], "haze": { "warm": "#e9cfa6", "pink": "#e88a7a", "density_mult": [1.5, 2.0] }, "sun_disc": "large, blooming", "use": "endings/epilogues (5/7)", "targets": { "luma": [100, 160], "sat": [145, 195] } },
+    "pastel_lilac": { "engine": "pastel", "freq": 1, "videos": ["S5"], "sky": "#DBC1DA", "fog": "#e4c4d6", "black_lift_p1_luma": 48, "targets": { "luma": [102, 169], "sat": [74, 124], "rgb": [172, 121, 124] } },
+    "night": { "engine": "night", "freq": 6, "videos": ["S9", "S2", "S7", "S1", "S3", "S4"], "sky": "deep navy + stars", "practicals": "lit windows (~30% lit, #f0f4ff / #ffd27a), lamps #ffb349", "bloom": { "intensity": 0.85, "threshold": 0.9 }, "targets": { "luma": [35, 85], "sat": [150, 250], "rb": [-110, -35] } },
+    "menace_sky_day_ground": { "engine": { "preset": "day", "sky": { "zenith": "#030820", "horizon": "#14295a", "stars": 1, "clouds": 0.1 } }, "freq": 1, "videos": ["S4"], "note": "starry navy sky (#0b2a6a-ish) over a sun-lit ground for villain shots; mood by sky, not grade", "targets": { "luma": [66, 100] } },
+    "spooky_night": { "engine": "spooky", "freq": 2, "videos": ["S7", "S3"], "ambient": "blue-violet", "practicals": "warm torches/lanterns, red eyes", "ground_fog": true, "fog": { "color": "#241e34", "density": 0.012 }, "targets": { "luma": [38, 95], "sat": [88, 181] } },
+    "storm": { "engine": { "preset": "overcast", "sky": { "zenith": "#5e4e52", "horizon": "#8c7470", "clouds": 1.0, "cloudColor": "#7a6a6c" }, "fog": { "color": "#8c7470", "density": 0.005 } }, "freq": 3, "videos": ["S10", "S7", "S3"], "extras": ["rain", "lightning", "dark smoke #4a4440", "cloud glow spot"], "targets_day_storm": { "sat": [70, 81] } },
+    "teal_forest": { "engine": { "preset": "day", "atmosphere": { "density": 0.006, "color": "#3f8f9c", "haze": 2.0 } }, "freq": 1, "videos": ["S10"], "dof_on_cu": "strong (8-15 px)", "particles": "motes" },
+    "interior_warm": { "engine": "interior", "freq": 8, "lights": "candles/lamps point lights + bloom" },
+    "candle_hyper_warm": { "engine": { "preset": "interior", "sun": { "intensity": 0.6 }, "lights": 1, "post": { "bloom": { "intensity": 1.0, "threshold": 0.85 }, "grade": { "temperature": 0.35, "saturation": 1.3 } } }, "freq": 3, "videos": ["S2", "S7", "S3"], "targets": { "sat": [150, 220], "rb": [110, 180] } },
+    "high_key_pastel": { "engine": "interior_bright", "freq": 4, "videos": ["S9", "S8", "S2", "S7"], "use": "relief / heaven / payoff", "window_bloom": true, "targets": { "luma": [160, 220], "sat": [40, 110] } },
+    "void": { "engine": { "preset": "day", "heightFog": { "y": -10, "density": 0.06, "color": "#211e2d", "max": 1 } }, "freq": 4, "videos": ["S5", "S2", "S6", "S3"], "formula": "f = 1 - exp(-k*max(0, y0 - y)); mix(color, voidColor, f)", "void_colors": ["#211e2d", "#000000", "deep blue-black (S3 abyss)"], "targets": { "luma": [30, 75] } },
+    "space": { "engine": "space", "freq": 1, "videos": ["S6"], "dof": "strong on planet surface" },
+    "underwater_shallow": { "engine": { "preset": "interior_bright", "fog": { "density": 0 } }, "freq": 1, "videos": ["S3"], "extras": ["caustics", "bubbles"], "targets": { "luma": [195, 203], "sat": [43, 55] } }
+  },
+
+  "grades": {
+    "house_day": { "engine_preset": null, "params": { "saturation": 1.22, "vibrance": 0.12, "contrast": 1.04, "curve": 0.22 }, "sharpen": 0.6, "freq": 10 },
+    "sepia_flashback": { "engine_preset": "sepia", "params": { "saturation": 0.35, "exposure": -0.35, "contrast": 1.04, "tone": "#9a784c", "toneMix": 0.65 }, "freq": 4, "videos": ["S6", "S2", "S1", "S7"], "targets": { "luma": [77, 96], "rgb": [99, 80, 51], "rb": [40, 75] }, "variants": { "grey": { "videos": ["S1"], "params": { "saturation": 0.22, "exposure": -0.4, "contrast": 0.9 }, "targets": { "sat": [18, 36] } }, "amber_light": { "videos": ["S7"], "params": { "gain": [1.08, 1.0, 0.85], "saturation": 0.9 } } }, "no_treatment": ["S8", "S5", "S4 (recoloured model instead)"] },
+    "night_blue": { "engine_preset": "night", "params_recommended": { "exposure": -0.8, "temperature": -0.55, "saturation": 1.15, "tint": -0.05, "lift": [0, 0.01, 0.035] }, "freq": 6, "targets": { "luma": [35, 85], "sat": [150, 250], "rb": [-110, -35] } },
+    "black_void": { "params": { "exposure": -0.3, "contrast": 1.1 }, "freq": 4, "targets": { "luma": [30, 75], "sat": [18, 80] } },
+    "high_key_pastel": { "params": { "exposure": 0.35, "saturation": 0.75, "contrast": 0.85, "lift": 0.05 }, "sharpen": 0.25, "freq": 4, "targets": { "luma": [160, 220], "sat": [40, 110] } },
+    "sunset": { "engine_preset": "sunset", "params": { "temperature": 0.5, "saturation": 1.08, "gain": [1.05, 0.97, 0.86], "exposure": -0.1 }, "freq": 7, "targets": { "luma": [100, 160], "sat": [145, 195] } },
+    "dreamy_pastel": { "params": { "saturation": 0.92, "contrast": 0.88, "lift": 0.08, "temperature": 0.06, "tint": 0.05 }, "sharpen": 0.25, "freq": 1, "videos": ["S5"] },
+    "horror_night": { "engine_preset": "horror", "params_recommended": { "saturation": 0.9, "contrast": 1.12, "exposure": -0.35, "temperature": -0.25, "tint": -0.08 }, "freq": 2, "note": "keep warm practicals saturated against violet ambient" },
+    "storm_day": { "params": { "saturation": 0.55, "contrast": 0.92, "temperature": 0.05, "tint": 0.04 }, "freq": 1, "videos": ["S10"], "targets": { "sat": [70, 81] } },
+    "warm_hyper": { "params": { "temperature": 0.35, "saturation": 1.3 }, "freq": 3, "targets": { "sat": [150, 220], "rb": [110, 180] } }
+  },
+
+  "post": {
+    "bloom": { "default": { "intensity": 0.6, "threshold": 0.85, "halo_px_at_1080w": [25, 60] }, "night_candle": { "intensity": [0.85, 1.2], "threshold": [0.75, 0.9] }, "dreamy": { "intensity": 0.6, "threshold": 0.8, "catches_sky": true }, "rule": "only emissive (Neon x4 HDR), sun, flashes and specular gold bloom; lit white walls must not", "freq": 10 },
+    "dof": { "enable_on": ["ecu", "cu", "mcu", "insert"], "disable_on": ["ms", "mws", "ws", "ews"], "far_blur_px_at_1080w": [6, 15], "default_far_blur_px": 10, "rack_focus": false, "freq": 10, "strong_variant": ["S7", "S10", "S3"], "weak_variant": ["S2", "S4"] },
+    "haze": { "fog_color": "sky horizon colour (sample sky along view ray)", "density_day": [0.002, 0.0042], "density_dense": [0.006, 0.012], "freq": 9 },
+    "god_rays": { "intensity": [0.05, 0.15], "freq": 2, "videos": ["S5", "S4"] }
+  },
+
+  "camera_visual": {
+    "every_shot_moves": true,
+    "push_in": { "freq": 10, "share_of_shots": [0.5, 0.8], "rate_pct_per_s_default": 9, "rate_range": [5, 14], "total_per_shot_pct": [8, 15], "emphasis_pct": [25, 60], "emphasis_dur_s": [0.7, 1.25], "emphasis_freq": 6, "ease_default": "linear", "ease_variants": { "outQuad": ["S9", "S7"], "inOutSine": ["S3", "S2"] } },
+    "roll_drift_deg": [2, 10],
+    "dutch_chaos_deg": [8, 35],
+    "handheld": { "freq": 6, "rms_pct": [0.2, 1.7], "hz": [3, 7], "roll_deg": [0.1, 0.7], "sway_variant_eV8E": { "roll_deg": 0.45, "period_s": 1.0, "reset_per_shot": true }, "calm_shots_static_freq": 9 },
+    "impact_shake": { "freq": 6, "p2p_pct": [1.8, 3.1], "hz": [7, 11], "decay_s": [0.08, 0.2], "spring_variant_Tkgs": { "hz": 5, "zeta": 0.3, "dur_s": 1.3 } },
+    "zoom_punch": { "freq": 3, "amount": [0.13, 0.49], "dur_s": [0.25, 0.38], "ease": "outCubic", "on": "emphasis word" },
+    "intro_blur_in": { "freq": 7, "scale_from": [1.3, 1.6], "frames_unique": [4, 8], "radial_blur_from": 1.0, "roll_from_deg_optional": 15, "alt_white_fade_YvLV": { "hold_s": 0.28, "ramp_s": 0.85 } },
+    "framing": { "subject_x": "centred (10/10)", "face_band_y_pct": [15, 45], "keep_faces_out_of_y_pct": [60, 78], "nothing_key_below_y_pct": 80 }
+  },
+
+  "vfx": [
+    { "name": "slow_push_in", "engine": "camera push_in / ZOOMS.slow", "freq": 10, "category": "camera", "priority": "must" },
+    { "name": "face_decal_swap", "engine": "actor.face keys", "freq": 10, "category": "animation", "priority": "must" },
+    { "name": "bloom_glow + neon_emissive", "engine": "post.bloom + Neon material", "freq": 10, "category": "post/shader", "priority": "must" },
+    { "name": "dof_background_blur", "engine": "post.dof", "freq": 10, "params": { "far_blur_px": [6, 15] }, "category": "post", "priority": "must" },
+    { "name": "atmosphere_haze", "engine": "look fog/sky haze", "freq": 9, "category": "shader", "priority": "must" },
+    { "name": "per_scene_grade_shift", "engine": "post.grade preset / color_grade_shift", "freq": 9, "category": "post", "priority": "must" },
+    { "name": "lighting_preset_cut", "engine": "shot.look", "freq": 8, "category": "3D", "priority": "must" },
+    { "name": "in_world_text_display", "engine": "S.text / canvas texture", "freq": 8, "params": { "digit_swap_hz_max": 20 }, "category": "3D", "priority": "must" },
+    { "name": "particles_smoke_dust_puff", "engine": "particles puff / footdust / puff_ring / smoke / dust_wall", "freq": 7, "params": { "life_s": [0.5, 1.0], "count": [6, 20] }, "category": "3D", "priority": "must" },
+    { "name": "intro_blur_in", "engine": "fx intro_zoom_blur / blur_in", "freq": 7, "category": "post", "priority": "must" },
+    { "name": "glow_pulse_prop", "engine": "fx glow_pulse / draw_on", "freq": 7, "params": { "dur_s": [0.15, 0.65], "decay_s": 0.2, "point_light": true, "neon_draw_on_s": 0.15, "flicker_toggle_s": [0.1, 0.17] }, "category": "3D", "priority": "must" },
+    { "name": "particles_sparkle_star", "engine": "particles sparkle / fx sparkles", "freq": 7, "params": { "shape": "4-point star", "count": [3, 30], "life_s": [0.3, 0.8] }, "category": "3D", "priority": "must" },
+    { "name": "camera_shake_handheld", "engine": "camera shake handheld", "freq": 6, "category": "camera", "priority": "should" },
+    { "name": "camera_shake_impact", "engine": "fx camera_shake_impact", "freq": 6, "category": "camera", "priority": "must" },
+    { "name": "zoom_punch_in", "engine": "fx zoom_punch_in", "freq": 3, "category": "camera/post", "priority": "should" },
+    { "name": "rings_shockwave_sound", "engine": "particles sound_rings + ring sprite", "freq": 5, "params": { "color": "#bff6ff or white", "alpha": 0.5, "spawn_every_s": 0.3, "life_s": [0.25, 0.8], "scale": [0.2, 3.0] }, "category": "3D/compositing", "priority": "should", "videos": ["S1", "S7", "S10", "S4", "S3"] },
+    { "name": "keyed_physics_fall_debris", "engine": "particles debris + keyed transforms", "freq": 6, "category": "animation/3D", "priority": "should" },
+    { "name": "jump_cut_reframe", "engine": "director: 2-3 framings per setup", "freq": 4, "category": "editing", "priority": "should" },
+    { "name": "directional_blur_whip_transition", "engine": "fx directional_blur", "freq": 4, "params": { "frames": [6, 18], "length_pct_w": 8 }, "category": "post", "priority": "should" },
+    { "name": "foreground_occluder_wipe", "engine": "set prop near camera path", "freq": 3, "category": "staging", "priority": "should" },
+    { "name": "overlay_sticker", "engine": "fx overlay", "freq": 4, "params": { "pop": "0.6->1.3->1.0 in 3-5 frames, easeOutBack" }, "category": "compositing", "priority": "should", "videos": ["S7", "S2", "S10", "S1"] },
+    { "name": "flash_white", "engine": "fx flash_white", "freq": 3, "params": { "lightning_dur_s": 0.1, "lightning_luma_add": [40, 70], "impact_dur_s": [0.08, 0.5] }, "category": "post", "priority": "should", "rule": "only lightning or a hit; never as a cut transition" },
+    { "name": "lightning_bolt", "engine": "beam / emissive polyline", "freq": 3, "params": { "visible_s": [0.1, 0.33], "segments": [5, 9] }, "category": "3D", "priority": "should" },
+    { "name": "rain", "engine": "particles rain", "freq": 2, "params": { "alpha": [0.3, 0.4] }, "category": "3D", "priority": "should" },
+    { "name": "silhouette", "engine": "fx silhouette", "freq": 2, "params": { "color": "#262a36", "reveal_s": 0.5 }, "category": "shader", "priority": "should" },
+    { "name": "ambient_motes_fireflies", "engine": "particles motes", "freq": 4, "category": "3D", "priority": "should" },
+    { "name": "beam_ribbon", "engine": "fx beam", "freq": 3, "category": "3D", "priority": "nice" },
+    { "name": "giant_scale_change", "engine": "actor scale key", "freq": 2, "category": "animation", "priority": "nice" },
+    { "name": "transparency_ghost / xray", "engine": "material override", "freq": 1, "category": "shader", "priority": "nice" },
+    { "name": "speed_lines", "engine": "overlay shader", "freq": 1, "category": "compositing", "priority": "nice" },
+    { "name": "iris_mask_ring", "engine": "overlay", "freq": 1, "category": "compositing", "priority": "nice" },
+    { "name": "split_screen", "engine": "scissor viewports", "freq": 1, "category": "compositing", "priority": "nice" },
+    { "name": "mesh_cloud_emitter", "engine": "S.clouds / instanced blobs", "freq": 1, "category": "3D", "priority": "nice" },
+    { "name": "wind_lines", "engine": "particles wind_lines", "freq": 1, "category": "3D", "priority": "nice" },
+    { "name": "caustics_underwater", "engine": "shader", "freq": 1, "category": "shader", "priority": "nice" },
+    { "name": "forcefield_dome", "engine": "ForceField material", "freq": 1, "category": "shader", "priority": "nice" },
+    { "name": "god_rays", "engine": "post sun rays", "freq": 2, "category": "post", "priority": "nice" },
+    { "name": "vignette", "engine": "post.vignette", "freq": 1, "category": "post", "priority": "off_by_default" },
+    { "name": "motion_blur", "engine": "post.motionBlur", "freq": 1, "category": "post", "priority": "do_not" }
+  ],
+
+  "do_not_reproduce": [
+    { "artifact": "light pop-in after cuts (8-10 frames ambient-only, then lights snap on)", "videos": ["S7"] },
+    { "artifact": "irregular duplicate frames / render hitches / ~41 unique fps", "videos": ["S7", "S5"] },
+    { "artifact": "single-frame 50/50 blends and optical-flow interpolation ghosting", "videos": ["S8", "S4"] },
+    { "artifact": "slowed clip with duplicated frames", "videos": ["S2"] },
+    { "artifact": "grey not-yet-loaded avatars in crowds", "videos": ["S1"] },
+    { "artifact": "low-res / pixelated textures and face decals in close-up", "videos": ["S6", "S7"] },
+    { "artifact": "mesh intersection slivers, stray rope/beam lines", "videos": ["S10", "S6"] },
+    { "artifact": "compression blocking/banding (render clean, encode at high bitrate)", "videos": ["S6", "S2"] },
+    { "artifact": "real motion blur, filmic ACES roll-off, mirror-reflective water as defaults", "videos": ["S3"] },
+    { "artifact": "Roblox logos/marks (R$ sack, R cap) or catalog faces", "videos": ["S9", "S1"] }
+  ],
+
+  "asset_priorities": [
+    { "p": 0, "item": "Face atlas: 23 expressions + 4 specials, 256-512 px each (no pixelation in ECU)" },
+    { "p": 0, "item": "Hair/beard/hat mesh library (12 hair, 3 beards, 10 hats/headwear, round glasses)" },
+    { "p": 0, "item": "Clothing texture generator: knit, plaid, flannel, denim, hoodie, suspenders, overalls, cardigan, hi-vis, apron, lab coat, suit, robe" },
+    { "p": 0, "item": "Archetype cast templates: hero kid (signature colour), grandpa/elder (white hair+beard, knit/waistcoat), parent, authority figure, doctor/nurse, baby, villain" },
+    { "p": 0, "item": "Crowd system with 4 LOD tiers (hero, variant, pawn, dot) + same-pose and recolour options" },
+    { "p": 0, "item": "Sky dome set: day cumulus, golden/sunset (big sun), night stars, overcast storm, lilac pastel" },
+    { "p": 0, "item": "In-world text kit: chest label plate, sign board, neon sign, card with pin, counter/gauge, blackboard, nameplate" },
+    { "p": 0, "item": "Suburban street kit and medieval/tudor village kit (houses, fences, lamp posts, mailboxes, cobbles, roads)" },
+    { "p": 0, "item": "Interiors: bedroom, hospital room, classroom, hall/tavern with candles" },
+    { "p": 1, "item": "Terrain kit: grass hills, desert/sand, faceted mountains with snow caps, canyon walls, water plane" },
+    { "p": 1, "item": "Prop set: string lights/lanterns, low-poly trees and bushes, benches, long table, beds, desks, bookshelves, clock with hands, map diorama, envelope/letters, coins, gold bell, torches" },
+    { "p": 1, "item": "Creature kit: voxel quadruped base (dog/tiger/deer/wolf), googly-eyed fish base, R6 monster variants (ghost, skeleton, zombie, vampire, wolf mask)" },
+    { "p": 2, "item": "Macro set-piece helpers: giant-scale rig (x10-x100), town-on-platform generator, globe, giant carriers" }
+  ]
+}

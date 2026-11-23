@@ -1,0 +1,40 @@
+{
+  "header": {
+    "id": "queue_old_man",
+    "tags": {
+      "role": [
+        "bystander",
+        "queue",
+        "elder",
+        "extra"
+      ],
+      "age": "elder",
+      "mood": [
+        "sleepy"
+      ],
+      "story": "proto_ticket"
+    },
+    "description": "Old man with a white beard, flat cap, suspenders and plaid trousers."
+  },
+  "spec": {
+    "skin": "#f1d3b5",
+    "face": "sleepy",
+    "hair": {
+      "style": "bald"
+    },
+    "beard": "full",
+    "hairColor": "#e8e4dc",
+    "shirt": {
+      "pattern": "suspenders",
+      "color": "#f1efe8"
+    },
+    "pants": {
+      "pattern": "plaid",
+      "color": "#56603a"
+    },
+    "hat": {
+      "type": "flatcap",
+      "color": "#6b4a2e"
+    }
+  }
+}

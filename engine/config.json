@@ -1,0 +1,12 @@
+{
+  "_doc": "Tool paths for engine/audio (common.py) and engine/cli (lib/config.mjs). Relative paths are from the project root; empty = auto-detect. python: engine/.venv (setup.ps1), else research/audio/venvs/kokoro. ffmpeg/ffprobe: tools/bin/*.exe (setup.ps1 download), else PATH. hf_*: Kokoro/Whisper model caches (setup.ps1 -WithKokoro), else research/audio/dl/*.",
+  "python": "",
+  "hf_kokoro": "models/hf-kokoro",
+  "hf_whisper": "models/hf-whisper",
+  "whisper_model": "base.en",
+  "threads": 4,
+  "ffmpeg": "",
+  "ffprobe": "",
+  "fonts": "assets/fonts",
+  "library": "assets/library"
+}

@@ -1,0 +1,35 @@
+{
+  "header": {
+    "id": "newborn",
+    "tags": {
+      "role": [
+        "baby",
+        "hero"
+      ],
+      "age": "baby",
+      "mood": [
+        "sleepy"
+      ],
+      "story": "proto_ticket"
+    },
+    "description": "Tiny newborn (classic body, scale 0.45) with messy brown hair in white; lies on a blanket next to the ticket prop."
+  },
+  "spec": {
+    "body": "classic",
+    "scale": 0.45,
+    "skin": "#f2c9a0",
+    "face": "sleepy",
+    "hair": {
+      "style": "messy",
+      "color": "#5a3a20"
+    },
+    "shirt": {
+      "pattern": "solid",
+      "color": "#f3efe6"
+    },
+    "pants": {
+      "pattern": "plain",
+      "color": "#f3efe6"
+    }
+  }
+}

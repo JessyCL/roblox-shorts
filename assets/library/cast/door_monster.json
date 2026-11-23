@@ -1,0 +1,50 @@
+{
+  "header": {
+    "id": "door_monster",
+    "tags": {
+      "role": [
+        "monster",
+        "giant",
+        "guardian",
+        "misunderstood"
+      ],
+      "age": "ancient",
+      "mood": [
+        "scary",
+        "tired"
+      ],
+      "story": "the-door"
+    },
+    "description": "The thing behind The Door: a 30-stud grey giant body (long arms, torn rags) whose own head is replaced every frame by the stone _giant.js head (red glowing eyes, cracked grey skin, ear-to-ear ladder grin) via kit giant_door { bodyHead: true } -> S.api.door.followHead(actor, pose, t). Works with push / push_door / trip / sleep / scared clips."
+  },
+  "spec": {
+    "build": {
+      "legY": 1.15,
+      "torsoY": 1.3,
+      "armY": 1.85,
+      "w": 1.25,
+      "head": 0.8
+    },
+    "height": 30,
+    "skin": "#868b92",
+    "hands": "both",
+    "hair": "bald",
+    "shirt": {
+      "pattern": "solid",
+      "color": "#4a4038",
+      "sleeves": "none"
+    },
+    "pants": {
+      "pattern": "plain",
+      "color": "#3a3028",
+      "shoes": false
+    },
+    "faceStyle": {
+      "eyes": "round",
+      "brows": "thick",
+      "ink": "#ff2a1a",
+      "glint": 0
+    },
+    "face": "angry"
+  }
+}

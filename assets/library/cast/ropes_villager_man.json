@@ -1,0 +1,39 @@
+{
+  "header": {
+    "id": "ropes_villager_man",
+    "tags": {
+      "role": [
+        "villager",
+        "extra",
+        "nightshirt"
+      ],
+      "age": "adult",
+      "mood": [
+        "scared"
+      ],
+      "story": "the-ropes"
+    },
+    "description": "Village man in a striped blue nightshirt and grey trousers, bald, both hands (the one pulled up at midnight)."
+  },
+  "spec": {
+    "faceStyle": "a",
+    "face": "scared",
+    "skin": "light",
+    "hands": "both",
+    "hair": {
+      "style": "bald",
+      "color": "#8a7a6a"
+    },
+    "shirt": {
+      "pattern": "stripes",
+      "color": "#6a8ac0",
+      "color2": "#eef2f8",
+      "sleeves": "full"
+    },
+    "pants": {
+      "pattern": "plain",
+      "color": "#7a7a80",
+      "shoes": false
+    }
+  }
+}

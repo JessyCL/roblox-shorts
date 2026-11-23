@@ -1,0 +1,36 @@
+{
+  "header": {
+    "id": "villager_blue_dress",
+    "tags": {
+      "role": [
+        "villager",
+        "extra"
+      ],
+      "age": "adult",
+      "mood": [
+        "happy"
+      ],
+      "story": "everyone-has-one-hand"
+    },
+    "description": "Medieval villager woman in a blue dress with a dark bob."
+  },
+  "spec": {
+    "hands": "right",
+    "faceStyle": "b",
+    "face": "smile",
+    "skin": "nougat",
+    "hair": {
+      "style": "bob",
+      "color": "#2b1d14"
+    },
+    "shirt": {
+      "sleeves": "full",
+      "pattern": "dress",
+      "color": "#3a6ab0"
+    },
+    "pants": {
+      "pattern": "skirt",
+      "color": "#3a6ab0"
+    }
+  }
+}

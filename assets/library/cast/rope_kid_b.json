@@ -1,0 +1,42 @@
+{
+  "header": {
+    "id": "rope_kid_b",
+    "tags": {
+      "role": [
+        "kid",
+        "bully"
+      ],
+      "age": "kid",
+      "mood": [
+        "mean",
+        "laughing"
+      ],
+      "story": "the-ropes"
+    },
+    "description": "Second mean village kid: green hoodie, ginger fringe, smug. Child build, both hands."
+  },
+  "spec": {
+    "build": "child",
+    "faceStyle": "e",
+    "face": "smug",
+    "skin": "pale",
+    "hands": "both",
+    "hair": {
+      "style": "fringe",
+      "color": "#b0501a"
+    },
+    "shirt": {
+      "pattern": "hoodie",
+      "color": "#3a8a4a",
+      "sleeves": "full"
+    },
+    "pants": {
+      "pattern": "plain",
+      "color": "#4a3a2c",
+      "shoes": {
+        "style": "sneaker",
+        "color": "#e8e0d0"
+      }
+    }
+  }
+}

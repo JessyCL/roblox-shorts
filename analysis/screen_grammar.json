@@ -1,0 +1,2117 @@
+{
+ "version": 1,
+ "generated": "2026-11-14",
+ "about": "Screen grammar distilled from the sample analyses. Values are measured; 'house' = what our productions use by default. Camera specs use engine/runtime/camera/index.js fields. fx `type` names are proposals until engine/runtime/fx/index.js lands (stub today); the post fields they drive exist in fx/finishing.js (flash, screen, radialBlur, dirBlur, grade) and fx/overlay.js (overlay kinds). See the screen-grammar doc for rationale and citations.",
+ "sources": {
+  "videos": [
+   "S6",
+   "S8",
+   "S9",
+   "S5",
+   "S7",
+   "S1",
+   "S2",
+   "S10",
+   "S3",
+   "S4"
+  ],
+  "n_shots": 1015,
+  "total_s": 1342.5,
+  "outlier_note": "S3 is an offline-render pipeline (true motion blur, faster pushes, 27 lightning flashes, 18 jump cuts): use it as the high-energy variant, not the default. S4 is the giant-scale variant (37% eye / 31% high / 27% low angles, 14% EWS)."
+ },
+ "pacing": {
+  "words_per_s": 4.34,
+  "wpm_range": [
+   222,
+   283
+  ],
+  "shot_len_s": {
+   "median": 1.18,
+   "mean": 1.32,
+   "p10": 0.6,
+   "p25": 0.83,
+   "p75": 1.63,
+   "p90": 2.22,
+   "p95": 2.59
+  },
+  "shot_len_hist_pct": {
+   "<0.6": 10.2,
+   "0.6-1.0": 24.9,
+   "1.0-1.5": 33.2,
+   "1.5-2.0": 15.9,
+   "2.0-3.0": 13.3,
+   ">=3.0": 2.5
+  },
+  "per_video_median_s": {
+   "S6": 1.67,
+   "S8": 1.67,
+   "S1": 1.38,
+   "S10": 1.35,
+   "S2": 1.26,
+   "S9": 1.17,
+   "S4": 1.13,
+   "S5": 1.07,
+   "S7": 0.97,
+   "S3": 0.97
+  },
+  "modes": {
+   "steady": {
+    "median_s": [
+     1.26,
+     1.67
+    ],
+    "cuts_per_10s": [
+     5.6,
+     6.8
+    ],
+    "cut_boundary": "clause/punctuation (70-90% of cuts)",
+    "videos": [
+     "S6",
+     "S8",
+     "S1",
+     "S10",
+     "S2"
+    ]
+   },
+   "fast": {
+    "median_s": [
+     0.97,
+     1.17
+    ],
+    "cuts_per_10s": [
+     8.2,
+     9.8
+    ],
+    "cut_boundary": "every new noun (only 36-54% of cuts after punctuation)",
+    "videos": [
+     "S9",
+     "S4",
+     "S5",
+     "S7",
+     "S3"
+    ]
+   }
+  },
+  "cuts_per_10s": {
+   "house": 7.5,
+   "steady": 6.0,
+   "fast": 9.0,
+   "measured_range": [
+    5.6,
+    9.8
+   ]
+  },
+  "words_per_shot": {
+   "median": 5,
+   "mean": 5.7,
+   "p10": 2,
+   "p90": 10
+  },
+  "shot_budget": "n_shots ~= n_words / 5.5 (house), / 7 (steady), / 4.5 (fast)",
+  "bands_s": {
+   "hook_shot": [
+    0.8,
+    1.7
+   ],
+   "world_rule_montage": [
+    1.0,
+    2.0
+   ],
+   "story": [
+    1.0,
+    1.7
+   ],
+   "list_item": [
+    0.45,
+    0.6
+   ],
+   "stutter_jump_cut": [
+    0.12,
+    0.45
+   ],
+   "impact_montage": [
+    0.45,
+    0.55
+   ],
+   "long_hold": [
+    2.5,
+    5.0
+   ]
+  },
+  "climax_tighten_factor": 0.8,
+  "long_hold_max_share": 0.03,
+  "long_holds_per_video": [
+   2,
+   4
+  ],
+  "hook": {
+   "premise_spoken_by_s": [
+    1.2,
+    3.0
+   ],
+   "shots_in_first_3s": [
+    2,
+    4
+   ],
+   "frame0_in_motion": true
+  },
+  "cut": {
+   "on": "onset of the first word of the clause",
+   "measured_offset_s": 0.033,
+   "quantize_fps": 30,
+   "boundary": "clause/punctuation (~75% of cuts) else onset of a newly named noun",
+   "split_clause_over_words": 9,
+   "split_clause_over_s": 2.0,
+   "merge_under_s": 0.6,
+   "never": [
+    "mid-word",
+    "inside a pause (cut on the next onset)"
+   ]
+  },
+  "ending": {
+   "tail_after_last_word_s": [
+    0.0,
+    0.3
+   ],
+   "cta": false,
+   "end_card": false,
+   "loop_seam_optional": true
+  }
+ },
+ "framing": {
+  "pct": {
+   "MS": 37.7,
+   "WS": 24.4,
+   "CU": 17.3,
+   "MCU": 10.5,
+   "EWS": 5.5,
+   "ECU": 4.2
+  },
+  "tags_pct": {
+   "insert": 6.8,
+   "OTS": 3.0
+  },
+  "house_targets_pct": {
+   "ms": [
+    33,
+    45
+   ],
+   "ws": [
+    18,
+    30
+   ],
+   "cu": [
+    14,
+    22
+   ],
+   "mcu": [
+    7,
+    16
+   ],
+   "ews": [
+    3,
+    8
+   ],
+   "ecu": [
+    2,
+    8
+   ]
+  },
+  "giant_scale_variant_pct": {
+   "ws": 35.5,
+   "ms": 27.4,
+   "cu": 15.3,
+   "ews": 13.7,
+   "src": "S4"
+  },
+  "median_len_s_by_framing": {
+   "MS": 1.22,
+   "WS": 1.23,
+   "CU": 1.08,
+   "MCU": 1.12,
+   "EWS": 1.22,
+   "ECU": 1.1
+  }
+ },
+ "angle": {
+  "pct": {
+   "eye": 62.1,
+   "low": 20.1,
+   "high": 14.1,
+   "top_down": 3.0,
+   "worm": 0.7,
+   "dutch_labelled": 0.9
+  },
+  "giant_scale_variant_pct": {
+   "eye": 37.1,
+   "high": 30.6,
+   "low": 26.6,
+   "worm": 4.0,
+   "src": "S4"
+  },
+  "semantics": {
+   "eye": "default, ordinary narration",
+   "low": "status, authority, heroes, giants/scale, landmarks/signs overhead, running heroics",
+   "high": "vulnerability, smallness, sadness, aftermath, crowds",
+   "top": "object inserts (baskets, maps, pages, plates), ring of characters, falling, voids",
+   "worm": "sky, steeple, floating, towering objects",
+   "dutch": "only when the world itself tilts (S5 55.4/57.6/92.2/95.5) or for one chaos beat (S4 20-35 deg at 81.5-83.2); otherwise use roll drift"
+  }
+ },
+ "composition_9x16": {
+  "subject_x": 0.5,
+  "face_band_y": [
+   0.15,
+   0.45
+  ],
+  "ms_head_y": 0.3,
+  "cu_eyes_y": [
+   0.3,
+   0.45
+  ],
+  "caption_band_y": [
+   0.62,
+   0.76
+  ],
+  "keep_faces_above_y": 0.58,
+  "ui_bottom_clear_from_y": 0.8,
+  "ui_right_rail_guideline": {
+   "x_from": 0.88,
+   "y": [
+    0.45,
+    0.85
+   ],
+   "note": "Shorts action buttons; guideline, not measured in the samples"
+  },
+  "wides": "subject lower-middle, architecture/sign in the upper third",
+  "headroom": "tight; CUs may crop the top of the hair"
+ },
+ "camera": {
+  "production_defaults": {
+   "fov": 50,
+   "zoom": 0.1,
+   "shake": null
+  },
+  "move_mix_pct": {
+   "push_in": 45.3,
+   "static_micro": 12.3,
+   "track_truck_follow": 11.6,
+   "drift_small_push": 8.3,
+   "pull_out": 5.6,
+   "tilt": 3.6,
+   "crane_pedestal": 3.3,
+   "lead": 2.6,
+   "orbit_arc": 1.8,
+   "handheld": 1.6,
+   "punch": 1.2,
+   "whip": 1.2,
+   "roll": 0.9,
+   "flyover": 0.4,
+   "crash_pull": 0.1
+  },
+  "measured_zoom_non_travel_pct": {
+   "push_ge_3": 73.9,
+   "pull_le_minus_3": 8.6,
+   "flat": 17.5
+  },
+  "house_move_targets_pct": {
+   "push_family": [
+    55,
+    70
+   ],
+   "travel_moves": [
+    15,
+    25
+   ],
+   "pull_out": [
+    4,
+    8
+   ],
+   "static": [
+    5,
+    12
+   ],
+   "punch": [
+    1,
+    3
+   ],
+   "whip": [
+    0,
+    2
+   ]
+  },
+  "push": {
+   "total_pct": {
+    "median": 11.5,
+    "p10": 4.7,
+    "p90": 37,
+    "median_of_video_medians": 12.5
+   },
+   "rate_pct_per_s": {
+    "median": 9.6,
+    "p10": 3.8,
+    "p90": 33.3,
+    "median_of_video_medians": 10.4
+   },
+   "per_video_rate_pct_per_s": {
+    "S7": 6.0,
+    "S1": 6.5,
+    "S10": 7.0,
+    "S8": 7.5,
+    "S9": 10.0,
+    "S4": 10.8,
+    "S2": 11.1,
+    "S5": 11.3,
+    "S6": 14.5,
+    "S3": 21.5
+   },
+   "curve": {
+    "house": "linear (constant rate from the first frame, cut before settling)",
+    "linear": [
+     "S6",
+     "S8",
+     "S1",
+     "S10",
+     "S7"
+    ],
+    "ease_out": [
+     "S9"
+    ],
+    "ease_in_out": [
+     "S2",
+     "S3",
+     "S4"
+    ]
+   },
+   "mechanism": "FOV magnification (camera.zoom) on CU/MCU/MS; dolly push_in (amount 0.08-0.15) on WS/EWS with foreground layers for parallax (S10)"
+  },
+  "zoom_presets": {
+   "house": 0.1,
+   "gentle": 0.06,
+   "slow_crig": 0.14,
+   "push_easeout": {
+    "to": 1.12,
+    "ease": "outQuad"
+   },
+   "insert_fast": {
+    "to": 1.4,
+    "dur": 1.0,
+    "ease": "linear"
+   },
+   "emphasis": {
+    "to": 1.5,
+    "ease": "outQuad"
+   },
+   "punch": {
+    "preset": "punch",
+    "note": "+25% in 0.25 s outCubic; set t = keyword onset (shot-local)"
+   },
+   "punch_small": {
+    "to": 1.13,
+    "dur": 0.38,
+    "ease": "outCubic"
+   },
+   "reveal": {
+    "from": 11.5,
+    "to": 1,
+    "ease": "outCubic"
+   },
+   "pull_gentle": -0.12,
+   "crash_pull": {
+    "from": 1,
+    "to": 0.2,
+    "dur": 0.45,
+    "ease": "inCubic"
+   },
+   "note": "every key here is also a camera ZOOMS name: zoom: 'house' | 'gentle' | 'slow_crig' | 'push_easeout' | 'insert_fast' | 'emphasis' | 'punch' | 'punch_small' | 'reveal' | 'pull_gentle' | 'crash_pull'"
+  },
+  "roll_drift": {
+   "measured_abs_deg": {
+    "median": 1.3,
+    "p75": 4.0,
+    "p90": 9.3,
+    "share_ge_2deg": 0.41
+   },
+   "house": {
+    "share_of_shots": 0.3,
+    "deg": [
+     2,
+     4
+    ],
+    "inserts_top_down_deg": [
+     6,
+     10
+    ],
+    "hero_moves_deg": [
+     8,
+     17
+    ],
+    "falls_space_deg": [
+     25,
+     57
+    ],
+    "alternate_sign": true
+   },
+   "spec": "from: { roll: 0 }, to: { roll: +-3 }"
+  },
+  "shake": {
+   "house_default": null,
+   "videos_without_sustained_shake": [
+    "S6",
+    "S2",
+    "S10"
+   ],
+   "action_only": [
+    "S8",
+    "S5",
+    "S1",
+    "S7",
+    "S3",
+    "S4"
+   ],
+   "global_sway": [
+    "S9"
+   ],
+   "share_of_shots": {
+    "handheld_incl_eV8E": 0.113,
+    "handheld_excl_eV8E": 0.038,
+    "impact": 0.024
+   },
+   "use": {
+    "run": "lead/track beside runners (S6: 0.7-1.6% jitter, 2-3 Hz, +-1-2 deg)",
+    "handheld": "walking crowds, lateral tracking (S5 0.2-1.2% RMS 4-7 Hz; S1 0.6% v / 1.7% h, 6 Hz, 0.35 deg)",
+    "rumble": "sustained action, earthquake, footsteps of a giant, chase (S8 0.5% H, 0.7 deg, 4 Hz; S3 0.3-0.8% 3-7 Hz; S4 0.5-1% + ~1 deg roll, whole shot, no decay)",
+    "impact": "one per impact word: slam, landing, bite, bell (S7 1.8-2.8% p2p 7 Hz 0.2 s decay; S9 2-6% 0.6-0.8 s)",
+    "slide": "heavy sustained scrape/slide (S5 3.1% RMS x, 11 Hz, 0.85 deg)",
+    "sway": "optional per-production 'alive camera' (S9 only)",
+    "never": "calm, emotional, establishing or dialogue shots"
+   },
+   "engine_gap": "spring settle after a fast tilt (S1: ~5 Hz damped over 1.3 s, zeta ~0.3) is not a preset; use path keys with overshoot"
+  },
+  "dof": {
+   "frames": [
+    "ecu",
+    "cu",
+    "insert"
+   ],
+   "optional_frames": [
+    "mcu"
+   ],
+   "never": [
+    "ms",
+    "mws",
+    "ws",
+    "ews"
+   ],
+   "bokeh": {
+    "ecu": 3,
+    "cu": 3,
+    "insert": 3,
+    "mcu": 2
+   },
+   "rack_focus": false,
+   "measured": "7.5% of shots tagged; S7/S10 strong (bg blur 1-2% of frame), S8 6-10 px, S9/S5/S1/S3 inserts and macros only, S2/S4 almost none"
+  },
+  "motion_blur": {
+   "house": false,
+   "note": "absent in 9/10 (crisp 60 fps strips); only S3 has renderer motion blur (S4 smear is 30->60 interpolation, do not imitate)"
+  },
+  "dolly_zoom": {
+   "observed": 0,
+   "house": "do not use (max one dread beat)"
+  },
+  "engine_gap": "none: spring settle is `ease: 'spring'` (+ spring: { freq: 5, damping: 0.3 }) on any move, e.g. { move: 'tilt', sweep: 40, ease: 'spring' }"
+ },
+ "transitions": {
+  "pct": {
+   "hard_cut": 95.8,
+   "jump_cut": 2.2,
+   "whip_blur": 0.6,
+   "dissolve": 0.4,
+   "cut_to_black": 0.1,
+   "loop_seam": 0.1
+  },
+  "foreground_wipe": "in-camera: move the camera past a wall/post near the lens and cut when it covers >90% of frame (S4 31.40/31.93, S8 87.9, S2 grass)",
+  "house": "hard cut",
+  "intro_frame0": {
+   "house": {
+    "type": "intro_zoom_blur",
+    "dur": 0.13,
+    "from": 1.3,
+    "roll": 15,
+    "blur": 0.08,
+    "ease": "outCubic",
+    "drives": "post.screen.zoom/rotate + post.radialBlur.amount -> 0"
+   },
+   "variants": {
+    "zoom_blur_crig": {
+     "type": "intro_zoom_blur",
+     "dur": 0.13,
+     "from": 1.6,
+     "roll": 0,
+     "blur": 0.35
+    },
+    "zoom_blur_tkgs": {
+     "type": "intro_zoom_blur",
+     "dur": 0.45,
+     "from": 1.35,
+     "blurDur": 0.2
+    },
+    "blur_in_loop_jcob": {
+     "type": "blur_in",
+     "dur": 0.083,
+     "amount": 0.08
+    },
+    "white_fade_yvlv": {
+     "type": "fade_white",
+     "dir": "in",
+     "hold": 0.28,
+     "dur": 0.82
+    },
+    "none": "camera already moving on frame 0 (S8, S2, S3, S4)"
+   },
+   "measured_share": {
+    "zoom_blur": "4/10",
+    "blur_in": "1/10",
+    "white_fade": "1/10",
+    "none": "4/10"
+   }
+  },
+  "flash_in_shot": {
+   "videos_without_flashes": 7,
+   "impact": {
+    "type": "flash_white",
+    "dur": 0.08,
+    "alpha": 0.6,
+    "src": "S1 bell, 2-3 frames, +35 luma"
+   },
+   "lightning": {
+    "type": "flash_white",
+    "dur": 0.1,
+    "alpha": 0.35,
+    "with": "bolt mesh",
+    "src": "S3 0.1 s +40..70 luma; S7 3-6 frames"
+   },
+   "magic_big": {
+    "type": "flash_white",
+    "dur": [
+     0.23,
+     0.5
+    ],
+    "alpha": [
+     0.4,
+     0.9
+    ],
+    "src": "S3 impact flashes"
+   },
+   "reveal_fog": {
+    "type": "flash_white",
+    "color": "#dfe6ee",
+    "dur": 0.27,
+    "peak_alpha": 0.6,
+    "src": "S7 56.25: model swap at peak"
+   },
+   "black_interstitial": {
+    "type": "flash_black",
+    "dur": 0.17,
+    "src": "S3 37.1 before sunrise"
+   }
+  },
+  "dissolve": {
+   "use": "x-ray / ghost / transformation only",
+   "frames": [
+    3,
+    4
+   ]
+  },
+  "whip": {
+   "dur": [
+    0.2,
+    0.4
+   ],
+   "motion_blur": false,
+   "dir_blur_optional": true
+  },
+  "day_night": "hard cut, identical framing, swap look preset",
+  "loop_seam": "last shot's camera move continues into frame 0 with a 5-frame blur-in (S5)"
+ },
+ "captions": {
+  "house": {
+   "font": "Poppins",
+   "weight": 700,
+   "size_px_at_1080w": 84,
+   "cap_height_pct_h": 3.2,
+   "char_w_pct_w": 4.7,
+   "color": "#FFFFFF",
+   "stroke": {
+    "color": "#000000",
+    "px": 7,
+    "join": "round"
+   },
+   "shadow": {
+    "color": "rgba(0,0,0,0.6)",
+    "x": 3,
+    "y": 6,
+    "blur": 4
+   },
+   "x": 0.5,
+   "y": 0.687,
+   "max_words": 3,
+   "max_chars": 14,
+   "group_function_words": true,
+   "function_words": [
+    "a",
+    "an",
+    "the",
+    "in",
+    "on",
+    "of",
+    "to",
+    "at",
+    "by",
+    "for",
+    "and",
+    "or",
+    "but",
+    "so",
+    "it",
+    "is",
+    "i",
+    "my",
+    "his",
+    "her",
+    "its",
+    "was"
+   ],
+   "casing": "lower",
+   "keep_punct": [
+    ",",
+    "'",
+    "?",
+    "!"
+   ],
+   "drop_punct": [
+    ".",
+    ";",
+    ":",
+    "\""
+   ],
+   "numbers": "digits",
+   "anim": {
+    "type": "none"
+   },
+   "on": "word onset (quantised to 30 fps)",
+   "off": "next caption onset",
+   "blank_gap_s": 0.15,
+   "emphasis": "none"
+  },
+  "variants": {
+   "pop": {
+    "font": "Montserrat",
+    "weight": 800,
+    "anim": {
+     "type": "pop",
+     "from": 0.85,
+     "frames": 4,
+     "ease": "linear"
+    },
+    "max_words": 1,
+    "src": [
+     "S9 (0.84 over 5 fr, y 68.4)",
+     "S2 (0.85 over 3-4 fr, y 62.3)"
+    ]
+   },
+   "fade_scale": {
+    "font": "Archivo Black",
+    "weight": 900,
+    "stroke": {
+     "px": 5.5
+    },
+    "shadow": {
+     "x": 2,
+     "y": 3,
+     "blur": 3
+    },
+    "y": 0.622,
+    "anim": {
+     "type": "fade_scale",
+     "from": 0.75,
+     "frames": 4
+    },
+    "max_words": 1,
+    "keep_punct": [],
+    "src": "S7 (Arial Black look)"
+   },
+   "yellow": {
+    "color": "#F0FE1A",
+    "stroke": {
+     "px": 7
+    },
+    "shadow": {
+     "color": "#000000",
+     "x": 4,
+     "y": 5,
+     "blur": 0
+    },
+    "y": 0.687,
+    "src": [
+     "S5 #F2FC0C y 68.0",
+     "S3 #EDFF0B y 68.7",
+     "S4 #F0FE1A y 68.7"
+    ]
+   },
+   "high": {
+    "y": 0.622,
+    "src": [
+     "S7",
+     "S2"
+    ]
+   },
+   "low": {
+    "y": 0.737,
+    "src": [
+     "S8 73.5",
+     "S1 73.9"
+    ]
+   }
+  },
+  "measured": {
+   "font": {
+    "poppins": 7,
+    "montserrat": 2,
+    "arial_black": 1
+   },
+   "color": {
+    "white": 7,
+    "lemon_yellow": 3
+   },
+   "y_pct": {
+    "S7": 62.2,
+    "S2": 62.3,
+    "S5": 68.0,
+    "S9": 68.4,
+    "S3": 68.7,
+    "S4": 68.7,
+    "S6": 69.5,
+    "S10": 70.7,
+    "S8": 73.5,
+    "S1": 73.9
+   },
+   "y_median_pct": 68.7,
+   "animation": {
+    "none": 7,
+    "pop": 2,
+    "fade_scale": 1
+   },
+   "stroke_px": [
+    5,
+    9
+   ],
+   "words": "1 always; 7/10 merge short function words up to 3"
+  }
+ },
+ "overlays": {
+  "videos_using_2d": [
+   "S7",
+   "S2",
+   "S10",
+   "S1"
+  ],
+  "videos_without": [
+   "S6",
+   "S9",
+   "S5",
+   "S8",
+   "S3",
+   "S4"
+  ],
+  "max_per_20s": 1,
+  "max_dur_s": 1.5,
+  "rule": "only for what cannot be literal in 3D (feelings, sounds, prohibitions, POV devices); prefer in-world text/props; no title cards",
+  "catalog": {
+   "sweat_drop": {
+    "kind": "sticker",
+    "emoji": "💧",
+    "pop": true,
+    "cue": "nervous/anxious",
+    "src": "S7 0.4-1.1"
+   },
+   "alert": {
+    "kind": "sticker",
+    "text": "!",
+    "color": "#e02020",
+    "pop": true,
+    "cue": "rule, warning, sudden realisation",
+    "src": "S2 21.0-22.2 (0 -> 130 -> 100% in 3 fr)"
+   },
+   "x_stamp": {
+    "kind": "x_stamp",
+    "color": "#e02020",
+    "cue": "forbidden, 'don't', separation, on a map",
+    "src": "S7 23.3-25.4 (6 X on words + ring 2x/0.25 s + 0.5-1 deg roll jolt)"
+   },
+   "speech_bubble": {
+    "kind": "bubble",
+    "outline": "#1b2a4a",
+    "cue": "short quoted shout or greeting",
+    "src": "S7 40.9, 44.4"
+   },
+   "speed_lines": {
+    "kind": "speed_lines",
+    "count": 60,
+    "clear": 0.45,
+    "cue": "shock, time rush, crash pull-out",
+    "src": "S7 130.2-131.4"
+   },
+   "path_draw": {
+    "kind": "path_draw",
+    "color": "#3fd16b",
+    "dash": true,
+    "cue": "route, plan, map",
+    "src": "S7 153.6-155"
+   },
+   "stars": {
+    "kind": "stars",
+    "color": "#ffd84a",
+    "cue": "pride, magic, happy ending",
+    "src": "S7 155.5; S1 106 (3D)"
+   },
+   "iris": {
+    "kind": "iris",
+    "radius": 0.47,
+    "ring": "#d8a640",
+    "ringWidth": 6,
+    "cue": "telescope/spyglass/peephole POV",
+    "src": "S2 74-78.1"
+   },
+   "heart_pulse": {
+    "kind": "heart",
+    "emoji": "❤️",
+    "pulse": {
+     "freq": 2,
+     "amount": 0.1
+    },
+    "rings": "built in (fx type 'heart' draws rings 0 -> 60% W every 0.5 s; or fx type 'ring' with period)",
+    "cue": "hear your heart, love, fear",
+    "src": "S10 48.1-50.9"
+   },
+   "zzz": {
+    "kind": "sticker",
+    "text": "Z z",
+    "color": "#5aa0ff",
+    "cue": "sleep",
+    "src": "S1 116.9"
+   },
+   "split_screen": {
+    "kind": "engine_gap",
+    "cue": "two places that never meet",
+    "src": "S7 25.5-27.9"
+   }
+  },
+  "prefer_3d": {
+   "sound_rings": "additive ring sprites anchored at the head, new ring every 0.3 s, 0.8 s life (S10)",
+   "shockwave": "billboard annulus 0.6 -> 1.2 object widths, 0.25 s (S1 bell)",
+   "in_world_text": "chest labels, signs, clipboards, counters, cards (S8, S5, S1, S10)"
+  }
+ },
+ "grades": {
+  "flashback": {
+   "post": {
+    "grade": {
+     "preset": "sepia"
+    }
+   },
+   "src": "S6 37.13/92.10, S2 31.45/118.98 (mean RGB ~99/80/51, luma -15..-25%)"
+  },
+  "legend_bw": {
+   "post": {
+    "grade": {
+     "preset": "desaturated",
+     "exposure": -0.4
+    }
+   },
+   "src": "S1 18.27/88.87 (sat 18-36 vs 100)"
+  },
+  "memory_amber": {
+   "post": {
+    "grade": {
+     "temperature": 0.35,
+     "saturation": 0.9
+    }
+   },
+   "src": "S7 100.17"
+  },
+  "storm_mood": {
+   "post": {
+    "grade": {
+     "saturation": 0.6
+    }
+   },
+   "look": "overcast",
+   "src": "S10 68.2-74.1"
+  }
+ },
+ "recipes": [
+  {
+   "id": "hook_premise",
+   "cues": [
+    "In this world",
+    "In this town",
+    "everyone",
+    "every"
+   ],
+   "shots": [
+    2,
+    3
+   ],
+   "dur_s": [
+    0.8,
+    1.7
+   ],
+   "plan": [
+    {
+     "framing": "ms|cu",
+     "angle": "eye|low",
+     "camera": {
+      "move": "static",
+      "target": "hero",
+      "frame": "ms",
+      "zoom": 0.14
+     },
+     "fx": [
+      {
+       "type": "intro_zoom_blur",
+       "t": 0,
+       "dur": 0.13
+      }
+     ],
+     "note": "the strangest specific image of the premise, on screen at frame 0"
+    },
+    {
+     "framing": "ews",
+     "angle": "high",
+     "camera": {
+      "move": "aerial_reveal",
+      "target": "hero",
+      "frame": "ms",
+      "amount": 8,
+      "ease": "outCubic"
+     },
+     "note": "scale of the world rule"
+    }
+   ],
+   "src": [
+    "S6 0-2.8",
+    "S5 0-2.57",
+    "S1 0-3.5",
+    "S10 0-2.8",
+    "S8 0-2.3"
+   ]
+  },
+  {
+   "id": "rule_statement",
+   "cues": [
+    "You see",
+    "the rule",
+    "nobody",
+    "always",
+    "never",
+    "has to"
+   ],
+   "shots": [
+    1,
+    2
+   ],
+   "dur_s": [
+    1.5,
+    2.5
+   ],
+   "plan": [
+    {
+     "framing": "ws|ews",
+     "angle": "eye|high",
+     "camera": {
+      "move": "push_in",
+      "target": "set.center",
+      "frame": "ws",
+      "amount": 0.1,
+      "ease": "linear"
+     }
+    }
+   ],
+   "src": [
+    "S1 3.47 sign reveal",
+    "S10 4.03",
+    "S2 20.37"
+   ]
+  },
+  {
+   "id": "character_intro",
+   "cues": [
+    "My name is",
+    "Her name is",
+    "His name is",
+    "This is",
+    "there was a kid"
+   ],
+   "shots": [
+    1,
+    2
+   ],
+   "dur_s": [
+    1.0,
+    2.8
+   ],
+   "plan": [
+    {
+     "framing": "ms|mcu",
+     "angle": "low (hero/status) | eye (ordinary)",
+     "camera": {
+      "move": "static",
+      "target": "hero",
+      "frame": "ms",
+      "angle": "low",
+      "yaw": 20,
+      "zoom": 0.1
+     },
+     "face": "smile at the name onset"
+    }
+   ],
+   "src": [
+    "S9 33.73 'Her name is Pebble'",
+    "S10 50.93 'My name is Wren'",
+    "S2 35.93 'name is Dex'",
+    "S9 Victor low angle"
+   ]
+  },
+  {
+   "id": "list_item",
+   "cues": [
+    "comma-separated nouns",
+    "no X, no Y, no Z",
+    "X, Y and Z"
+   ],
+   "shots": "one per item",
+   "dur_s": [
+    0.45,
+    0.6
+   ],
+   "plan": [
+    {
+     "framing": "cu|ms insert, vary each item",
+     "angle": "vary",
+     "camera": {
+      "move": "static",
+      "target": "item",
+      "frame": "cu",
+      "zoom": 0.14
+     },
+     "note": "then one resolving shot of ~1.2 s"
+    }
+   ],
+   "src": [
+    "S5 49.07-50.75 pianos/cars/bell",
+    "S10 41.93-44.1 birds/wind/crickets",
+    "S10 72.6-74.1",
+    "S7 3.2-5.0 four monsters"
+   ]
+  },
+  {
+   "id": "repetition_stutter",
+   "cues": [
+    "repeated word or phrase x3",
+    "counting 6, 7, 8"
+   ],
+   "shots": "one per repetition",
+   "dur_s": [
+    0.12,
+    0.45
+   ],
+   "plan": [
+    {
+     "framing": "ms -> mcu -> cu on one axis",
+     "camera": {
+      "move": "static",
+      "target": "hero",
+      "frame": "ms"
+     },
+     "note": "same set-up, frame steps tighter each cut (jump cuts)"
+    }
+   ],
+   "src": [
+    "S6 31.9-33.2 'keep up' x3",
+    "S1 108.8-109.5 '7, 8'",
+    "S3 18 jump cuts"
+   ]
+  },
+  {
+   "id": "keyword_punch",
+   "cues": [
+    "shouted word",
+    "quoted exclamation",
+    "final number",
+    "reveal noun"
+   ],
+   "shots": 1,
+   "dur_s": [
+    0.6,
+    2.2
+   ],
+   "plan": [
+    {
+     "framing": "ms|mcu",
+     "camera": {
+      "move": "static",
+      "target": "hero",
+      "frame": "mcu",
+      "zoom": [
+       0.08,
+       {
+        "preset": "punch",
+        "t": "<keyword onset - shot.start>"
+       }
+      ]
+     },
+     "face": "swap at keyword onset",
+     "fx_optional": [
+      {
+       "type": "flash_white",
+       "t": "<onset>",
+       "dur": 0.1
+      }
+     ]
+    }
+   ],
+   "src": [
+    "S8 28.15 'emergency' +25%/0.25 s",
+    "S1 109.1 '8' +13%/0.38 s",
+    "S3 102.9 'god!' x1.49/0.27 s + flash"
+   ]
+  },
+  {
+   "id": "reveal",
+   "cues": [
+    "and that's when",
+    "it was",
+    "turned out",
+    "I saw",
+    "there it was"
+   ],
+   "shots": [
+    1,
+    2
+   ],
+   "dur_s": [
+    1.2,
+    2.5
+   ],
+   "plan": [
+    {
+     "variant": "pull_reveal",
+     "framing": "ms -> ws/ews",
+     "camera": {
+      "move": "pull_out",
+      "target": "hero",
+      "frame": "ms",
+      "amount": 0.8,
+      "ease": "outCubic"
+     }
+    },
+    {
+     "variant": "crane_reveal",
+     "camera": {
+      "move": "aerial_reveal",
+      "target": "hero",
+      "frame": "ms",
+      "amount": 6
+     }
+    },
+    {
+     "variant": "silhouette_flash",
+     "note": "dark silhouette 0.5-0.8 s, fog-white flash 0.27 s with model swap at peak",
+     "fx": [
+      {
+       "type": "flash_white",
+       "color": "#dfe6ee",
+       "t": "<onset>",
+       "dur": 0.27
+      }
+     ]
+    },
+    {
+     "variant": "crash_pull",
+     "camera": {
+      "move": "static",
+      "target": "hero",
+      "frame": "cu",
+      "zoom": {
+       "from": 1,
+       "to": 0.2,
+       "dur": 0.45,
+       "ease": "inCubic"
+      }
+     },
+     "fx": [
+      {
+       "type": "speed_lines",
+       "t": 0,
+       "dur": 1.2
+      }
+     ]
+    }
+   ],
+   "src": [
+    "S10 1.2 -45%/1.6 s",
+    "S9 2.07 gate -45%",
+    "S5 0.08",
+    "S7 55.9 silhouette flash",
+    "S7 130.45 crash pull"
+   ]
+  },
+  {
+   "id": "scale_quantity",
+   "cues": [
+    "thousands",
+    "all the way around",
+    "the whole",
+    "every one of them",
+    "big numbers"
+   ],
+   "shots": 1,
+   "dur_s": [
+    2.5,
+    5.0
+   ],
+   "plan": [
+    {
+     "framing": "ews aerial",
+     "angle": "high",
+     "camera": {
+      "move": "crane_up",
+      "target": "set.center",
+      "frame": "ws",
+      "amount": 20,
+      "ease": "inOutSine"
+     }
+    },
+    {
+     "variant": "scale_crane_orbit",
+     "note": "MS of a small character -> pull back, rise and orbit ~50 deg until the giant/world fills the frame (subject shrinks ~25x), 2.4 s ease-in-out",
+     "camera": {
+      "move": "path",
+      "smooth": true,
+      "ease": "inOutSine",
+      "keys": [
+       {
+        "u": 0,
+        "pos": "<MS of hero>",
+        "target": "hero.head"
+       },
+       {
+        "u": 0.5,
+        "pos": "<above roofs, yaw +25>",
+        "target": "set.center"
+       },
+       {
+        "u": 1,
+        "pos": "<high, yaw +50>",
+        "target": "giant.head"
+       }
+      ]
+     }
+    },
+    {
+     "variant": "top_down_yaw",
+     "camera": {
+      "move": "top_down",
+      "target": "set.center",
+      "frame": "ews",
+      "spin": 43
+     },
+     "note": "straight-down view rotating ~43 deg in 1.5 s"
+    }
+   ],
+   "src": [
+    "S1 28.97 5.0 s crane '60,000 people'",
+    "S6 10.33 globe -91% 'around the world'",
+    "S4 27.53 scale reveal 2.4 s ~50 deg orbit",
+    "S4 29.93 top-down yaw orbit 43 deg"
+   ]
+  },
+  {
+   "id": "chaos_destruction",
+   "cues": [
+    "the town shook",
+    "collapsed",
+    "screamed",
+    "snapped",
+    "lunged"
+   ],
+   "shots": "one per clause, 0.5-0.8 s",
+   "dur_s": [
+    0.5,
+    0.8
+   ],
+   "plan": [
+    {
+     "framing": "ws|ms",
+     "angle": "low|high, dutch 20-35 deg",
+     "camera": {
+      "move": "static",
+      "target": "set.center",
+      "frame": "ws",
+      "roll": 20,
+      "to": {
+       "roll": 35
+      },
+      "zoom": 0.12,
+      "shake": "rumble"
+     },
+     "note": "rumble for the whole shot (no decay), debris/dust bursts; dutch only for this beat"
+    }
+   ],
+   "src": [
+    "S4 79.4-83.2 (0.5-1% shake, ~1 deg roll, dutch 20/35 deg)",
+    "S8 52.6-54.5 wheel snap"
+   ]
+  },
+  {
+   "id": "authority_giant",
+   "cues": [
+    "giant",
+    "towering",
+    "the mayor",
+    "the boss",
+    "huge"
+   ],
+   "shots": 1,
+   "dur_s": [
+    1.0,
+    2.0
+   ],
+   "plan": [
+    {
+     "framing": "ws|ms",
+     "angle": "low|worm",
+     "camera": {
+      "move": "static",
+      "target": "giant.head",
+      "frame": "ws",
+      "angle": "worm",
+      "zoom": 0.08
+     }
+    }
+   ],
+   "src": [
+    "S9 48/49/61/63/82 giants",
+    "S5 mayor/statue",
+    "S10 chimneys"
+   ]
+  },
+  {
+   "id": "vulnerable_lonely",
+   "cues": [
+    "alone",
+    "nobody came",
+    "just sat there",
+    "small",
+    "scared"
+   ],
+   "shots": 1,
+   "dur_s": [
+    2.5,
+    3.3
+   ],
+   "plan": [
+    {
+     "framing": "ws|ms",
+     "angle": "high|top",
+     "camera": {
+      "move": "static",
+      "target": "hero",
+      "frame": "ws",
+      "angle": "high",
+      "zoom": -0.05
+     },
+     "note": "slow pull or locked; the one place a long static hold is right"
+    }
+   ],
+   "src": [
+    "S8 79.95 3.23 s",
+    "S7 72.1 3.12 s high static",
+    "S5 Nell on the plank"
+   ]
+  },
+  {
+   "id": "reaction",
+   "cues": [
+    "froze",
+    "smiled",
+    "gasped",
+    "stared",
+    "didn't say anything"
+   ],
+   "shots": 1,
+   "dur_s": [
+    0.7,
+    1.5
+   ],
+   "plan": [
+    {
+     "framing": "cu|mcu",
+     "angle": "eye",
+     "camera": {
+      "move": "static",
+      "target": "hero.head",
+      "frame": "cu",
+      "zoom": 0.12
+     },
+     "face": "instant swap at the verb onset",
+     "post": {
+      "dof": {
+       "focus": "hero.head",
+       "bokeh": 3
+      }
+     }
+    }
+   ],
+   "src": [
+    "S8 11 face-swap beats",
+    "S1 10 shots with face_decal_swap",
+    "S7 face swaps on beats"
+   ]
+  },
+  {
+   "id": "dialogue_line",
+   "cues": [
+    "quoted speech",
+    "said",
+    "asked",
+    "yelled"
+   ],
+   "shots": [
+    1,
+    2
+   ],
+   "dur_s": [
+    1.0,
+    2.0
+   ],
+   "plan": [
+    {
+     "framing": "mcu speaker, reverse on listener for the reply",
+     "camera": {
+      "move": "static",
+      "target": "speaker.head",
+      "frame": "mcu",
+      "yaw": 25,
+      "zoom": 0.08
+     },
+     "face": "talk_a/talk_o alternation while speaking"
+    }
+   ],
+   "src": [
+    "S7 speech bubbles only for short shouts",
+    "S6 91.0 'We yell, she said'"
+   ]
+  },
+  {
+   "id": "run_chase",
+   "cues": [
+    "run",
+    "running",
+    "chase",
+    "raced",
+    "keep up"
+   ],
+   "shots": [
+    1,
+    3
+   ],
+   "dur_s": [
+    1.2,
+    2.4
+   ],
+   "plan": [
+    {
+     "framing": "ms",
+     "angle": "eye|low",
+     "camera": {
+      "move": "lead",
+      "target": "hero",
+      "frame": "ms"
+     },
+     "note": "lead defaults to shake 'run'; alternate with lateral track",
+     "alt": {
+      "move": "track",
+      "target": "hero",
+      "side": "left",
+      "frame": "ms",
+      "shake": "run"
+     }
+    }
+   ],
+   "src": [
+    "S6 0-41 leading track-back (18.6% of its shots)",
+    "S8 52-54"
+   ]
+  },
+  {
+   "id": "fall",
+   "cues": [
+    "fell",
+    "dropped",
+    "tumbled",
+    "slipped"
+   ],
+   "shots": 1,
+   "dur_s": [
+    0.8,
+    1.5
+   ],
+   "plan": [
+    {
+     "framing": "cu -> ws",
+     "angle": "high|top",
+     "camera": {
+      "move": "path",
+      "keys": [
+       {
+        "u": 0,
+        "pos": "<above object>",
+        "target": "obj",
+        "roll": 0
+       },
+       {
+        "u": 1,
+        "pos": "<same>",
+        "target": "obj",
+        "roll": -40,
+        "ease": "inQuad"
+       }
+      ]
+     },
+     "note": "camera stays, tilts down after the object and rolls 30-60 deg; no motion blur"
+    }
+   ],
+   "src": [
+    "S5 2.57 tilt ~90 deg + roll -57 deg",
+    "S9 75.9 top-down 'fell out of my arms'"
+   ]
+  },
+  {
+   "id": "impact_slam",
+   "cues": [
+    "slammed",
+    "crashed",
+    "hit",
+    "boom",
+    "landed"
+   ],
+   "shots": "one per hit",
+   "dur_s": [
+    0.45,
+    0.55
+   ],
+   "plan": [
+    {
+     "framing": "ms",
+     "camera": {
+      "move": "static",
+      "target": "door",
+      "frame": "ms",
+      "zoom": 0.08,
+      "shake": {
+       "type": "impact",
+       "t": "<onset>",
+       "amp": 0.012,
+       "freq": 7,
+       "decay": 0.08
+      }
+     },
+     "fx_optional": [
+      {
+       "type": "flash_white",
+       "t": "<onset>",
+       "dur": 0.08
+      }
+     ]
+    }
+   ],
+   "src": [
+    "S7 70.1-72.1 door slams 0.48-0.5 s",
+    "S1 95.6 bell flash + shockwave",
+    "S9 85.6 impact 2-6%"
+   ]
+  },
+  {
+   "id": "time_passing",
+   "cues": [
+    "years",
+    "all day and all night",
+    "minutes later",
+    "every morning",
+    "since then"
+   ],
+   "shots": [
+    1,
+    2
+   ],
+   "dur_s": [
+    0.7,
+    1.3
+   ],
+   "plan": [
+    {
+     "variant": "day_night_cut",
+     "note": "two shots, identical framing, hard cut, look day -> night",
+     "camera": {
+      "move": "static",
+      "target": "set.sign",
+      "frame": "ws",
+      "angle": "low",
+      "zoom": 0.08
+     }
+    },
+    {
+     "variant": "clock_insert",
+     "framing": "ecu",
+     "camera": {
+      "move": "static",
+      "target": "clock",
+      "frame": "ecu",
+      "zoom": 0.1
+     },
+     "note": "hands spin, wall light shifts"
+    },
+    {
+     "variant": "black_beat",
+     "fx": [
+      {
+       "type": "flash_black",
+       "t": 0,
+       "dur": 0.17
+      }
+     ],
+     "note": "then sunrise EWS"
+    }
+   ],
+   "src": [
+    "S1 7.80 '300 years'",
+    "S2 86-87",
+    "S7 52.25/121.9/130.9 clocks",
+    "S3 37.1"
+   ]
+  },
+  {
+   "id": "flashback_legend",
+   "cues": [
+    "used to",
+    "years ago",
+    "back then",
+    "the story goes",
+    "in 18xx/19xx",
+    "legend says"
+   ],
+   "shots": "whole passage",
+   "dur_s": [
+    1.0,
+    2.5
+   ],
+   "plan": [
+    {
+     "variant": "sepia",
+     "post": {
+      "grade": {
+       "preset": "sepia"
+      }
+     },
+     "note": "hard cut in and out; normal camera grammar inside"
+    },
+    {
+     "variant": "bw",
+     "post": {
+      "grade": {
+       "preset": "desaturated",
+       "exposure": -0.4
+      }
+     }
+    },
+    {
+     "variant": "illustrated_page",
+     "framing": "insert top-down",
+     "camera": {
+      "move": "static",
+      "target": "book",
+      "frame": "cu",
+      "angle": "top",
+      "zoom": 0.07
+     },
+     "note": "engraving/parchment image on a page or card; tilt/push across it"
+    }
+   ],
+   "src": [
+    "S6 37.13 'He used to be up front', 92.1",
+    "S2 31.45 'in 1900', 118.98 'in 1851'",
+    "S1 88.87 'years ago'",
+    "S7 96.97 book '1626'",
+    "S3 24.63 parchment"
+   ]
+  },
+  {
+   "id": "mystery_place",
+   "cues": [
+    "nobody goes",
+    "nobody's ever seen",
+    "forbidden",
+    "silent",
+    "where nobody"
+   ],
+   "shots": [
+    1,
+    3
+   ],
+   "dur_s": [
+    1.5,
+    4.1
+   ],
+   "plan": [
+    {
+     "framing": "ews|ws",
+     "angle": "eye|low",
+     "camera": {
+      "move": "push_in",
+      "target": "set.mouth",
+      "frame": "ws",
+      "amount": 0.1,
+      "ease": "linear"
+     },
+     "post": {
+      "grade": {
+       "saturation": 0.85
+      }
+     },
+     "note": "haze/fog up; POV variant: iris overlay + slow push x3"
+    }
+   ],
+   "src": [
+    "S10 39.87",
+    "S2 74.0 telescope iris 4.13 s"
+   ]
+  },
+  {
+   "id": "sound_or_feeling",
+   "cues": [
+    "hear",
+    "heard",
+    "heart",
+    "voice",
+    "felt"
+   ],
+   "shots": 1,
+   "dur_s": [
+    1.0,
+    2.4
+   ],
+   "plan": [
+    {
+     "framing": "mcu|ms",
+     "camera": {
+      "move": "static",
+      "target": "hero.head",
+      "frame": "mcu",
+      "zoom": 0.1
+     },
+     "fx": [
+      {
+       "type": "sticker",
+       "note": "heart_pulse or 3D sound rings at the ear"
+      }
+     ]
+    }
+   ],
+   "src": [
+    "S10 48.1 heart",
+    "S10 83.27 sound rings"
+   ]
+  },
+  {
+   "id": "prohibition_separation",
+   "cues": [
+    "don't talk",
+    "haven't spoken",
+    "never meet",
+    "not allowed"
+   ],
+   "shots": [
+    1,
+    2
+   ],
+   "dur_s": [
+    2.0,
+    2.6
+   ],
+   "plan": [
+    {
+     "framing": "insert top-down map",
+     "camera": {
+      "move": "top_down",
+      "target": "map",
+      "frame": "ws",
+      "zoom": 0.04
+     },
+     "fx": [
+      {
+       "type": "x_stamp",
+       "note": "one per spoken item, at word onsets"
+      }
+     ]
+    }
+   ],
+   "src": [
+    "S7 22.93 map + X stamps",
+    "S7 25.53 split screen"
+   ]
+  },
+  {
+   "id": "number_label_prop",
+   "cues": [
+    "born with a number",
+    "label says",
+    "the counter",
+    "a ticket",
+    "reads"
+   ],
+   "shots": 1,
+   "dur_s": [
+    0.7,
+    1.8
+   ],
+   "plan": [
+    {
+     "framing": "ecu insert",
+     "angle": "eye|high",
+     "camera": {
+      "move": "static",
+      "target": "prop",
+      "frame": "ecu",
+      "zoom": {
+       "to": 1.4,
+       "dur": 1.0,
+       "ease": "linear"
+      }
+     },
+     "post": {
+      "dof": {
+       "focus": "prop",
+       "bokeh": 3
+      }
+     },
+     "note": "text lives on the prop, never as an overlay"
+    }
+   ],
+   "src": [
+    "S5 inserts +15..54% in 0.7-1.25 s",
+    "S1 0.47 ticket x2.1",
+    "S8 chest labels"
+   ]
+  },
+  {
+   "id": "location_jump",
+   "cues": [
+    "meanwhile",
+    "across town",
+    "back at",
+    "down in"
+   ],
+   "shots": 1,
+   "dur_s": [
+    0.2,
+    0.4
+   ],
+   "plan": [
+    {
+     "variant": "whip",
+     "camera": {
+      "move": "whip",
+      "target": "hero",
+      "frame": "ms",
+      "whip": {
+       "dur": 0.2,
+       "sweep": 80,
+       "dir": "out"
+      }
+     }
+    },
+    {
+     "variant": "establishing",
+     "note": "hard cut to EWS of the new place, push 0.08"
+    }
+   ],
+   "src": [
+    "S1 82.1 whip into drawer",
+    "S5 82.87 fast pan 95% width/1.2 s",
+    "S9 82.33"
+   ]
+  },
+  {
+   "id": "comparison_pair",
+   "cues": [
+    "one too",
+    "the other side",
+    "matching",
+    "both",
+    "in pairs"
+   ],
+   "shots": 2,
+   "dur_s": [
+    1.2,
+    1.9
+   ],
+   "plan": [
+    {
+     "note": "two consecutive mirrored compositions (same framing, opposite screen direction)",
+     "camera": {
+      "move": "static",
+      "target": "a",
+      "frame": "ws",
+      "zoom": 0.06
+     }
+    }
+   ],
+   "src": [
+    "S5 6.47-9.85 matching couches"
+   ]
+  },
+  {
+   "id": "ending_button",
+   "cues": [
+    "last sentence"
+   ],
+   "shots": 1,
+   "dur_s": [
+    1.5,
+    3.0
+   ],
+   "plan": [
+    {
+     "framing": "ms|mcu|ws callback",
+     "camera": {
+      "move": "static",
+      "target": "hero",
+      "frame": "mcu",
+      "zoom": 0.08
+     },
+     "note": "cut 0-0.3 s after the last word; no CTA; optional loop seam into frame 0"
+    }
+   ],
+   "src": [
+    "S2 final push to Dex",
+    "S7 thumbs up +0.3 s",
+    "S5 loop seam",
+    "S10 knowing smile"
+   ]
+  }
+ ],
+ "diversity_rules": [
+  "never two consecutive shots with the same framing AND angle AND subject (except deliberate jump cuts)",
+  "cut between 2-4 angles of one location before moving on",
+  "alternate roll-drift sign on consecutive inserts",
+  "each new noun the narrator names gets its own picture"
+ ],
+ "validation": {
+  "median_shot_s": [
+   1.0,
+   1.45
+  ],
+  "share_over_3s_max": 0.04,
+  "share_under_0_6s": [
+   0.05,
+   0.2
+  ],
+  "push_family_share_min": 0.55,
+  "static_share_max": 0.15,
+  "hard_cut_share_min": 0.95,
+  "shake_share_max": 0.15,
+  "dof_only_frames": [
+   "ecu",
+   "cu",
+   "mcu",
+   "insert"
+  ],
+  "overlay_beats_per_20s_max": 1,
+  "cut_offset_from_onset_s_max": 0.05,
+  "framing_ms_share": [
+   0.3,
+   0.5
+  ],
+  "eye_angle_share": [
+   0.55,
+   0.8
+  ]
+ },
+ "shot_template": {
+  "id": "s012_list_pianos",
+  "plan": {
+   "words": [
+    41,
+    41
+   ],
+   "text": "Pianos,",
+   "pattern": "list_item",
+   "recipe": "list_item",
+   "tempo": "list",
+   "note": "planning metadata; the director ignores this key"
+  },
+  "set": "street",
+  "start": "timing.words[41].start (quantised to 1/30 s)",
+  "end": "next shot start (last shot: last word end + 0.0-0.3)",
+  "actors": {
+   "hero": {
+    "at": [
+     0,
+     0,
+     0
+    ],
+    "yaw": 180,
+    "anim": [
+     {
+      "clip": "idle"
+     },
+     {
+      "t": 0.25,
+      "clip": "point"
+     }
+    ],
+    "face": [
+     {
+      "t": 0,
+      "expr": "neutral"
+     },
+     {
+      "t": 0.3,
+      "expr": "shock"
+     }
+    ]
+   }
+  },
+  "camera": {
+   "move": "static",
+   "target": "hero",
+   "frame": "ms",
+   "angle": "low",
+   "yaw": 20,
+   "fov": 50,
+   "zoom": 0.1,
+   "from": {
+    "roll": 0
+   },
+   "to": {
+    "roll": 3
+   },
+   "shake": null
+  },
+  "fx": [],
+  "post": {}
+ }
+}

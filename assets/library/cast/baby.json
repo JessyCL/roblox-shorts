@@ -1,0 +1,26 @@
+{
+  "header": {
+    "id": "baby",
+    "tags": {
+      "role": [
+        "baby"
+      ],
+      "age": "baby",
+      "mood": [
+        "happy"
+      ],
+      "story": "everyone-has-one-hand"
+    },
+    "description": "Baby (baby template) in a cream onesie with both hands - carry it with attach + the carry clip."
+  },
+  "spec": {
+    "template": "baby",
+    "hands": "both",
+    "face": "happy",
+    "shirt": {
+      "pattern": "solid",
+      "color": "#f3efe6",
+      "sleeves": "full"
+    }
+  }
+}
